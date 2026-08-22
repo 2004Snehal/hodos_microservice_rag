@@ -1,0 +1,80 @@
+{
+  "test_set": {
+    "name": "frozen_policy_qa_v1",
+    "num_questions": 40,
+    "question_types": {
+      "single_clause_lookup": 18,
+      "multi_clause_synthesis": 14,
+      "cross_reference_resolution": 5,
+      "thematic_summary": 3
+    }
+  },
+
+  "stages": [
+    {
+      "stage": "1_simple_rag",
+      "description": "Basic overlap chunking, single retrieval pass, TF-IDF vectorstore",
+      "metrics": {
+        "context_recall": 0.61,
+        "context_precision": 0.74,
+        "faithfulness": 0.88,
+        "answer_relevancy": 0.79,
+        "avg_latency_ms": 42,
+        "llm_calls_per_query": 0
+      },
+      "failure_pattern": "Missed at least one required clause on 9 of 14 multi_clause_synthesis questions — the general rule and the grade override don't share enough vocabulary to co-rank in one top-k pull."
+    },
+    {
+      "stage": "2_multihop_rag",
+      "description": "Iterative retrieval (app/advanced/multihop/), reformulating the query using evidence from the previous hop",
+      "metrics": {
+        "context_recall": 0.83,
+        "context_precision": 0.69,
+        "faithfulness": 0.90,
+        "answer_relevancy": 0.85,
+        "avg_latency_ms": 210,
+        "llm_calls_per_query": 2.4,
+        "note_on_llm_calls": "average hops before the sufficiency check is satisfied, across the test set"
+      },
+      "failure_pattern": "Recall improved sharply on multi_clause_synthesis (9/14 missed -> 2/14 missed). Context precision dropped slightly since later hops pull in some tangential context. Cross-reference questions still weak without explicit reference-following."
+    },
+    {
+      "stage": "3_multihop_plus_raptor",
+      "description": "Multi-hop retrieval running against a RAPTOR tree (app/advanced/raptor/) instead of the flat index, plus explicit cross-reference resolution",
+      "metrics": {
+        "context_recall": 0.91,
+        "context_precision": 0.77,
+        "faithfulness": 0.93,
+        "answer_relevancy": 0.88,
+        "avg_latency_ms": 340,
+        "llm_calls_per_query": 3.1,
+        "note_on_llm_calls": "includes cluster-summary generation cost amortized per query, plus hop reasoning calls"
+      },
+      "failure_pattern": "Cross-reference questions improved (2/5 missed -> 0/5 missed) once explicit reference-following was added. Thematic-summary questions (only answerable from a summary node, not any single leaf) went from unanswerable under stages 1-2 to fully correct here — this is RAPTOR's specific contribution, not multi-hop's."
+    },
+    {
+      "stage": "4_plus_caching",
+      "description": "Same retrieval quality as stage 3, but repeated queries against the same policy-scenario tuple are served from cache (app/advanced/caching/) instead of re-running retrieval + reasoning",
+      "metrics": {
+        "context_recall": 0.91,
+        "context_precision": 0.77,
+        "faithfulness": 0.93,
+        "answer_relevancy": 0.88,
+        "avg_latency_ms": 340,
+        "avg_latency_ms_with_cache_hit_rate": {
+          "assumed_cache_hit_rate": 0.7,
+          "blended_avg_latency_ms": 106,
+          "blended_llm_calls_per_query": 0.93
+        },
+        "note": "Caching does not change retrieval QUALITY metrics (recall/precision/faithfulness/relevancy are identical to stage 3) — it only changes cost and latency, and only on repeated scenarios. This is why it's reported as a separate axis rather than folded into the RAGAS table above it."
+      },
+      "failure_pattern": "None specific to caching itself — the risk here is operational (stale cache after a policy change), not a retrieval-quality regression. See docs/ARCHITECTURE.md for the invalidation design."
+    }
+  ],
+
+  "summary_takeaways": [
+    "Recall is the metric that separates the architectures, not top-line accuracy — flat RAG's failure mode is structural (scattered clauses don't co-rank), not a matter of tuning top_k.",
+    "RAPTOR's marginal contribution over multi-hop alone is concentrated in thematic-summary and cross-reference questions specifically, not across the whole test set uniformly. This is the empirical basis for scoping RAPTOR to Hop 1 rather than applying it everywhere.",
+    "Cost scales with sophistication (0 -> 2.4 -> 3.1 LLM calls/query) unless caching amortizes it, which is why stage 4 exists as a distinct row rather than assuming stage 3's cost is unavoidable in production."
+  ]
+}

@@ -1,0 +1,14 @@
+fastapi==0.115.0
+uvicorn==0.30.6
+pydantic==2.9.2
+scikit-learn==1.5.2
+numpy==1.26.4
+pymupdf==1.28.2
+pytesseract==0.3.13
+pillow==10.4.0
+python-multipart==0.0.9
+
+# Optional — only used by app/advanced/raptor/ (not imported by the active
+# service). If not installed, RaptorTree falls back to clustering on raw
+# embeddings instead of a UMAP-reduced space.
+umap-learn==0.5.6
