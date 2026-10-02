@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Runtime data written by the service
+app/data/policies/*
+!app/data/policies/.gitkeep
+app/data/vector_store/*
+!app/data/vector_store/.gitkeep

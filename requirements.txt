@@ -12,3 +12,6 @@ python-multipart==0.0.9
 # service). If not installed, RaptorTree falls back to clustering on raw
 # embeddings instead of a UMAP-reduced space.
 umap-learn==0.5.6
+
+# Used by scripts/demo.py
+requests==2.32.3
