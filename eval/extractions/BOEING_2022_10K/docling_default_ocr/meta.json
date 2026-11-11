@@ -1,0 +1,8 @@
+{
+ "system": "docling_default_ocr",
+ "docling_version": "2.143.0",
+ "seconds": 82.13,
+ "ocr_engine": "OcrAutoOptions",
+ "table_mode": "TableFormerMode.ACCURATE",
+ "pdf": "eval/policies/financebench/BOEING_2022_10K.pdf"
+}

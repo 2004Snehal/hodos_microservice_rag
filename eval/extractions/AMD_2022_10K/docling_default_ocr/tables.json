@@ -1,0 +1,4688 @@
+[
+ {
+  "index": 0,
+  "page": 3,
+  "rows": 27,
+  "cols": 3,
+  "grid": [
+   [
+    "PART I",
+    "",
+    "1"
+   ],
+   [
+    "ITEM 1.",
+    "Business",
+    "1"
+   ],
+   [
+    "ITEM 1A.",
+    "Risk Factors",
+    "14"
+   ],
+   [
+    "ITEM 1B.",
+    "Unresolved Staff Comments",
+    "36"
+   ],
+   [
+    "ITEM 2.",
+    "Properties",
+    "37"
+   ],
+   [
+    "ITEM 3.",
+    "Legal Proceedings",
+    "37"
+   ],
+   [
+    "ITEM 4.",
+    "Mine Safety Disclosures",
+    "37"
+   ],
+   [
+    "PART II",
+    "",
+    "38"
+   ],
+   [
+    "ITEM 5.",
+    "Market for Registrant's Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities",
+    "38"
+   ],
+   [
+    "ITEM 6.",
+    "[Reserved]",
+    "39"
+   ],
+   [
+    "ITEM 7.",
+    "Management's Discussion and Analysis of Financial Condition and Results of Operations",
+    "40"
+   ],
+   [
+    "ITEM 7A.",
+    "Quantitative and Qualitative Disclosure About Market Risk",
+    "50"
+   ],
+   [
+    "ITEM 8.",
+    "Financial Statements and Supplementary Data",
+    "51"
+   ],
+   [
+    "ITEM 9.",
+    "Changes in and Disagreements with Accountants on Accounting and Financial Disclosure",
+    "95"
+   ],
+   [
+    "ITEM 9A.",
+    "Controls and Procedures",
+    "95"
+   ],
+   [
+    "ITEM 9B.",
+    "Other Information",
+    "96"
+   ],
+   [
+    "ITEM 9C.",
+    "Disclosures Regarding Foreign Jurisdictions that Prevent Inspections",
+    "96"
+   ],
+   [
+    "PART III",
+    "",
+    "97"
+   ],
+   [
+    "ITEM 10.",
+    "Directors, Executive Officers and Corporate Governance",
+    "97"
+   ],
+   [
+    "ITEM 11.",
+    "Executive Compensation",
+    "97"
+   ],
+   [
+    "ITEM 12.",
+    "Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters",
+    "97"
+   ],
+   [
+    "ITEM 13.",
+    "Certain Relationships and Related Transactions and Director Independence",
+    "97"
+   ],
+   [
+    "ITEM 14.",
+    "Principal Accounting Fees and Services",
+    "97"
+   ],
+   [
+    "PART IV",
+    "",
+    "98"
+   ],
+   [
+    "ITEM 15.",
+    "Exhibits, Financial Statements Schedules",
+    "98"
+   ],
+   [
+    "ITEM 16.",
+    "Form 10-K Summary",
+    "104"
+   ],
+   [
+    "SIGNATURES.",
+    "",
+    "105"
+   ]
+  ]
+ },
+ {
+  "index": 1,
+  "page": 41,
+  "rows": 12,
+  "cols": 5,
+  "grid": [
+   [
+    "",
+    "Total Number of Shares Repurchased",
+    "Average Price Paid per Share",
+    "Total Number of Shares Repurchased as Part of Publicly Announced Program",
+    "Maximum Dollar Value of Shares That May Yet be Purchased Under the Program"
+   ],
+   [
+    "Repurchases during each fiscal quarter of 2022:",
+    "",
+    "",
+    "",
+    "(In millions)"
+   ],
+   [
+    "December 26, 2021 - March 26, 2022",
+    "15,785,806",
+    "$ 121.03",
+    "15,785,806",
+    "$ 8,327"
+   ],
+   [
+    "March 27, 2022 - June 25, 2022",
+    "10,159,900",
+    "$ 90.58",
+    "10,159,900",
+    "$ 7,407"
+   ],
+   [
+    "June 26, 2022 - September 24, 2022",
+    "6,895,972",
+    "$ 89.52",
+    "6,895,972",
+    "$ 6,790"
+   ],
+   [
+    "September 25, 2022 - December 31, 2022",
+    "3,484,459",
+    "$ 71.75",
+    "3,484,459",
+    "$ 6,540"
+   ],
+   [
+    "",
+    "36,326,137",
+    "",
+    "36,326,137",
+    ""
+   ],
+   [
+    "Repurchases during last fiscal quarter of 2022:",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "September 25, 2022 - October 29, 2022",
+    "-",
+    "$ -",
+    "-",
+    "$ 6,790"
+   ],
+   [
+    "October 30, 2022 - November 26, 2022",
+    "1,455,994",
+    "$ 70.65",
+    "1,455,994",
+    "$ 6,687"
+   ],
+   [
+    "November 27, 2022 - December 31, 2022",
+    "2,028,465",
+    "$ 72.54",
+    "2,028,465",
+    "$ 6,540"
+   ],
+   [
+    "Total",
+    "3,484,459",
+    "",
+    "3,484,459",
+    ""
+   ]
+  ]
+ },
+ {
+  "index": 2,
+  "page": 42,
+  "rows": 4,
+  "cols": 7,
+  "grid": [
+   [
+    "Company / Index",
+    "Base Period 12/30/2017",
+    "12/29/2018",
+    "12/28/2019",
+    "Years Ended 12/26/2020",
+    "12/25/2021",
+    "12/31/2022"
+   ],
+   [
+    "Advanced Micro Devices, Inc.",
+    "100",
+    "173",
+    "449",
+    "893",
+    "1,422",
+    "630"
+   ],
+   [
+    "S&P 500 Index",
+    "100",
+    "95",
+    "126",
+    "147",
+    "190",
+    "157"
+   ],
+   [
+    "S&P 500 Semiconductors Index",
+    "100",
+    "93",
+    "138",
+    "193",
+    "296",
+    "185"
+   ]
+  ]
+ },
+ {
+  "index": 3,
+  "page": 48,
+  "rows": 16,
+  "cols": 3,
+  "grid": [
+   [
+    "",
+    "Year Ended",
+    "Year Ended"
+   ],
+   [
+    "",
+    "December 31, 2022",
+    "December 25, 2021"
+   ],
+   [
+    "",
+    "(In millions)",
+    "(In millions)"
+   ],
+   [
+    "Net revenue:",
+    "",
+    ""
+   ],
+   [
+    "Data Center",
+    "$ 6,043",
+    "$ 3,694"
+   ],
+   [
+    "Client",
+    "6,201",
+    "6,887"
+   ],
+   [
+    "Gaming",
+    "6,805",
+    "5,607"
+   ],
+   [
+    "Embedded",
+    "4,552",
+    "246"
+   ],
+   [
+    "Total net revenue",
+    "$ 23,601",
+    "$ 16,434"
+   ],
+   [
+    "Operating income (loss):",
+    "",
+    ""
+   ],
+   [
+    "Data Center",
+    "$ 1,848",
+    "$ 991"
+   ],
+   [
+    "Client",
+    "1,190",
+    "2,088"
+   ],
+   [
+    "Gaming",
+    "953",
+    "934"
+   ],
+   [
+    "Embedded",
+    "2,252",
+    "44"
+   ],
+   [
+    "All Other",
+    "(4,979)",
+    "(409)"
+   ],
+   [
+    "Total operating income (loss)",
+    "$ 1,264",
+    "$ 3,648"
+   ]
+  ]
+ },
+ {
+  "index": 4,
+  "page": 49,
+  "rows": 14,
+  "cols": 3,
+  "grid": [
+   [
+    "",
+    "December 31, 2022",
+    "December 25, 2021"
+   ],
+   [
+    "",
+    "(In millions, except for percentages)",
+    "(In millions, except for percentages)"
+   ],
+   [
+    "Net revenue",
+    "$ 23,601 $",
+    "16,434"
+   ],
+   [
+    "Cost of sales",
+    "11,550",
+    "8,505"
+   ],
+   [
+    "Amortization of acquisition-related intangibles",
+    "1,448",
+    "-"
+   ],
+   [
+    "Gross profit",
+    "10,603",
+    "7,929"
+   ],
+   [
+    "Gross margin",
+    "45 %",
+    "48 %"
+   ],
+   [
+    "Research and development",
+    "5,005",
+    "2,845"
+   ],
+   [
+    "Marketing, general and administrative",
+    "2,336",
+    "1,448"
+   ],
+   [
+    "Amortization of acquisition-related intangibles",
+    "2,100",
+    "-"
+   ],
+   [
+    "Licensing gain",
+    "(102)",
+    "(12)"
+   ],
+   [
+    "Interest expense",
+    "(88)",
+    "(34)"
+   ],
+   [
+    "Other income, net",
+    "8",
+    "55"
+   ],
+   [
+    "Income tax provision (benefit)",
+    "(122)",
+    "513"
+   ]
+  ]
+ },
+ {
+  "index": 5,
+  "page": 51,
+  "rows": 7,
+  "cols": 3,
+  "grid": [
+   [
+    "",
+    "December 31, 2022",
+    "December 25, 2021"
+   ],
+   [
+    "",
+    "(In millions)",
+    "(In millions)"
+   ],
+   [
+    "Net cash provided by (used in):",
+    "",
+    ""
+   ],
+   [
+    "Operating activities",
+    "$ 3,565",
+    "$ 3,521"
+   ],
+   [
+    "Investing activities",
+    "1,999",
+    "(686)"
+   ],
+   [
+    "Financing activities",
+    "(3,264)",
+    "(1,895)"
+   ],
+   [
+    "Net increase in cash and cash equivalents",
+    "$ 2,300",
+    "$ 940"
+   ]
+  ]
+ },
+ {
+  "index": 6,
+  "page": 53,
+  "rows": 14,
+  "cols": 7,
+  "grid": [
+   [
+    "",
+    "December 31, 2022",
+    "December 31, 2022",
+    "December 31, 2022",
+    "December 25, 2021",
+    "December 25, 2021",
+    "December 25, 2021"
+   ],
+   [
+    "",
+    "Notional Amount",
+    "Average Contract Rate",
+    "Estimated Fair Value Gain (Loss)",
+    "Notional Amount",
+    "Average Contract Rate",
+    "Estimated Fair Value Gain (Loss)"
+   ],
+   [
+    "",
+    "(In millions except contract rates)",
+    "(In millions except contract rates)",
+    "(In millions except contract rates)",
+    "(In millions except contract rates)",
+    "(In millions except contract rates)",
+    "(In millions except contract rates)"
+   ],
+   [
+    "Foreign currency forward contracts:",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Chinese Renminbi",
+    "$ 599",
+    "6.7848",
+    "$ (3)",
+    "$ 360",
+    "6.5693",
+    "$ 6"
+   ],
+   [
+    "Canadian Dollar",
+    "607",
+    "1.3137",
+    "(16)",
+    "416",
+    "1.2646",
+    "(6)"
+   ],
+   [
+    "Indian Rupee",
+    "516",
+    "82.1493",
+    "(9)",
+    "162",
+    "77.3309",
+    "1"
+   ],
+   [
+    "Taiwan Dollar",
+    "207",
+    "29.1231",
+    "(4)",
+    "122",
+    "27.2725",
+    "(1)"
+   ],
+   [
+    "Singapore Dollar",
+    "259",
+    "1.3600",
+    "4",
+    "71",
+    "1.3489",
+    "-"
+   ],
+   [
+    "Euro",
+    "142",
+    "0.9334",
+    "1",
+    "47",
+    "0.8444",
+    "(2)"
+   ],
+   [
+    "Pound Sterling",
+    "88",
+    "0.8204",
+    "(1)",
+    "6",
+    "0.7317",
+    "-"
+   ],
+   [
+    "Japanese Yen",
+    "2",
+    "133.7593",
+    "-",
+    "1",
+    "114.3214",
+    "-"
+   ],
+   [
+    "Australian Dollar",
+    "1",
+    "1.4689",
+    "-",
+    "-",
+    "1.3809",
+    "-"
+   ],
+   [
+    "Total",
+    "$ 2,421",
+    "",
+    "$ (28)",
+    "$ 1,185",
+    "",
+    "$ (2)"
+   ]
+  ]
+ },
+ {
+  "index": 7,
+  "page": 54,
+  "rows": 25,
+  "cols": 4,
+  "grid": [
+   [
+    "",
+    "Year Ended",
+    "Year Ended",
+    "Year Ended"
+   ],
+   [
+    "",
+    "December 31, 2022",
+    "December 25, 2021",
+    "December 26, 2020"
+   ],
+   [
+    "",
+    "(In millions, except per share amounts)",
+    "(In millions, except per share amounts)",
+    "(In millions, except per share amounts)"
+   ],
+   [
+    "Net revenue",
+    "$ 23,601",
+    "$ 16,434",
+    "$ 9,763"
+   ],
+   [
+    "Cost of sales",
+    "11,550",
+    "8,505",
+    "5,416"
+   ],
+   [
+    "Amortization of acquisition-related intangibles",
+    "1,448",
+    "-",
+    "-"
+   ],
+   [
+    "Total cost of sales",
+    "12,998",
+    "8,505",
+    "5,416"
+   ],
+   [
+    "Gross profit",
+    "10,603",
+    "7,929",
+    "4,347"
+   ],
+   [
+    "Research and development",
+    "5,005",
+    "2,845",
+    "1,983"
+   ],
+   [
+    "Marketing, general and administrative",
+    "2,336",
+    "1,448",
+    "995"
+   ],
+   [
+    "Amortization of acquisition-related intangibles",
+    "2,100",
+    "-",
+    "-"
+   ],
+   [
+    "Licensing gain",
+    "(102)",
+    "(12)",
+    "-"
+   ],
+   [
+    "Operating income",
+    "1,264",
+    "3,648",
+    "1,369"
+   ],
+   [
+    "Interest expense",
+    "(88)",
+    "(34)",
+    "(47)"
+   ],
+   [
+    "Other income (expense), net",
+    "8",
+    "55",
+    "(47)"
+   ],
+   [
+    "Income before income taxes and equity income",
+    "1,184",
+    "3,669",
+    "1,275"
+   ],
+   [
+    "Income tax provision (benefit)",
+    "(122)",
+    "513",
+    "(1,210)"
+   ],
+   [
+    "Equity income in investee",
+    "14",
+    "6",
+    "5"
+   ],
+   [
+    "Net income",
+    "$ 1,320",
+    "$ 3,162",
+    "$ 2,490"
+   ],
+   [
+    "Earnings per share",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Basic",
+    "$ 0.85",
+    "$ 2.61",
+    "$ 2.10"
+   ],
+   [
+    "Diluted",
+    "$ 0.84",
+    "$ 2.57",
+    "$ 2.06"
+   ],
+   [
+    "Shares used in per share calculation",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Basic",
+    "1,561",
+    "1,213",
+    "1,184"
+   ],
+   [
+    "Diluted",
+    "1,571",
+    "1,229",
+    "1,207"
+   ]
+  ]
+ },
+ {
+  "index": 8,
+  "page": 55,
+  "rows": 7,
+  "cols": 4,
+  "grid": [
+   [
+    "",
+    "Year Ended",
+    "Year Ended",
+    "Year Ended"
+   ],
+   [
+    "",
+    "December 31, 2022",
+    "December 25, 2021",
+    "December 26, 2020"
+   ],
+   [
+    "",
+    "(In millions)",
+    "(In millions)",
+    "(In millions)"
+   ],
+   [
+    "Net income",
+    "$ 1,320",
+    "$ 3,162",
+    "$ 2,490"
+   ],
+   [
+    "Other comprehensive income (loss)",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Net change in unrealized gains (losses) on cash flow hedges",
+    "(38)",
+    "(20)",
+    "17"
+   ],
+   [
+    "Total comprehensive income",
+    "$ 1,282",
+    "$ 3,142",
+    "$ 2,507"
+   ]
+  ]
+ },
+ {
+  "index": 9,
+  "page": 56,
+  "rows": 41,
+  "cols": 3,
+  "grid": [
+   [
+    "",
+    "December 31, 2022",
+    "December 25, 2021"
+   ],
+   [
+    "",
+    "(In millions, except par value amounts)",
+    "(In millions, except par value amounts)"
+   ],
+   [
+    "ASSETS",
+    "",
+    ""
+   ],
+   [
+    "Current assets:",
+    "",
+    ""
+   ],
+   [
+    "Cash and cash equivalents",
+    "$ 4,835",
+    "$ 2,535"
+   ],
+   [
+    "Short-term investments",
+    "1,020",
+    "1,073"
+   ],
+   [
+    "Accounts receivable, net",
+    "4,126",
+    "2,706"
+   ],
+   [
+    "Inventories",
+    "3,771",
+    "1,955"
+   ],
+   [
+    "Receivables from related parties",
+    "2",
+    "2"
+   ],
+   [
+    "Prepaid expenses and other current assets",
+    "1,265",
+    "312"
+   ],
+   [
+    "Total current assets",
+    "15,019",
+    "8,583"
+   ],
+   [
+    "Property and equipment, net",
+    "1,513",
+    "702"
+   ],
+   [
+    "Operating lease right-of-use assets",
+    "460",
+    "367"
+   ],
+   [
+    "Goodwill",
+    "24,177",
+    "289"
+   ],
+   [
+    "Acquisition-related intangibles",
+    "24,118",
+    "-"
+   ],
+   [
+    "Investment: equity method",
+    "83",
+    "69"
+   ],
+   [
+    "Deferred tax assets",
+    "58",
+    "931"
+   ],
+   [
+    "Other non-current assets",
+    "2,152",
+    "1,478"
+   ],
+   [
+    "Total assets",
+    "$ 67,580",
+    "$ 12,419"
+   ],
+   [
+    "LIABILITIES AND STOCKHOLDERS' EQUITY",
+    "",
+    ""
+   ],
+   [
+    "Current liabilities:",
+    "",
+    ""
+   ],
+   [
+    "Accounts payable",
+    "$ 2,493",
+    "$ 1,321"
+   ],
+   [
+    "Payables to related parties",
+    "463",
+    "85"
+   ],
+   [
+    "Accrued liabilities",
+    "3,077",
+    "2,424"
+   ],
+   [
+    "Current portion of long-term debt, net",
+    "-",
+    "312"
+   ],
+   [
+    "Other current liabilities",
+    "336",
+    "98"
+   ],
+   [
+    "Total current liabilities",
+    "6,369",
+    "4,240"
+   ],
+   [
+    "Long-term debt, net of current portion",
+    "2,467",
+    "1"
+   ],
+   [
+    "Long-term operating lease liabilities",
+    "396",
+    "348"
+   ],
+   [
+    "Deferred tax liabilities",
+    "1,934",
+    "12"
+   ],
+   [
+    "Other long-term liabilities",
+    "1,664",
+    "321"
+   ],
+   [
+    "Commitments and Contingencies (see Notes 16 and 17)",
+    "",
+    ""
+   ],
+   [
+    "Stockholders' equity:",
+    "",
+    ""
+   ],
+   [
+    "Capital stock:",
+    "",
+    ""
+   ],
+   [
+    "Common stock, par value $0.01; shares authorized: 2,250; shares issued: 1,645 and 1,232; shares outstanding: 1,612 and 1,207",
+    "16",
+    "12"
+   ],
+   [
+    "Additional paid-in capital",
+    "58,005",
+    "11,069"
+   ],
+   [
+    "Treasury stock, at cost (shares held: 33 and 25)",
+    "(3,099)",
+    "(2,130)"
+   ],
+   [
+    "Accumulated deficit",
+    "(131)",
+    "(1,451)"
+   ],
+   [
+    "Accumulated other comprehensive loss",
+    "(41)",
+    "(3)"
+   ],
+   [
+    "Total stockholders' equity",
+    "54,750",
+    "7,497"
+   ],
+   [
+    "Total liabilities and stockholders' equity",
+    "$ 67,580",
+    "$ 12,419"
+   ]
+  ]
+ },
+ {
+  "index": 10,
+  "page": 57,
+  "rows": 32,
+  "cols": 4,
+  "grid": [
+   [
+    "",
+    "Year Ended",
+    "Year Ended",
+    "Year Ended"
+   ],
+   [
+    "",
+    "December 31, 2022",
+    "December 25, 2021",
+    "December 26, 2020"
+   ],
+   [
+    "Capital stock",
+    "",
+    "(In millions)",
+    ""
+   ],
+   [
+    "Common stock",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Balance, beginning of period",
+    "$ 12",
+    "$ 12",
+    "$ 12"
+   ],
+   [
+    "Issuance of common stock as consideration for acquisition",
+    "4",
+    "-",
+    "-"
+   ],
+   [
+    "Balance, end of period",
+    "$ 16",
+    "$ 12",
+    "$ 12"
+   ],
+   [
+    "Additional paid-in capital",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Balance, beginning of period",
+    "$ 11,069",
+    "$ 10,544",
+    "$ 9,963"
+   ],
+   [
+    "Common stock issued under employee equity plans",
+    "167",
+    "104",
+    "85"
+   ],
+   [
+    "Stock-based compensation",
+    "1,080",
+    "379",
+    "274"
+   ],
+   [
+    "Issuance of common stock to settle convertible debt",
+    "-",
+    "25",
+    "217"
+   ],
+   [
+    "Issuance of common stock as consideration for acquisition",
+    "45,372",
+    "-",
+    "-"
+   ],
+   [
+    "Fair value of replacement share-based awards related to acquisition",
+    "275",
+    "-",
+    "-"
+   ],
+   [
+    "Issuance of common stock warrants",
+    "42",
+    "17",
+    "5"
+   ],
+   [
+    "Balance, end of period",
+    "$ 58,005",
+    "$ 11,069",
+    "$ 10,544"
+   ],
+   [
+    "Treasury stock",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Balance, beginning of period",
+    "$ (2,130)",
+    "$ (131)",
+    "$ (53)"
+   ],
+   [
+    "Repurchases of common stock",
+    "(3,702)",
+    "(1,762)",
+    "-"
+   ],
+   [
+    "Reissuance of treasury stock as consideration for acquisition",
+    "3,138",
+    "-",
+    "-"
+   ],
+   [
+    "Common stock repurchases for tax withholding on employee equity plans",
+    "(405)",
+    "(237)",
+    "(78)"
+   ],
+   [
+    "Balance, end of period",
+    "$ (3,099)",
+    "$ (2,130)",
+    "$ (131)"
+   ],
+   [
+    "Accumulated deficit",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Balance, beginning of period",
+    "$ (1,451)",
+    "$ (4,605)",
+    "$ (7,095)"
+   ],
+   [
+    "Cumulative effect of adoption of accounting standard",
+    "-",
+    "(8)",
+    "-"
+   ],
+   [
+    "Net income",
+    "1,320",
+    "3,162",
+    "2,490"
+   ],
+   [
+    "Balance, end of period",
+    "$ (131)",
+    "$ (1,451)",
+    "$ (4,605)"
+   ],
+   [
+    "Accumulated other comprehensive income (loss)",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Balance, beginning of period",
+    "$ (3)",
+    "$ 17",
+    "$ -"
+   ],
+   [
+    "Other comprehensive income (loss)",
+    "(38)",
+    "(20)",
+    "17"
+   ],
+   [
+    "Balance, end of period",
+    "$ (41)",
+    "$ (3)",
+    "$ 17"
+   ],
+   [
+    "Total stockholders' equity",
+    "$ 54,750",
+    "$ 7,497",
+    "$ 5,837"
+   ]
+  ]
+ },
+ {
+  "index": 11,
+  "page": 58,
+  "rows": 44,
+  "cols": 4,
+  "grid": [
+   [
+    "",
+    "Year Ended",
+    "Year Ended",
+    "Year Ended"
+   ],
+   [
+    "",
+    "December 31, 2022",
+    "December 25, 2021",
+    "December 26, 2020"
+   ],
+   [
+    "",
+    "(In millions)",
+    "(In millions)",
+    "(In millions)"
+   ],
+   [
+    "Cash flows from operating activities:",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Net income",
+    "$ 1,320",
+    "$ 3,162",
+    "$ 2,490"
+   ],
+   [
+    "Adjustments to reconcile net income to net cash provided by operating activities:",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Depreciation and amortization",
+    "4,174",
+    "407",
+    "312"
+   ],
+   [
+    "Stock-based compensation",
+    "1,081",
+    "379",
+    "274"
+   ],
+   [
+    "Amortization of debt discount and issuance costs",
+    "-",
+    "5",
+    "14"
+   ],
+   [
+    "Amortization of operating lease right-of-use assets",
+    "88",
+    "56",
+    "42"
+   ],
+   [
+    "Amortization of inventory fair value adjustment",
+    "189",
+    "-",
+    "-"
+   ],
+   [
+    "Loss on debt redemption, repurchase and conversion",
+    "-",
+    "7",
+    "54"
+   ],
+   [
+    "Loss on sale or disposal of property and equipment",
+    "16",
+    "34",
+    "33"
+   ],
+   [
+    "Deferred income taxes",
+    "(1,505)",
+    "308",
+    "(1,223)"
+   ],
+   [
+    "(Gains) losses on equity investments, net",
+    "62",
+    "(56)",
+    "(2)"
+   ],
+   [
+    "Other",
+    "(14)",
+    "(7)",
+    "8"
+   ],
+   [
+    "Changes in operating assets and liabilities:",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Accounts receivable, net",
+    "(1,091)",
+    "(640)",
+    "(219)"
+   ],
+   [
+    "Inventories",
+    "(1,401)",
+    "(556)",
+    "(417)"
+   ],
+   [
+    "Receivables from related parties",
+    "(13)",
+    "8",
+    "10"
+   ],
+   [
+    "Prepaid expenses and other assets",
+    "(1,197)",
+    "(920)",
+    "(231)"
+   ],
+   [
+    "Payables to related parties",
+    "379",
+    "7",
+    "(135)"
+   ],
+   [
+    "Accounts payable",
+    "931",
+    "801",
+    "(513)"
+   ],
+   [
+    "Accrued liabilities and other",
+    "546",
+    "526",
+    "574"
+   ],
+   [
+    "Net cash provided by operating activities",
+    "3,565",
+    "3,521",
+    "1,071"
+   ],
+   [
+    "Cash flows from investing activities:",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Purchases of property and equipment",
+    "(450)",
+    "(301)",
+    "(294)"
+   ],
+   [
+    "Purchases of short-term investments",
+    "(2,667)",
+    "(2,056)",
+    "(850)"
+   ],
+   [
+    "Proceeds from maturity of short-term investments",
+    "4,310",
+    "1,678",
+    "192"
+   ],
+   [
+    "Cash received from acquisition of Xilinx",
+    "2,366",
+    "-",
+    "-"
+   ],
+   [
+    "Acquisition of Pensando, net of cash acquired",
+    "(1,544)",
+    "-",
+    "-"
+   ],
+   [
+    "Other",
+    "(16)",
+    "(7)",
+    "-"
+   ],
+   [
+    "Net cash provided by (used in) investing activities",
+    "1,999",
+    "(686)",
+    "(952)"
+   ],
+   [
+    "Cash flows from financing activities:",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Proceeds from debt, net of issuance costs",
+    "991",
+    "-",
+    "200"
+   ],
+   [
+    "Repayment of debt",
+    "(312)",
+    "-",
+    "(200)"
+   ],
+   [
+    "Proceeds from sales of common stock through employee equity plans",
+    "167",
+    "104",
+    "85"
+   ],
+   [
+    "Repurchases of common stock",
+    "(3,702)",
+    "(1,762)",
+    "-"
+   ],
+   [
+    "Common stock repurchases for tax withholding on employee equity plans",
+    "(406)",
+    "(237)",
+    "(78)"
+   ],
+   [
+    "Other",
+    "(2)",
+    "-",
+    "(1)"
+   ],
+   [
+    "Net cash (used in) provided by financing activities",
+    "(3,264)",
+    "(1,895)",
+    "6"
+   ],
+   [
+    "Net increase in cash and cash equivalents",
+    "2,300",
+    "940",
+    "125"
+   ],
+   [
+    "Cash and cash equivalents at beginning of year",
+    "2,535",
+    "1,595",
+    "1,470"
+   ],
+   [
+    "Cash and cash equivalents at end of year",
+    "$ 4,835",
+    "$ 2,535",
+    "$ 1,595"
+   ]
+  ]
+ },
+ {
+  "index": 12,
+  "page": 59,
+  "rows": 15,
+  "cols": 4,
+  "grid": [
+   [
+    "",
+    "Year Ended",
+    "Year Ended",
+    "Year Ended"
+   ],
+   [
+    "",
+    "December 31, 2022",
+    "December 25, 2021",
+    "December 26, 2020"
+   ],
+   [
+    "",
+    "(In millions)",
+    "(In millions)",
+    "(In millions)"
+   ],
+   [
+    "Supplemental cash flow information:",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Cash paid during the year for:",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Interest",
+    "$ 85",
+    "$ 25",
+    "$ 31"
+   ],
+   [
+    "Income taxes, net of refund",
+    "$ 685",
+    "$ 35",
+    "$ 8"
+   ],
+   [
+    "Non-cash investing and financing activities:",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Purchases of property and equipment, accrued but not paid",
+    "$ 157",
+    "$ 72",
+    "$ 31"
+   ],
+   [
+    "Issuance of common stock to settle convertible debt",
+    "$ -",
+    "$ 25",
+    "$ 217"
+   ],
+   [
+    "Issuance of common stock and treasury stock for the acquisition of Xilinx",
+    "$ 48,514",
+    "$ -",
+    "$ -"
+   ],
+   [
+    "Fair value of replacement share-based awards related to acquisition of Xilinx",
+    "$ 275",
+    "$ -",
+    "$ -"
+   ],
+   [
+    "Transfer of assets for the acquisition of property and equipment",
+    "$ 13",
+    "$ 37",
+    "$ 111"
+   ],
+   [
+    "Non-cash activities for leases:",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Operating lease right-of-use assets acquired by assuming related liabilities",
+    "$ 115",
+    "$ 227",
+    "$ 45"
+   ]
+  ]
+ },
+ {
+  "index": 13,
+  "page": 66,
+  "rows": 6,
+  "cols": 3,
+  "grid": [
+   [
+    "Inventories",
+    "December 31, 2022",
+    "December 25, 2021"
+   ],
+   [
+    "",
+    "(In millions)",
+    "(In millions)"
+   ],
+   [
+    "Raw materials",
+    "$ 231",
+    "$ 82"
+   ],
+   [
+    "Work in process",
+    "2,648",
+    "1,676"
+   ],
+   [
+    "Finished goods",
+    "892",
+    "197"
+   ],
+   [
+    "Total inventories",
+    "$ 3,771",
+    "$ 1,955"
+   ]
+  ]
+ },
+ {
+  "index": 14,
+  "page": 66,
+  "rows": 9,
+  "cols": 3,
+  "grid": [
+   [
+    "Property and Equipment, net",
+    "December 31, 2022",
+    "December 25, 2021"
+   ],
+   [
+    "",
+    "(In millions)",
+    "(In millions)"
+   ],
+   [
+    "Land",
+    "$ 120",
+    "$ -"
+   ],
+   [
+    "Building and leasehold improvements",
+    "594",
+    "206"
+   ],
+   [
+    "Equipment",
+    "2,163",
+    "1,534"
+   ],
+   [
+    "Construction in progress",
+    "143",
+    "96"
+   ],
+   [
+    "Property and equipment, gross",
+    "3,020",
+    "1,836"
+   ],
+   [
+    "Accumulated depreciation",
+    "(1,507)",
+    "(1,134)"
+   ],
+   [
+    "Total property and equipment, net",
+    "$ 1,513",
+    "$ 702"
+   ]
+  ]
+ },
+ {
+  "index": 15,
+  "page": 66,
+  "rows": 6,
+  "cols": 3,
+  "grid": [
+   [
+    "Other Non-current Assets",
+    "December 31, 2022",
+    "December 25, 2021"
+   ],
+   [
+    "",
+    "(In millions)",
+    "(In millions)"
+   ],
+   [
+    "Prepaid long-term supply agreements",
+    "$ 1,252",
+    "$ 916"
+   ],
+   [
+    "Software and technology licenses, net",
+    "362",
+    "323"
+   ],
+   [
+    "Other",
+    "538",
+    "239"
+   ],
+   [
+    "Total other non-current assets",
+    "$ 2,152",
+    "$ 1,478"
+   ]
+  ]
+ },
+ {
+  "index": 16,
+  "page": 67,
+  "rows": 7,
+  "cols": 3,
+  "grid": [
+   [
+    "Accrued Liabilities",
+    "December 31, 2022",
+    "December 25, 2021"
+   ],
+   [
+    "",
+    "(In millions)",
+    "(In millions)"
+   ],
+   [
+    "Accrued marketing programs",
+    "$ 876",
+    "$ 933"
+   ],
+   [
+    "Accrued compensation and benefits",
+    "701",
+    "705"
+   ],
+   [
+    "Customer program liabilities",
+    "859",
+    "314"
+   ],
+   [
+    "Other accrued and current liabilities",
+    "641",
+    "472"
+   ],
+   [
+    "Total accrued liabilities",
+    "$ 3,077",
+    "$ 2,424"
+   ]
+  ]
+ },
+ {
+  "index": 17,
+  "page": 68,
+  "rows": 16,
+  "cols": 4,
+  "grid": [
+   [
+    "",
+    "Year Ended",
+    "Year Ended",
+    "Year Ended"
+   ],
+   [
+    "",
+    "December 31, 2022",
+    "December 25, 2021",
+    "December 26, 2020"
+   ],
+   [
+    "",
+    "(In millions)",
+    "(In millions)",
+    "(In millions)"
+   ],
+   [
+    "Net revenue:",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Data Center",
+    "$ 6,043",
+    "$ 3,694",
+    "$ 1,685"
+   ],
+   [
+    "Client",
+    "6,201",
+    "6,887",
+    "5,189"
+   ],
+   [
+    "Gaming",
+    "6,805",
+    "5,607",
+    "2,746"
+   ],
+   [
+    "Embedded",
+    "4,552",
+    "246",
+    "143"
+   ],
+   [
+    "Total net revenue",
+    "$ 23,601",
+    "$ 16,434",
+    "$ 9,763"
+   ],
+   [
+    "Operating income (loss):",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Data Center",
+    "$ 1,848",
+    "$ 991",
+    "$ 198"
+   ],
+   [
+    "Client",
+    "1,190",
+    "2,088",
+    "1,608"
+   ],
+   [
+    "Gaming",
+    "953",
+    "934",
+    "(138)"
+   ],
+   [
+    "Embedded",
+    "2,252",
+    "44",
+    "(11)"
+   ],
+   [
+    "All Other",
+    "(4,979)",
+    "(409)",
+    "(288)"
+   ],
+   [
+    "Total operating income (loss)",
+    "$ 1,264",
+    "$ 3,648",
+    "$ 1,369"
+   ]
+  ]
+ },
+ {
+  "index": 18,
+  "page": 68,
+  "rows": 9,
+  "cols": 4,
+  "grid": [
+   [
+    "",
+    "Year Ended",
+    "Year Ended",
+    "Year Ended"
+   ],
+   [
+    "",
+    "December 31, 2022",
+    "December 25, 2021",
+    "December 26, 2020"
+   ],
+   [
+    "",
+    "(In millions)",
+    "(In millions)",
+    "(In millions)"
+   ],
+   [
+    "Operating loss:",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Stock-based compensation expense",
+    "$ 1,081",
+    "$ 379",
+    "$ 274"
+   ],
+   [
+    "Acquisition-related costs",
+    "452",
+    "42",
+    "14"
+   ],
+   [
+    "Amortization of acquisition-related intangibles",
+    "3,548",
+    "-",
+    "-"
+   ],
+   [
+    "Licensing gain",
+    "(102)",
+    "(12)",
+    "-"
+   ],
+   [
+    "Total operating loss",
+    "$ 4,979",
+    "$ 409",
+    "$ 288"
+   ]
+  ]
+ },
+ {
+  "index": 19,
+  "page": 68,
+  "rows": 11,
+  "cols": 4,
+  "grid": [
+   [
+    "",
+    "Year Ended",
+    "Year Ended",
+    "Year Ended"
+   ],
+   [
+    "",
+    "December 31, 2022",
+    "December 25, 2021",
+    "December 26, 2020"
+   ],
+   [
+    "",
+    "(In millions)",
+    "(In millions)",
+    "(In millions)"
+   ],
+   [
+    "United States",
+    "$ 8,049",
+    "$ 4,656",
+    "$ 2,294"
+   ],
+   [
+    "China (including Hong Kong)",
+    "5,207",
+    "4,096",
+    "2,329"
+   ],
+   [
+    "Japan",
+    "4,177",
+    "2,381",
+    "1,033"
+   ],
+   [
+    "Europe",
+    "1,773",
+    "1,249",
+    "1,108"
+   ],
+   [
+    "Taiwan",
+    "2,369",
+    "2,091",
+    "1,187"
+   ],
+   [
+    "Singapore",
+    "1,380",
+    "1,389",
+    "1,096"
+   ],
+   [
+    "Other countries",
+    "646",
+    "572",
+    "716"
+   ],
+   [
+    "Total sales to external customers",
+    "$ 23,601",
+    "$ 16,434",
+    "$ 9,763"
+   ]
+  ]
+ },
+ {
+  "index": 20,
+  "page": 69,
+  "rows": 4,
+  "cols": 4,
+  "grid": [
+   [
+    "",
+    "Year Ended",
+    "Year Ended",
+    "Year Ended"
+   ],
+   [
+    "",
+    "December 31, 2022",
+    "December 25, 2021",
+    "December 26, 2020"
+   ],
+   [
+    "Customer A",
+    "16 %",
+    "14 %",
+    "*"
+   ],
+   [
+    "Customer B",
+    "*",
+    "11 %",
+    "*"
+   ]
+  ]
+ },
+ {
+  "index": 21,
+  "page": 69,
+  "rows": 10,
+  "cols": 3,
+  "grid": [
+   [
+    "",
+    "December 31, 2022",
+    "December 25, 2021"
+   ],
+   [
+    "",
+    "(In millions)",
+    "(In millions)"
+   ],
+   [
+    "United States",
+    "$ 1,102",
+    "$ 486"
+   ],
+   [
+    "Canada",
+    "80",
+    "105"
+   ],
+   [
+    "China",
+    "42",
+    "35"
+   ],
+   [
+    "Singapore",
+    "132",
+    "35"
+   ],
+   [
+    "India",
+    "67",
+    "11"
+   ],
+   [
+    "Ireland",
+    "48",
+    "-"
+   ],
+   [
+    "Other countries",
+    "42",
+    "30"
+   ],
+   [
+    "Total property and equipment, net",
+    "$ 1,513",
+    "$ 702"
+   ]
+  ]
+ },
+ {
+  "index": 22,
+  "page": 70,
+  "rows": 15,
+  "cols": 2,
+  "grid": [
+   [
+    "",
+    "(In millions)"
+   ],
+   [
+    "Cash and cash equivalents",
+    "$ 111"
+   ],
+   [
+    "Accounts receivable",
+    "31"
+   ],
+   [
+    "Inventory",
+    "66"
+   ],
+   [
+    "Prepaid expenses and other current assets",
+    "43"
+   ],
+   [
+    "Property and equipment",
+    "11"
+   ],
+   [
+    "Deferred tax assets",
+    "22"
+   ],
+   [
+    "Acquisition-related intangibles",
+    "349"
+   ],
+   [
+    "Total Assets",
+    "633"
+   ],
+   [
+    "Accounts payable",
+    "15"
+   ],
+   [
+    "Accrued and other liabilities",
+    "61"
+   ],
+   [
+    "Total Liabilities",
+    "76"
+   ],
+   [
+    "Fair value of net assets acquired",
+    "557"
+   ],
+   [
+    "Goodwill",
+    "1,098"
+   ],
+   [
+    "Total purchase consideration",
+    "$ 1,655"
+   ]
+  ]
+ },
+ {
+  "index": 23,
+  "page": 71,
+  "rows": 8,
+  "cols": 3,
+  "grid": [
+   [
+    "",
+    "Fair Value (In millions)",
+    "Weighted-average estimated useful life (In years)"
+   ],
+   [
+    "Developed technology (1)",
+    "$ 60",
+    "4 years"
+   ],
+   [
+    "Customer relationships (2)",
+    "34",
+    "3 years"
+   ],
+   [
+    "Customer backlog (3)",
+    "16",
+    "1 year"
+   ],
+   [
+    "Product trademarks (4)",
+    "19",
+    "5 years"
+   ],
+   [
+    "Identified intangible assets subject to amortization",
+    "129",
+    ""
+   ],
+   [
+    "In-process research and development (IPR&D) not subject to amortization (5)",
+    "220",
+    "N/A"
+   ],
+   [
+    "Total identified intangible assets acquired",
+    "$ 349",
+    ""
+   ]
+  ]
+ },
+ {
+  "index": 24,
+  "page": 72,
+  "rows": 23,
+  "cols": 2,
+  "grid": [
+   [
+    "",
+    "(In millions)"
+   ],
+   [
+    "Cash and cash equivalents",
+    "$ 2,366"
+   ],
+   [
+    "Short-term investments",
+    "1,582"
+   ],
+   [
+    "Accounts receivable",
+    "299"
+   ],
+   [
+    "Inventories",
+    "539"
+   ],
+   [
+    "Prepaid expenses and other current assets",
+    "61"
+   ],
+   [
+    "Property and equipment",
+    "692"
+   ],
+   [
+    "Operating lease right-of-use assets",
+    "61"
+   ],
+   [
+    "Acquisition-related intangibles",
+    "27,308"
+   ],
+   [
+    "Deferred tax assets",
+    "15"
+   ],
+   [
+    "Other non-current assets",
+    "418"
+   ],
+   [
+    "Total Assets",
+    "33,341"
+   ],
+   [
+    "Accounts payable",
+    "116"
+   ],
+   [
+    "Accrued liabilities",
+    "634"
+   ],
+   [
+    "Other current liabilities",
+    "185"
+   ],
+   [
+    "Long-term debt",
+    "1,474"
+   ],
+   [
+    "Long-term operating lease liabilities",
+    "45"
+   ],
+   [
+    "Deferred tax liabilities",
+    "4,346"
+   ],
+   [
+    "Other long-term liabilities",
+    "532"
+   ],
+   [
+    "Total Liabilities",
+    "7,332"
+   ],
+   [
+    "Fair value of net assets acquired",
+    "26,009"
+   ],
+   [
+    "Goodwill",
+    "22,784"
+   ],
+   [
+    "Total purchase consideration",
+    "$ 48,793"
+   ]
+  ]
+ },
+ {
+  "index": 25,
+  "page": 72,
+  "rows": 9,
+  "cols": 3,
+  "grid": [
+   [
+    "",
+    "Fair Value (In millions)",
+    "Weighted-average estimated useful life (In years)"
+   ],
+   [
+    "Developed technology (1)",
+    "$ 12,295",
+    "16 years"
+   ],
+   [
+    "Customer relationships (2)",
+    "12,290",
+    "14 years"
+   ],
+   [
+    "Customer backlog (3)",
+    "793",
+    "1 year"
+   ],
+   [
+    "Corporate trade name (4)",
+    "65",
+    "1 year"
+   ],
+   [
+    "Product trademarks (4)",
+    "895",
+    "12 years"
+   ],
+   [
+    "Identified intangible assets subject to amortization",
+    "26,338",
+    ""
+   ],
+   [
+    "In-process research and development (IPR&D) not subject to amortization (5)",
+    "970",
+    "N/A"
+   ],
+   [
+    "Total identified intangible assets acquired",
+    "$ 27,308",
+    ""
+   ]
+  ]
+ },
+ {
+  "index": 26,
+  "page": 73,
+  "rows": 3,
+  "cols": 2,
+  "grid": [
+   [
+    "",
+    "2022 (In millions)"
+   ],
+   [
+    "Net revenue",
+    "$ 4,612"
+   ],
+   [
+    "Operating income",
+    "$ 2,247"
+   ]
+  ]
+ },
+ {
+  "index": 27,
+  "page": 73,
+  "rows": 4,
+  "cols": 3,
+  "grid": [
+   [
+    "",
+    "December 31, 2022",
+    "December 25, 2021"
+   ],
+   [
+    "",
+    "(in millions)",
+    "(in millions)"
+   ],
+   [
+    "Net revenue",
+    "$ 24,117",
+    "$ 20,150"
+   ],
+   [
+    "Net income",
+    "$ 2,311",
+    "$ 8"
+   ]
+  ]
+ },
+ {
+  "index": 28,
+  "page": 74,
+  "rows": 11,
+  "cols": 5,
+  "grid": [
+   [
+    "",
+    "",
+    "December 31, 2022",
+    "December 31, 2022",
+    "December 31, 2022"
+   ],
+   [
+    "",
+    "Weighted-average Remaining Useful Life",
+    "Gross Carrying Amount",
+    "Accumulated Amortization",
+    "Net Carrying Amount"
+   ],
+   [
+    "",
+    "",
+    "(In millions)",
+    "(In millions)",
+    "(In millions)"
+   ],
+   [
+    "Developed technology",
+    "15 years",
+    "$ 12,360",
+    "$ (738)",
+    "$ 11,622"
+   ],
+   [
+    "Customer relationships",
+    "13 years",
+    "12,324",
+    "(1,973)",
+    "10,351"
+   ],
+   [
+    "Customer backlog",
+    "1 month",
+    "809",
+    "(712)",
+    "97"
+   ],
+   [
+    "Corporate trade name",
+    "1 month",
+    "65",
+    "(57)",
+    "8"
+   ],
+   [
+    "Product trademarks",
+    "11 years",
+    "914",
+    "(68)",
+    "846"
+   ],
+   [
+    "Identified intangible assets subject to amortization",
+    "",
+    "26,472",
+    "(3,548)",
+    "22,924"
+   ],
+   [
+    "IPR&D not subject to amortization",
+    "N/A",
+    "1,194",
+    "-",
+    "1,194"
+   ],
+   [
+    "Total acquisition-related intangible assets",
+    "",
+    "$ 27,666",
+    "$ (3,548)",
+    "$ 24,118"
+   ]
+  ]
+ },
+ {
+  "index": 29,
+  "page": 74,
+  "rows": 8,
+  "cols": 2,
+  "grid": [
+   [
+    "Fiscal Year",
+    "(In millions)"
+   ],
+   [
+    "2023",
+    "$ 2,804"
+   ],
+   [
+    "2024",
+    "2,286"
+   ],
+   [
+    "2025",
+    "2,061"
+   ],
+   [
+    "2026",
+    "1,951"
+   ],
+   [
+    "2027",
+    "1,844"
+   ],
+   [
+    "2028 and thereafter",
+    "11,978"
+   ],
+   [
+    "Total",
+    "$ 22,924"
+   ]
+  ]
+ },
+ {
+  "index": 30,
+  "page": 75,
+  "rows": 10,
+  "cols": 5,
+  "grid": [
+   [
+    "",
+    "December 25, 2021",
+    "Acquisitions",
+    "Adjustments and Reassignment due to segment change",
+    "December 31, 2022"
+   ],
+   [
+    "",
+    "(In millions)",
+    "(In millions)",
+    "(In millions)",
+    "(In millions)"
+   ],
+   [
+    "Reportable segments before segment change:",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Enterprise, Embedded and Semi-Custom",
+    "$ 289",
+    "$ -",
+    "$ (289)",
+    "$ -"
+   ],
+   [
+    "Xilinx",
+    "-",
+    "22,794",
+    "(22,794)",
+    "-"
+   ],
+   [
+    "Reportable segments after segment change:",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Data Center",
+    "-",
+    "1,094",
+    "1,790",
+    "2,884"
+   ],
+   [
+    "Gaming",
+    "-",
+    "-",
+    "238",
+    "238"
+   ],
+   [
+    "Embedded",
+    "-",
+    "-",
+    "21,055",
+    "21,055"
+   ],
+   [
+    "Total",
+    "$ 289",
+    "$ 23,888",
+    "$ -",
+    "$ 24,177"
+   ]
+  ]
+ },
+ {
+  "index": 31,
+  "page": 76,
+  "rows": 13,
+  "cols": 3,
+  "grid": [
+   [
+    "",
+    "December 31, 2022",
+    "December 25, 2021"
+   ],
+   [
+    "",
+    "(In millions)",
+    "(In millions)"
+   ],
+   [
+    "7.50% Senior Notes Due August 2022 (7.50% Notes)",
+    "$ -",
+    "$ 312"
+   ],
+   [
+    "2.950% Senior Notes Due 2024 (Xilinx 2024 Notes)",
+    "750",
+    "-"
+   ],
+   [
+    "2.125% Convertible Senior Notes Due 2026 (2.125% Notes)",
+    "1",
+    "1"
+   ],
+   [
+    "2.375% Senior Notes Due 2030 (Xilinx 2030 Notes)",
+    "750",
+    "-"
+   ],
+   [
+    "3.924% Senior Notes Due 2032 (3.924% Notes)",
+    "500",
+    "-"
+   ],
+   [
+    "4.393% Senior Notes Due 2052 (4.393% Notes)",
+    "500",
+    "-"
+   ],
+   [
+    "Total debt (principal amount)",
+    "2,501",
+    "313"
+   ],
+   [
+    "Unamortized debt discount and issuance costs",
+    "(34)",
+    "-"
+   ],
+   [
+    "Total debt (net)",
+    "2,467",
+    "313"
+   ],
+   [
+    "Less: current portion of long-term debt",
+    "-",
+    "(312)"
+   ],
+   [
+    "Total long-term debt",
+    "$ 2,467",
+    "$ 1"
+   ]
+  ]
+ },
+ {
+  "index": 32,
+  "page": 77,
+  "rows": 8,
+  "cols": 2,
+  "grid": [
+   [
+    "Year",
+    "Term Debt (Principal only) (In millions)"
+   ],
+   [
+    "2023",
+    "$ -"
+   ],
+   [
+    "2024",
+    "750"
+   ],
+   [
+    "2025",
+    "-"
+   ],
+   [
+    "2026",
+    "1"
+   ],
+   [
+    "2027",
+    "-"
+   ],
+   [
+    "2028 and thereafter",
+    "1,750"
+   ],
+   [
+    "Total",
+    "$ 2,501"
+   ]
+  ]
+ },
+ {
+  "index": 33,
+  "page": 78,
+  "rows": 17,
+  "cols": 7,
+  "grid": [
+   [
+    "",
+    "December 31, 2022",
+    "December 31, 2022",
+    "December 31, 2022",
+    "December 25, 2021",
+    "December 25, 2021",
+    "December 25, 2021"
+   ],
+   [
+    "(In millions)",
+    "Level 1",
+    "Level 2",
+    "Total",
+    "Level 1",
+    "Level 2",
+    "Total"
+   ],
+   [
+    "Cash equivalents",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Money market funds",
+    "$ 3,017",
+    "$ -",
+    "$ 3,017",
+    "$ 4",
+    "$ -",
+    "$ 4"
+   ],
+   [
+    "Commercial paper",
+    "-",
+    "224",
+    "224",
+    "-",
+    "45",
+    "45"
+   ],
+   [
+    "Time deposits and certificates of deposits",
+    "-",
+    "159",
+    "159",
+    "-",
+    "-",
+    "-"
+   ],
+   [
+    "Short-term investments",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Commercial paper",
+    "-",
+    "441",
+    "441",
+    "-",
+    "880",
+    "880"
+   ],
+   [
+    "Time deposits and certificates of deposits",
+    "-",
+    "-",
+    "-",
+    "-",
+    "193",
+    "193"
+   ],
+   [
+    "Asset-backed and mortgage-backed securities",
+    "-",
+    "39",
+    "39",
+    "-",
+    "-",
+    "-"
+   ],
+   [
+    "U.S. Treasury and agency securities",
+    "466",
+    "-",
+    "466",
+    "-",
+    "-",
+    "-"
+   ],
+   [
+    "Foreign government and agency securities",
+    "-",
+    "74",
+    "74",
+    "-",
+    "-",
+    "-"
+   ],
+   [
+    "Other non-current assets",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Time deposits and certificates of deposits",
+    "-",
+    "9",
+    "9",
+    "-",
+    "-",
+    "-"
+   ],
+   [
+    "Equity investments",
+    "8",
+    "-",
+    "8",
+    "66",
+    "-",
+    "66"
+   ],
+   [
+    "Deferred compensation plan investments",
+    "90",
+    "-",
+    "90",
+    "72",
+    "-",
+    "72"
+   ],
+   [
+    "Total assets measured at fair value",
+    "$ 3,581",
+    "$ 945",
+    "$ 4,526",
+    "$ 142",
+    "$ 1,118",
+    "$ 1,260"
+   ]
+  ]
+ },
+ {
+  "index": 34,
+  "page": 78,
+  "rows": 10,
+  "cols": 5,
+  "grid": [
+   [
+    "",
+    "December 31, 2022",
+    "December 31, 2022",
+    "December 31, 2022",
+    "December 31, 2022"
+   ],
+   [
+    "",
+    "Cost/ Amortized Cost",
+    "Gross Unrealized Gains",
+    "Gross Unrealized Losses",
+    "Estimated Fair Value"
+   ],
+   [
+    "",
+    "(in millions)",
+    "(in millions)",
+    "(in millions)",
+    "(in millions)"
+   ],
+   [
+    "Asset-backed and mortgage-backed securities",
+    "$ 42",
+    "$ -",
+    "$ (3)",
+    "$ 39"
+   ],
+   [
+    "Commercial paper",
+    "669",
+    "-",
+    "(4)",
+    "665"
+   ],
+   [
+    "Money market funds",
+    "3,017",
+    "-",
+    "-",
+    "3,017"
+   ],
+   [
+    "Time deposits and certificates of deposits",
+    "159",
+    "-",
+    "",
+    "159"
+   ],
+   [
+    "U.S. Treasury and agency securities",
+    "471",
+    "-",
+    "(5)",
+    "466"
+   ],
+   [
+    "Foreign government and agency securities",
+    "74",
+    "-",
+    "-",
+    "74"
+   ],
+   [
+    "",
+    "$ 4,432",
+    "$ -",
+    "$ (12)",
+    "$ 4,420"
+   ]
+  ]
+ },
+ {
+  "index": 35,
+  "page": 79,
+  "rows": 7,
+  "cols": 5,
+  "grid": [
+   [
+    "",
+    "December 31, 2022",
+    "December 31, 2022",
+    "December 25, 2021",
+    "December 25, 2021"
+   ],
+   [
+    "",
+    "Amortized Cost",
+    "Fair Value",
+    "Amortized Cost",
+    "Fair Value"
+   ],
+   [
+    "",
+    "(In millions)",
+    "(In millions)",
+    "(In millions)",
+    "(In millions)"
+   ],
+   [
+    "Due within 1 year",
+    "$ 1,224 $",
+    "1,218",
+    "$ 1,118",
+    "$ 1,118"
+   ],
+   [
+    "Due in 1 year through 5 years",
+    "159",
+    "156",
+    "-",
+    "-"
+   ],
+   [
+    "Due in 5 years and later",
+    "41",
+    "38",
+    "-",
+    "-"
+   ],
+   [
+    "",
+    "$ 1,424 $",
+    "1,412",
+    "$ 1,118",
+    "$ 1,118"
+   ]
+  ]
+ },
+ {
+  "index": 36,
+  "page": 79,
+  "rows": 5,
+  "cols": 5,
+  "grid": [
+   [
+    "",
+    "December 31, 2022",
+    "December 31, 2022",
+    "December 25, 2021",
+    "December 25, 2021"
+   ],
+   [
+    "",
+    "Carrying Amount",
+    "Estimated Fair Value",
+    "Carrying Amount",
+    "Estimated Fair Value"
+   ],
+   [
+    "",
+    "(In millions)",
+    "(In millions)",
+    "(In millions)",
+    "(In millions)"
+   ],
+   [
+    "Current portion of long-term debt, net",
+    "$ - $",
+    "- $",
+    "312",
+    "$ 326"
+   ],
+   [
+    "Long-term debt, net of current portion",
+    "2,467",
+    "2,281",
+    "1",
+    "15"
+   ]
+  ]
+ },
+ {
+  "index": 37,
+  "page": 80,
+  "rows": 17,
+  "cols": 4,
+  "grid": [
+   [
+    "",
+    "Year Ended",
+    "Year Ended",
+    "Year Ended"
+   ],
+   [
+    "",
+    "December 31, 2022",
+    "December 25, 2021",
+    "December 26, 2020"
+   ],
+   [
+    "",
+    "(In millions, except per share amounts)",
+    "(In millions, except per share amounts)",
+    "(In millions, except per share amounts)"
+   ],
+   [
+    "Numerator",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Net income for basic earnings per share",
+    "$ 1,320",
+    "$ 3,162",
+    "$ 2,490"
+   ],
+   [
+    "Effect of potentially dilutive shares:",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Interest expense related to the 2.125% Notes",
+    "-",
+    "-",
+    "1"
+   ],
+   [
+    "Net income for diluted earnings per share",
+    "$ 1,320",
+    "$ 3,162",
+    "$ 2,491"
+   ],
+   [
+    "Denominator",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Basic weighted-average shares",
+    "1,561",
+    "1,213",
+    "1,184"
+   ],
+   [
+    "Effect of potentially dilutive shares:",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Employee equity plans and warrants",
+    "10",
+    "16",
+    "20"
+   ],
+   [
+    "2.125% Notes",
+    "-",
+    "-",
+    "3"
+   ],
+   [
+    "Diluted weighted-average shares",
+    "1,571",
+    "1,229",
+    "1,207"
+   ],
+   [
+    "Earnings per share:",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Basic",
+    "$ 0.85",
+    "$ 2.61",
+    "$ 2.10"
+   ],
+   [
+    "Diluted",
+    "$ 0.84",
+    "$ 2.57",
+    "$ 2.06"
+   ]
+  ]
+ },
+ {
+  "index": 38,
+  "page": 81,
+  "rows": 10,
+  "cols": 4,
+  "grid": [
+   [
+    "",
+    "Year Ended",
+    "Year Ended",
+    "Year Ended"
+   ],
+   [
+    "",
+    "December 31, 2022",
+    "December 25, 2021",
+    "December 26, 2020"
+   ],
+   [
+    "",
+    "(In millions)",
+    "(In millions)",
+    "(In millions)"
+   ],
+   [
+    "Balance, beginning of period",
+    "1,207",
+    "1,211",
+    "1,170"
+   ],
+   [
+    "Common stock issued in the acquisition of Xilinx",
+    "429",
+    "-",
+    "-"
+   ],
+   [
+    "Common stock issued under employee equity plans",
+    "17",
+    "12",
+    "14"
+   ],
+   [
+    "Repurchases of common stock",
+    "(36)",
+    "(17)",
+    "-"
+   ],
+   [
+    "Common stock repurchases for tax withholding on equity awards",
+    "(5)",
+    "(2)",
+    "(1)"
+   ],
+   [
+    "Issuance of common stock to settle convertible debt",
+    "-",
+    "3",
+    "28"
+   ],
+   [
+    "Balance, end of period",
+    "1,612",
+    "1,207",
+    "1,211"
+   ]
+  ]
+ },
+ {
+  "index": 39,
+  "page": 82,
+  "rows": 9,
+  "cols": 4,
+  "grid": [
+   [
+    "",
+    "Year Ended",
+    "Year Ended",
+    "Year Ended"
+   ],
+   [
+    "",
+    "December 31, 2022",
+    "December 25, 2021",
+    "December 26, 2020"
+   ],
+   [
+    "",
+    "(In millions)",
+    "(In millions)",
+    "(In millions)"
+   ],
+   [
+    "Cost of sales",
+    "$ 29",
+    "$ 5",
+    "$ 6"
+   ],
+   [
+    "Research and development",
+    "697",
+    "246",
+    "173"
+   ],
+   [
+    "Marketing, general, and administrative",
+    "355",
+    "128",
+    "95"
+   ],
+   [
+    "Total stock-based compensation expense before income taxes",
+    "1,081",
+    "379",
+    "274"
+   ],
+   [
+    "Income tax benefit",
+    "(179)",
+    "(58)",
+    "(42)"
+   ],
+   [
+    "Total stock-based compensation expense, net of income taxes",
+    "$ 902",
+    "$ 321",
+    "$ 232"
+   ]
+  ]
+ },
+ {
+  "index": 40,
+  "page": 82,
+  "rows": 5,
+  "cols": 4,
+  "grid": [
+   [
+    "",
+    "December 31, 2022",
+    "December 25, 2021",
+    "December 26, 2020"
+   ],
+   [
+    "Expected volatility",
+    "51.28 %",
+    "51.77 %",
+    "57.87 %"
+   ],
+   [
+    "Risk-free interest rate",
+    "3.00 %",
+    "0.69 %",
+    "0.18 %"
+   ],
+   [
+    "Expected dividends",
+    "- %",
+    "- %",
+    "- %"
+   ],
+   [
+    "Expected life (in years)",
+    "4.75",
+    "4.55",
+    "4.30"
+   ]
+  ]
+ },
+ {
+  "index": 41,
+  "page": 82,
+  "rows": 7,
+  "cols": 5,
+  "grid": [
+   [
+    "",
+    "Outstanding Number of Shares",
+    "Weighted- Average Exercise Price",
+    "Aggregate Intrinsic Value",
+    "Weighted-Average Remaining Contractual Life (in years)"
+   ],
+   [
+    "",
+    "(In millions, except share price)",
+    "(In millions, except share price)",
+    "(In millions, except share price)",
+    ""
+   ],
+   [
+    "Balance as of December 25, 2021",
+    "5 $",
+    "23.98",
+    "",
+    ""
+   ],
+   [
+    "Granted",
+    "1 $",
+    "95.54",
+    "",
+    ""
+   ],
+   [
+    "Exercised",
+    "(2) $",
+    "4.27",
+    "",
+    ""
+   ],
+   [
+    "Balance as of December 31, 2022",
+    "4 $",
+    "42.35",
+    "$ 130",
+    "3.17"
+   ],
+   [
+    "Exercisable December 31, 2022",
+    "3 $",
+    "25.67",
+    "$ 130",
+    "2.27"
+   ]
+  ]
+ },
+ {
+  "index": 42,
+  "page": 83,
+  "rows": 8,
+  "cols": 5,
+  "grid": [
+   [
+    "",
+    "Number of Shares",
+    "Weighted- Average Grant Date Fair Value",
+    "Aggregate Intrinsic Value",
+    "Weighted-Average Remaining Contractual Life (in years)"
+   ],
+   [
+    "",
+    "(In millions except share price)",
+    "(In millions except share price)",
+    "(In millions except share price)",
+    "(In millions except share price)"
+   ],
+   [
+    "Unvested shares as of December 25, 2021",
+    "10",
+    "$ 79.03",
+    "",
+    ""
+   ],
+   [
+    "Assumed with acquisition of Xilinx",
+    "12",
+    "$ 103.35",
+    "",
+    ""
+   ],
+   [
+    "Granted",
+    "17",
+    "$ 92.92",
+    "",
+    ""
+   ],
+   [
+    "Forfeited",
+    "(2)",
+    "$ 98.06",
+    "",
+    ""
+   ],
+   [
+    "Vested",
+    "(9)",
+    "$ 86.27",
+    "",
+    ""
+   ],
+   [
+    "Unvested shares as of December 31, 2022",
+    "28",
+    "$ 95.49",
+    "$ 1,810",
+    "1.67"
+   ]
+  ]
+ },
+ {
+  "index": 43,
+  "page": 83,
+  "rows": 5,
+  "cols": 4,
+  "grid": [
+   [
+    "",
+    "December 31, 2022",
+    "December 25, 2021",
+    "December 26, 2020"
+   ],
+   [
+    "Expected volatility",
+    "50.65% - 53.51%",
+    "57.75 %",
+    "55.74% - 60.10%"
+   ],
+   [
+    "Risk-free interest rate",
+    "1.14% - 3.17%",
+    "0.43 %",
+    "0.14% - 1.41%"
+   ],
+   [
+    "Expected dividends",
+    "- %",
+    "- %",
+    "- %"
+   ],
+   [
+    "Expected term (in years)",
+    "2.07 - 3.07",
+    "3.00",
+    "2.48 - 3.00"
+   ]
+  ]
+ },
+ {
+  "index": 44,
+  "page": 83,
+  "rows": 7,
+  "cols": 5,
+  "grid": [
+   [
+    "",
+    "Number of Shares",
+    "Weighted-Average Grant Date Fair Value",
+    "Aggregate Intrinsic Value",
+    "Weighted-Average Remaining Contractual Life (in years)"
+   ],
+   [
+    "",
+    "(In millions except share price)",
+    "(In millions except share price)",
+    "(In millions except share price)",
+    "(In millions except share price)"
+   ],
+   [
+    "Unvested shares as of December 25, 2021",
+    "2 $",
+    "78.59",
+    "",
+    ""
+   ],
+   [
+    "Granted",
+    "1 $",
+    "121.12",
+    "",
+    ""
+   ],
+   [
+    "Forfeited",
+    "- $",
+    "-",
+    "",
+    ""
+   ],
+   [
+    "Vested",
+    "(1) $",
+    "51.77",
+    "",
+    ""
+   ],
+   [
+    "Unvested shares as of December 31, 2022",
+    "2 $",
+    "110.31",
+    "$ 118",
+    "1.76"
+   ]
+  ]
+ },
+ {
+  "index": 45,
+  "page": 84,
+  "rows": 5,
+  "cols": 4,
+  "grid": [
+   [
+    "",
+    "December 31, 2022",
+    "December 25, 2021",
+    "December 28, 2020"
+   ],
+   [
+    "Expected volatility",
+    "58.15% - 63.76%",
+    "36.90% - 39.39%",
+    "55.16% - 66.53%"
+   ],
+   [
+    "Risk-free interest rate",
+    "1.43% - 4.52%",
+    "0.04% - 0.07%",
+    "0.11% - 0.15%"
+   ],
+   [
+    "Expected dividends",
+    "- %",
+    "- %",
+    "- %"
+   ],
+   [
+    "Expected term (in years)",
+    "0.50",
+    "0.50",
+    "0.50"
+   ]
+  ]
+ },
+ {
+  "index": 46,
+  "page": 84,
+  "rows": 6,
+  "cols": 4,
+  "grid": [
+   [
+    "",
+    "Year Ended",
+    "Year Ended",
+    "Year Ended"
+   ],
+   [
+    "",
+    "December 31, 2022",
+    "December 25, 2021",
+    "December 26, 2020"
+   ],
+   [
+    "",
+    "(In millions)",
+    "(In millions)",
+    "(In millions)"
+   ],
+   [
+    "U.S.",
+    "$ 2,093",
+    "$ 3,528",
+    "$ 1,213"
+   ],
+   [
+    "Non-U.S.",
+    "(895)",
+    "147",
+    "67"
+   ],
+   [
+    "Total pre-tax income including equity income in investee",
+    "$ 1,198",
+    "$ 3,675",
+    "$ 1,280"
+   ]
+  ]
+ },
+ {
+  "index": 47,
+  "page": 85,
+  "rows": 14,
+  "cols": 4,
+  "grid": [
+   [
+    "",
+    "Year Ended",
+    "Year Ended",
+    "Year Ended"
+   ],
+   [
+    "",
+    "December 31, 2022",
+    "December 25, 2021",
+    "December 26, 2020"
+   ],
+   [
+    "",
+    "(In millions)",
+    "(In millions)",
+    "(In millions)"
+   ],
+   [
+    "Current:",
+    "",
+    "",
+    ""
+   ],
+   [
+    "U.S. federal",
+    "$ 1,191",
+    "$ 112",
+    "$ -"
+   ],
+   [
+    "U.S. state and local",
+    "31",
+    "11",
+    "5"
+   ],
+   [
+    "Non-U.S.",
+    "161",
+    "82",
+    "8"
+   ],
+   [
+    "Total",
+    "1,383",
+    "205",
+    "13"
+   ],
+   [
+    "Deferred:",
+    "",
+    "",
+    ""
+   ],
+   [
+    "U.S. federal",
+    "(1,365)",
+    "320",
+    "(1,193)"
+   ],
+   [
+    "U.S. state and local",
+    "(26)",
+    "(7)",
+    "(28)"
+   ],
+   [
+    "Non-U.S.",
+    "(114)",
+    "(5)",
+    "(2)"
+   ],
+   [
+    "Total",
+    "(1,505)",
+    "308",
+    "(1,223)"
+   ],
+   [
+    "Income tax provision (benefit)",
+    "$ (122)",
+    "$ 513",
+    "$ (1,210)"
+   ]
+  ]
+ },
+ {
+  "index": 48,
+  "page": 85,
+  "rows": 13,
+  "cols": 4,
+  "grid": [
+   [
+    "",
+    "Year Ended",
+    "Year Ended",
+    "Year Ended"
+   ],
+   [
+    "",
+    "December 31, 2022",
+    "December 25, 2021",
+    "December 26, 2020"
+   ],
+   [
+    "",
+    "(In millions)",
+    "(In millions)",
+    "(In millions)"
+   ],
+   [
+    "Statutory federal income tax expense at 21%",
+    "$ 252",
+    "$ 772",
+    "$ 269"
+   ],
+   [
+    "State taxes (benefit)",
+    "(3)",
+    "1",
+    "(6)"
+   ],
+   [
+    "Foreign rate detriment (benefit)",
+    "195",
+    "71",
+    "(3)"
+   ],
+   [
+    "GILTI and other foreign inclusion",
+    "(105)",
+    "-",
+    "-"
+   ],
+   [
+    "Foreign-Derived Intangible Income (FDII) deduction",
+    "(261)",
+    "(147)",
+    "-"
+   ],
+   [
+    "Research credits",
+    "(241)",
+    "(78)",
+    "(57)"
+   ],
+   [
+    "Stock-based and non-deductible compensation",
+    "10",
+    "(125)",
+    "(116)"
+   ],
+   [
+    "Valuation allowance change",
+    "-",
+    "3",
+    "(1,301)"
+   ],
+   [
+    "Other",
+    "31",
+    "16",
+    "4"
+   ],
+   [
+    "Income tax provision (benefit)",
+    "$ (122)",
+    "$ 513",
+    "$ (1,210)"
+   ]
+  ]
+ },
+ {
+  "index": 49,
+  "page": 86,
+  "rows": 23,
+  "cols": 3,
+  "grid": [
+   [
+    "",
+    "December 31, 2022",
+    "December 25, 2021"
+   ],
+   [
+    "",
+    "(In millions)",
+    "(In millions)"
+   ],
+   [
+    "Deferred tax assets:",
+    "",
+    ""
+   ],
+   [
+    "Net operating loss carryovers",
+    "$ 1,031",
+    "$ 920"
+   ],
+   [
+    "Accruals and reserves not currently deductible",
+    "835",
+    "631"
+   ],
+   [
+    "Employee benefits not currently deductible",
+    "214",
+    "164"
+   ],
+   [
+    "Federal and state tax credit carryovers",
+    "631",
+    "319"
+   ],
+   [
+    "Foreign R&D and investment tax credits",
+    "578",
+    "547"
+   ],
+   [
+    "Capitalized costs",
+    "65",
+    "121"
+   ],
+   [
+    "Lease liability",
+    "161",
+    "124"
+   ],
+   [
+    "Capitalized R&D",
+    "943",
+    "-"
+   ],
+   [
+    "Other",
+    "85",
+    "27"
+   ],
+   [
+    "Total deferred tax assets",
+    "4,543",
+    "2,853"
+   ],
+   [
+    "Less: valuation allowance",
+    "(2,078)",
+    "(1,735)"
+   ],
+   [
+    "Total deferred tax assets, net of valuation allowance",
+    "2,465",
+    "1,118"
+   ],
+   [
+    "Deferred tax liabilities:",
+    "",
+    ""
+   ],
+   [
+    "Acquired intangibles",
+    "(3,430)",
+    "(50)"
+   ],
+   [
+    "Right-of-use assets",
+    "(151)",
+    "(110)"
+   ],
+   [
+    "Undistributed foreign earnings",
+    "(35)",
+    "(24)"
+   ],
+   [
+    "GILTI",
+    "(633)",
+    "-"
+   ],
+   [
+    "Other",
+    "(92)",
+    "(15)"
+   ],
+   [
+    "Total deferred tax liabilities",
+    "(4,341)",
+    "(199)"
+   ],
+   [
+    "Net deferred tax assets (liabilities)",
+    "$ (1,876)",
+    "$ 919"
+   ]
+  ]
+ },
+ {
+  "index": 50,
+  "page": 87,
+  "rows": 7,
+  "cols": 4,
+  "grid": [
+   [
+    "",
+    "December 31, 2022",
+    "December 25, 2021",
+    "December 26, 2020"
+   ],
+   [
+    "",
+    "(In millions)",
+    "(In millions)",
+    "(In millions)"
+   ],
+   [
+    "Balance at beginning of year",
+    "$ 1,735",
+    "$ 1,576",
+    "$ 2,867"
+   ],
+   [
+    "Charges (reductions) to income tax expense and other accounts*",
+    "112",
+    "3",
+    "(1,301)"
+   ],
+   [
+    "Acquisition-related",
+    "231",
+    "-",
+    "-"
+   ],
+   [
+    "Net recoveries +",
+    "-",
+    "156",
+    "10"
+   ],
+   [
+    "Balance at end of year",
+    "$ 2,078",
+    "$ 1,735",
+    "$ 1,576"
+   ]
+  ]
+ },
+ {
+  "index": 51,
+  "page": 88,
+  "rows": 9,
+  "cols": 4,
+  "grid": [
+   [
+    "",
+    "December 31, 2022",
+    "December 25, 2021",
+    "December 26, 2020"
+   ],
+   [
+    "",
+    "(In millions)",
+    "(In millions)",
+    "(In millions)"
+   ],
+   [
+    "Balance at beginning of year",
+    "$ 275",
+    "$ 119",
+    "$ 65"
+   ],
+   [
+    "Increases for tax positions taken in the current year",
+    "748",
+    "156",
+    "30"
+   ],
+   [
+    "Increases for tax positions taken in prior years",
+    "104",
+    "14",
+    "41"
+   ],
+   [
+    "Decreases for tax positions taken in prior years",
+    "(12)",
+    "(9)",
+    "(15)"
+   ],
+   [
+    "Increases to tax positions taken in prior years through acquisitions",
+    "252",
+    "-",
+    "-"
+   ],
+   [
+    "Decreases for settlements with taxing authorities and statute of limitation lapses",
+    "(6)",
+    "(5)",
+    "(2)"
+   ],
+   [
+    "Balance at end of year",
+    "$ 1,361",
+    "$ 275",
+    "$ 119"
+   ]
+  ]
+ },
+ {
+  "index": 52,
+  "page": 88,
+  "rows": 8,
+  "cols": 4,
+  "grid": [
+   [
+    "",
+    "Year Ended",
+    "Year Ended",
+    "Year Ended"
+   ],
+   [
+    "",
+    "December 31, 2022",
+    "December 25, 2021",
+    "December 26, 2020"
+   ],
+   [
+    "",
+    "(In millions)",
+    "(In millions)",
+    "(In millions)"
+   ],
+   [
+    "Interest income",
+    "$ 65",
+    "$ 8",
+    "$ 8"
+   ],
+   [
+    "Loss on debt redemption, repurchase and conversion",
+    "-",
+    "(7)",
+    "(54)"
+   ],
+   [
+    "Gains (losses) on equity investments, net",
+    "(62)",
+    "56",
+    "2"
+   ],
+   [
+    "Other income (expense)",
+    "5",
+    "(2)",
+    "(3)"
+   ],
+   [
+    "Other income (expense), net",
+    "$ 8",
+    "$ 55",
+    "$ (47)"
+   ]
+  ]
+ },
+ {
+  "index": 53,
+  "page": 89,
+  "rows": 3,
+  "cols": 2,
+  "grid": [
+   [
+    "",
+    "December 31, 2022"
+   ],
+   [
+    "Weighted-average remaining lease term in years - operating leases",
+    "5.98"
+   ],
+   [
+    "Weighted-average discount rate - operating leases",
+    "3.83 %"
+   ]
+  ]
+ },
+ {
+  "index": 54,
+  "page": 89,
+  "rows": 12,
+  "cols": 2,
+  "grid": [
+   [
+    "Year",
+    "(In millions)"
+   ],
+   [
+    "2023",
+    "$ 109"
+   ],
+   [
+    "2024",
+    "99"
+   ],
+   [
+    "2025",
+    "88"
+   ],
+   [
+    "2026",
+    "77"
+   ],
+   [
+    "2027",
+    "59"
+   ],
+   [
+    "2028 and thereafter",
+    "113"
+   ],
+   [
+    "Total minimum lease payments",
+    "545"
+   ],
+   [
+    "Less: interest",
+    "(56)"
+   ],
+   [
+    "Present value of net minimum lease payments",
+    "489"
+   ],
+   [
+    "Less: current portion",
+    "(93)"
+   ],
+   [
+    "Total long-term operating lease liabilities",
+    "$ 396"
+   ]
+  ]
+ },
+ {
+  "index": 55,
+  "page": 89,
+  "rows": 8,
+  "cols": 2,
+  "grid": [
+   [
+    "Year",
+    "(In millions)"
+   ],
+   [
+    "2023",
+    "$ 6,489"
+   ],
+   [
+    "2024",
+    "1,434"
+   ],
+   [
+    "2025",
+    "271"
+   ],
+   [
+    "2026",
+    "129"
+   ],
+   [
+    "2027",
+    "85"
+   ],
+   [
+    "2028 and thereafter",
+    "202"
+   ],
+   [
+    "Total unconditional purchase commitments",
+    "$ 8,610"
+   ]
+  ]
+ },
+ {
+  "index": 56,
+  "page": 90,
+  "rows": 6,
+  "cols": 3,
+  "grid": [
+   [
+    "",
+    "December 31, 2022",
+    "December 25, 2021"
+   ],
+   [
+    "",
+    "(In millions)",
+    "(In millions)"
+   ],
+   [
+    "Beginning balance",
+    "$ 51",
+    "$ 37"
+   ],
+   [
+    "Provisions during the period",
+    "115",
+    "106"
+   ],
+   [
+    "Settlements during the period",
+    "(101)",
+    "(92)"
+   ],
+   [
+    "Ending balance",
+    "$ 65",
+    "$ 51"
+   ]
+  ]
+ },
+ {
+  "index": 57,
+  "page": 94,
+  "rows": 3,
+  "cols": 2,
+  "grid": [
+   [
+    "Description of the Matter",
+    "At December 31, 2022, the Company's net inventory balance was $3,771 million. As discussed in Note 2 to the consolidated financial statements, the Company adjusts the inventory carrying value to the lower of actual cost or the estimated net realizable value after completing ongoing reviews of on-hand inventory quantities exceeding forecasted demand and by considering recent historical activity as well as anticipated demand. Auditing management's inventory carrying value adjustments involved significant judgment because the estimates are based on several factors that are affected by market, industry, and competitive conditions outside the Company's control. In estimating inventory carrying value adjustments, management developed assumptions such as forecasts of future sales quantities and the selling prices, which are sensitive to the competitiveness of product offerings, customer requirements, and product life cycles. These significant assumptions are forward-looking and could be affected by future economic and market conditions."
+   ],
+   [
+    "How We Addressed the Matter in Our Audit",
+    "We obtained an understanding, evaluated the design and tested the operating effectiveness of internal controls over the Company's inventory carrying value adjustment determination process, including the basis for developing the above-described assumptions and management's judgments."
+   ],
+   [
+    "",
+    "Our audit procedures included, among others, testing the reasonableness of management's key assumptions and judgments and testing the accuracy and completeness of the underlying data used to determine the amount of inventory carrying value adjustments. For instance, we compared the quantities and carrying value of on-hand inventories to related unit sales, both historical and forecasted, assessed the reasonableness of management's estimates of future sales prices by analyzing historical sales and evaluating any factors that may impact sales prices, and evaluated the appropriateness and adequacy of management's adjustments to such sales forecasts by analyzing potential technological changes in line with product life cycles. We also assessed the accuracy of forecasts underlying management's estimates by comparing management's historical forecasts to actual results, evaluated industry and market factors and performed sensitivity analyses over the significant assumptions used by management to evaluate necessary changes in the inventory carrying value adjustments."
+   ]
+  ]
+ },
+ {
+  "index": 58,
+  "page": 101,
+  "rows": 8,
+  "cols": 2,
+  "grid": [
+   [
+    "Index to Consolidated Financial Statements",
+    ""
+   ],
+   [
+    "Consolidated Statements of Operations",
+    "51"
+   ],
+   [
+    "Consolidated Statements of Comprehensive Income",
+    "52"
+   ],
+   [
+    "Consolidated Balance Sheets",
+    "53"
+   ],
+   [
+    "Consolidated Statements of Stockholders' Equity",
+    "54"
+   ],
+   [
+    "Consolidated Statements of Cash Flows",
+    "55"
+   ],
+   [
+    "Notes to Consolidated Financial Statements",
+    "57"
+   ],
+   [
+    "Reports of Independent Registered Public Accounting Firm (PCAOB ID: 42)",
+    "90"
+   ]
+  ]
+ },
+ {
+  "index": 59,
+  "page": 101,
+  "rows": 8,
+  "cols": 2,
+  "grid": [
+   [
+    "Exhibit",
+    "Description of Exhibits"
+   ],
+   [
+    "2.1",
+    "Agreement and Plan of Merger by and among Advanced Micro Devices, Inc., Thrones Merger Sub, Inc., and Xilinx, Inc. dated October 26, 2020, filed as exhibit 2.1 to AMD's Current Report on Form 8-K dated October 26, 2020, is hereby incorporated by reference."
+   ],
+   [
+    "3.1",
+    "Amended and Restated Certificate of Incorporation of Advanced Micro Devices, Inc., dated May 2, 2018, filed as Exhibit 3.1 to AMD's Quarterly Report on Form 10-Q for the period ended June 30, 2018, is hereby incorporated by reference."
+   ],
+   [
+    "3.2",
+    "Advanced Micro Devices, Inc. Amended and Restated Bylaws, as amended on January 29, 2021."
+   ],
+   [
+    "4.1",
+    "Description of Advanced Micro Devices, Inc. Common Stock, filed as Exhibit 4.1 to AMD's Quarterly Report on Form 10-Q for the period ended June 25, 2022, is hereby incorporated by reference."
+   ],
+   [
+    "4.2",
+    "Indenture by and among Advanced Micro Devices, Inc. and Wells Fargo Bank N.A., dated September 14, 2016, filed as Exhibit 4.1 to AMD's Current Report on Form 8-K dated September 14, 2016, is hereby incorporated by reference."
+   ],
+   [
+    "4.3",
+    "First Supplemental Indenture governing 2.125% Convertible Senior Notes due 2026, including Form of 2.125% Note, between Advanced Micro Devices, Inc. and Wells Fargo Bank, N.A. dated September 14, 2016, filed as Exhibit 4.2 to AMD's Current Report on Form 8-K dated September 14, 2016, is hereby incorporated by reference."
+   ],
+   [
+    "4.4",
+    "First Supplemental Indenture by and among Advanced Micro Devices, Inc. and Wells Fargo Bank N.A., dated September 23, 2016, filed as Exhibit 4.1 to AMD's Quarterly Report on Form 10-Q for the fiscal quarter ended September 24, 2016, is hereby incorporated by reference."
+   ]
+  ]
+ },
+ {
+  "index": 60,
+  "page": 105,
+  "rows": 14,
+  "cols": 2,
+  "grid": [
+   [
+    "*10.44",
+    "Form of Stock Option Agreement for Senior Vice Presidents and Above under the 2004 Equity Incentive plan, filed as Exhibit 10.2 to AMD's Quarterly Report on Form 10-Q for the fiscal quarter ended June 27, 2020, is hereby incorporated by reference."
+   ],
+   [
+    "*10.45",
+    "Form of Restricted Stock Unit Agreement for Senior Vice Presidents and Above under the 2004 Equity Incentive Plan, filed as Exhibit 10.3 to AMD's Quarterly Report on Form 10-Q for the fiscal quarter ended June 27, 2020, is hereby incorporated by reference."
+   ],
+   [
+    "***10.46",
+    "Wafer Supply Agreement, among Advanced Micro Devices, Inc., The Foundry Company and AMD Fab Technologies US, Inc., dated March 2, 2009, filed as Exhibit 10.1 to AMD's Quarterly Report on Form 10-Q for the fiscal quarter ended September 26, 2020, is hereby incorporated by reference."
+   ],
+   [
+    "***10.47",
+    "Wafer Supply Agreement Amendment No. 1, among Advanced Micro Devices, Inc., GLOBALFOUNDRIES Inc., GLOBALFOUNDRIES U.S. Inc. and GLOBALFOUNDRIES Singapore. Pte. Ltd., dated March 29, 2011, filed as Exhibit 10.2 to AMD's Quarterly Report on Form 10-Q for the fiscal quarter ended September 26, 2020, is hereby incorporated by reference."
+   ],
+   [
+    "***10.48",
+    "Wafer Supply Agreement Amendment No. 2, among Advanced Micro Devices, Inc., GLOBALFOUNDRIES Inc., GLOBALFOUNDRIES U.S. Inc., Advanced Technology Investment Company LLC and ATIC International Investment Company LLC, dated March 4, 2012, filed as Exhibit 10.3 to AMD's Quarterly Report on Form 10-Q for the fiscal quarter ended September 26October 28, 2020, is hereby incorporated by reference."
+   ],
+   [
+    "***10.49",
+    "Wafer Supply Agreement Amendment No. 3, among Advanced Micro Devices, Inc., GLOBALFOUNDRIES Inc. and GLOBALFOUNDRIES U.S. Inc., dated December 6, 2012, filed as Exhibit 10.4 to AMD's Quarterly Report on Form 10-Q for the fiscal quarter ended September 26October 28, 2020, is hereby incorporated by reference."
+   ],
+   [
+    "***10.50",
+    "Wafer Supply Agreement Amendment No. 4, among Advanced Micro Devices, Inc., GLOBALFOUNDRIES Inc. and GLOBALFOUNDRIES U.S. Inc., dated March 30, 2014, filed as Exhibit 10.5 to AMD's Quarterly Report on Form 10-Q for the fiscal quarter ended September 26October 28, 2020, is hereby incorporated by reference."
+   ],
+   [
+    "***10.51",
+    "Wafer Supply Agreement Amendment No. 5, among Advanced Micro Devices, Inc., GLOBALFOUNDRIES Inc. and GLOBALFOUNDRIES U.S. Inc., dated as of April 16, 2015, filed as Exhibit 10.6 to AMD's Quarterly Report on Form 10-Q for the fiscal quarter ended September 26October 28, 2020, is hereby incorporated by reference."
+   ],
+   [
+    "***10.52",
+    "Wafer Supply Agreement Amendment No. 6, among Advanced Micro Devices, Inc., GLOBALFOUNDRIES, Inc. and GLOBALFOUNDRIES U.S., Inc., dated August 30, 2016, filed as Exhibit 10.7 to AMD's Quarterly Report on Form 10-Q for the fiscal quarter ended September 26October 28, 2020, is hereby incorporated by reference."
+   ],
+   [
+    "**10.53",
+    "Wafer Supply Agreement Amendment No. 7, among Advanced Micro Devices, Inc., GLOBALFOUNDRIES Inc. and GLOBALFOUNDRIES U.S. Inc., dated January 28, 2019, filed as Exhibit 10.1 to AMD's Quarterly Report on Form 10-Q for the fiscal quarter ended March 30, 2019, is hereby incorporated by reference."
+   ],
+   [
+    "10.54",
+    "Company-Provided Business Aircraft Usage and Commercial Travel by Personal Guests Policy revised as of January 25, 2021, filed as Exhibit 10.58 to AMD's Annual Report on Form 10-K for the fiscal year ended December 26, 2020, is hereby incorporated by reference."
+   ],
+   [
+    "*10.55",
+    "Form of Performance-based Restricted Stock Unit Agreement for Senior Vice Presidents and Above under the 2004 Equity Incentive Plan, filed as Exhibit 10.1 to AMD's Quarterly Report on Form 10-Q for the fiscal quarter ended June 26, 2021, is hereby incorporated by reference."
+   ],
+   [
+    "*10.56",
+    "Form of Restricted Stock Unit Agreement for Senior Vice Presidents and Above under the 2004 Equity Incentive Plan, filed as Exhibit 10.2 to AMD's Quarterly Report on Form 10-Q for the fiscal quarter ended June 26, 2021, is hereby incorporated by reference."
+   ],
+   [
+    "*10.57",
+    "Form of Stock Option Agreement for Senior Vice Presidents and Above under the 2004 Equity Incentive plan, filed as Exhibit 10.3 to AMD's Quarterly Report on Form 10-Q for the fiscal quarter ended June 26, 2021, is hereby incorporated by reference."
+   ]
+  ]
+ },
+ {
+  "index": 61,
+  "page": 106,
+  "rows": 18,
+  "cols": 2,
+  "grid": [
+   [
+    "***10.58",
+    "Amended and Restated Wafer Supply Agreement Amendment No. 7, among Advanced Micro Devices, Inc., GLOBALFOUNDRIES, Inc. and GLOBALFOUNDRIES U.S. Inc., dated as of May 12, 2021, filed as Exhibit 10.4 to AMD's Quarterly Report on Form 10-Q for the fiscal quarter ended June 26, 2021, is hereby incorporated by reference."
+   ],
+   [
+    "***10.59",
+    "First Amendment to Amended and Restated Wafer Supply Agreement No. 7, among Advanced Micro Devices, Inc., GLOBALFOUNDRIES, Inc. and GLOBALFOUNDRIES U.S. Inc., dated December 23, 2021, filed as Exhibit 10.63 to AMD's Annual Report on Form 10-K for the year ended December 25, 2021, is hereby incorporated by reference."
+   ],
+   [
+    "10.60",
+    "Credit Agreement dated as of April 29, 2022 by and among Advanced Micro Devices, Inc. as borrower, the lenders referred to therein, as lenders, and Wells Fargo Bank, National Association, as administrative agent, swingline lender and an issuing lender, filed as Exhibit 10.1 to AMD's Current Report on Form 8-K dated April 29, 2022, is hereby incorporated by reference."
+   ],
+   [
+    "*10.61",
+    "Xilinx, Inc. 2007 Equity Incentive Plan, effective as of January 1, 2007, filed as Exhibit 10.1 to AMD's Quarterly Report on Form 10-Q for the fiscal quarter ended March 26, 2022, is hereby incorporated by reference."
+   ],
+   [
+    "*10.62",
+    "2004 Equity Incentive Plan, as amended and restated, filed as Exhibit 10.2 to AMD's Quarterly Report on Form 10-Q for the fiscal quarter ended March 26, 2022, is hereby incorporated by reference."
+   ],
+   [
+    "*10.63",
+    "Offer Letter between Advanced Micro Devices, Inc. and Victor Peng dated March 8, 2022, filed as Exhibit 10.3 to AMD's Quarterly Report on Form 10-Q for the fiscal quarter ended March 26, 2022, is hereby incorporated by reference."
+   ],
+   [
+    "*10.64",
+    "Form of Performance-based Restricted Stock Unit Agreement for Senior Vice Presidents and Above under the Xilinx, Inc. 2007 Equity Incentive Plan, filed as Exhibit 10.2 to AMD's Quarterly Report on Form 10-Q for the fiscal quarter ended June 25, 2022, is hereby incorporated by reference."
+   ],
+   [
+    "*10.65",
+    "Form of Restricted Stock Unit Agreement for Senior Vice Presidents and Above under the Xilinx, Inc. 2007 Equity Incentive Plan, filed as Exhibit 10.3 to AMD's Quarterly Report on Form 10-Q for the fiscal quarter ended June 25, 2022, is hereby incorporated by reference."
+   ],
+   [
+    "*10.66",
+    "Outside Director Equity Compensation Policy, as amended and restated, dated as of August 10, 2022, filed as Exhibit 10.1 to AMD's Quarterly Report on Form 10-Q for the fiscal quarter ended September 24, 2022, is hereby incorporated by reference."
+   ],
+   [
+    "*10.67",
+    "Offer Letter between Advanced Micro Devices, Inc. and Jean Hu, dated as of January 6, 2023, filed as Exhibit 10.1 to AMD's Current Report on Form 8-K dated January 8, 2023, is hereby incorporated by reference."
+   ],
+   [
+    "*10.68",
+    "Sign-On Bonus Agreement between Advanced Micro Devices, Inc. and Jean Hu, dated as of January 8, 2023, filed as Exhibit 10.2 to AMD's Current Report on Form 8-K dated January 8, 2023, is hereby incorporated by reference."
+   ],
+   [
+    "18.1",
+    "Preferability Letter from Ernst & Young LLP dated February 27, 2023."
+   ],
+   [
+    "21",
+    "List of AMD subsidiaries."
+   ],
+   [
+    "23",
+    "Consent of Independent Registered Public Accounting Firm."
+   ],
+   [
+    "24",
+    "Power of Attorney."
+   ],
+   [
+    "31.1",
+    "Certification of the Chief Executive Officer pursuant to Section 302 of the Sarbanes-Oxley Act of 2002."
+   ],
+   [
+    "31.2",
+    "Certification of the Chief Financial Officer pursuant to Section 302 of the Sarbanes-Oxley Act of 2002."
+   ],
+   [
+    "32.1",
+    "Certification of the Principal Executive Officer pursuant to Section 906 of the Sarbanes-Oxley Act of 2002."
+   ]
+  ]
+ },
+ {
+  "index": 62,
+  "page": 107,
+  "rows": 8,
+  "cols": 2,
+  "grid": [
+   [
+    "32.2",
+    "Certification of the Principal Financial Officer pursuant to Section 906 of the Sarbanes-Oxley Act of 2002."
+   ],
+   [
+    "101.INS",
+    "XBRL Instance Document -the instance document does not appear in the Interactive Data File because its XBRL tags are embedded within the Inline XBRL document"
+   ],
+   [
+    "101.SCH",
+    "XBRL Taxonomy Extension Schema Document"
+   ],
+   [
+    "101.CAL",
+    "XBRL Taxonomy Extension Calculation Linkbase Document"
+   ],
+   [
+    "101.DEF",
+    "XBRL Taxonomy Extension Definition Linkbase Document"
+   ],
+   [
+    "101.LAB",
+    "XBRL Taxonomy Extension Label Linkbase Document"
+   ],
+   [
+    "101.PRE",
+    "XBRL Taxonomy Extension Presentation Linkbase Document"
+   ],
+   [
+    "104",
+    "Cover Page Interactive Data File -the Cover Page Interactive Data File does not appear in the Interactive Data File because its XBRL tags are embedded within the Inline XBRL document"
+   ]
+  ]
+ },
+ {
+  "index": 63,
+  "page": 108,
+  "rows": 12,
+  "cols": 3,
+  "grid": [
+   [
+    "Signature",
+    "Title",
+    "Date"
+   ],
+   [
+    "/s/Lisa T. Su Lisa T. Su",
+    "President and Chief Executive Officer (Principal Executive Officer), Director",
+    "February 27, 2023"
+   ],
+   [
+    "/s/Jean Hu Jean Hu",
+    "Executive Vice President, Chief Financial Officer and Treasurer (Principal Financial Officer)",
+    "February 27, 2023"
+   ],
+   [
+    "/s/Darla Smith Darla Smith",
+    "Corporate Vice President, Chief Accounting Officer (Principal Accounting Officer)",
+    "February 27, 2023"
+   ],
+   [
+    "* Nora M. Denzel",
+    "Lead Independent Director",
+    "February 27, 2023"
+   ],
+   [
+    "* Mark Durcan",
+    "Director",
+    "February 27, 2023"
+   ],
+   [
+    "* Mike P. Gregoire",
+    "Director",
+    "February 27, 2023"
+   ],
+   [
+    "*",
+    "Director",
+    "February 27, 2023"
+   ],
+   [
+    "Joe A. Householder * John W. Marren",
+    "Director",
+    "February 27, 2023"
+   ],
+   [
+    "* Jon A. Olson",
+    "Director",
+    "February 27, 2023"
+   ],
+   [
+    "* Abhi Y. Talwalkar",
+    "Director",
+    "February 27, 2023"
+   ],
+   [
+    "*",
+    "Director",
+    "February 27, 2023"
+   ]
+  ]
+ },
+ {
+  "index": 64,
+  "page": 114,
+  "rows": 8,
+  "cols": 3,
+  "grid": [
+   [
+    "Signature",
+    "Title",
+    "Date"
+   ],
+   [
+    "/s/Lisa T. Su Lisa T. Su",
+    "President and Chief Executive Officer, Director",
+    "February 27, 2023"
+   ],
+   [
+    "/s/Jean Hu Jean Hu",
+    "Executive Vice President, Chief Financial Officer and Treasurer",
+    "February 27, 2023"
+   ],
+   [
+    "/s/Darla Smith Darla Smith",
+    "Corporate Vice President, Chief Accounting Officer",
+    "February 27, 2023"
+   ],
+   [
+    "/s/Nora M. Denzel Nora M. Denzel",
+    "Lead Independent Director",
+    "February 9, 2023"
+   ],
+   [
+    "/s/Mark Durcan Mark Durcan",
+    "Director",
+    "February 10, 2023"
+   ],
+   [
+    "/s/Mike P. Gregoire",
+    "Director",
+    "February 3, 2023"
+   ],
+   [
+    "Mike P. Gregoire",
+    "",
+    ""
+   ]
+  ]
+ }
+]

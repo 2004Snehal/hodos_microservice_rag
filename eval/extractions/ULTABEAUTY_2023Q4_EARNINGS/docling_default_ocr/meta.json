@@ -1,0 +1,8 @@
+{
+ "system": "docling_default_ocr",
+ "docling_version": "2.143.0",
+ "seconds": 16.61,
+ "ocr_engine": "OcrAutoOptions",
+ "table_mode": "TableFormerMode.ACCURATE",
+ "pdf": "eval/policies/financebench/ULTABEAUTY_2023Q4_EARNINGS.pdf"
+}

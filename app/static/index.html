@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hodos RAG Tester</title>
+<style>
+  :root {
+    --bg: #f6f7f9; --panel: #fff; --text: #1d2330; --muted: #667085; --border: #dfe3ea;
+    --accent: #3b5bdb; --accent-text: #fff; --code: #f1f3f6;
+    --ok: #1f8a4c; --ok-bg: #e6f6ec; --bad: #c92a2a; --bad-bg: #fdecec; --warn: #a15c00; --warn-bg: #fff4e0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #12151b; --panel: #1a1e26; --text: #e4e7ec; --muted: #98a2b3; --border: #2c3240;
+      --accent: #6d8bff; --accent-text: #0d1020; --code: #222733;
+      --ok: #5fd08a; --ok-bg: #173022; --bad: #ff7b7b; --bad-bg: #3a1c1c; --warn: #ffbf5c; --warn-bg: #3a2c12;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 14px/1.5 system-ui, -apple-system, sans-serif; }
+  header { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; padding: 14px 16px; border-bottom: 1px solid var(--border); background: var(--panel); }
+  header h1 { font-size: 16px; margin: 0; }
+  main { max-width: 1000px; margin: 0 auto; padding: 16px; }
+  nav { display: flex; gap: 4px; flex-wrap: wrap; }
+  nav button, .seg button { background: none; border: 1px solid transparent; color: var(--muted); padding: 6px 12px; border-radius: 6px; cursor: pointer; font: inherit; }
+  nav button.active { background: var(--code); color: var(--text); border-color: var(--border); }
+  .seg { display: inline-flex; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; margin-left: auto; }
+  .seg button { border-radius: 0; }
+  .seg button.active { background: var(--accent); color: var(--accent-text); }
+  section { display: none; }
+  section.active { display: block; }
+  .card { background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 16px; margin-bottom: 16px; }
+  label { display: block; font-size: 12px; color: var(--muted); margin: 10px 0 4px; }
+  input, textarea, select { width: 100%; padding: 8px 10px; border: 1px solid var(--border); border-radius: 6px; background: var(--bg); color: var(--text); font: inherit; }
+  textarea { min-height: 140px; resize: vertical; font-family: ui-monospace, Menlo, monospace; font-size: 13px; }
+  .row { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0 12px; }
+  .actions { display: flex; gap: 8px; align-items: center; margin-top: 14px; flex-wrap: wrap; }
+  button.primary { background: var(--accent); color: var(--accent-text); border: 0; padding: 8px 16px; border-radius: 6px; font: inherit; font-weight: 600; cursor: pointer; }
+  button.primary:disabled { opacity: .6; cursor: wait; }
+  button.ghost { background: none; border: 1px solid var(--border); color: var(--text); padding: 7px 12px; border-radius: 6px; font: inherit; cursor: pointer; }
+  .v2only { display: none; }
+  body.v2 .v2only { display: block; }
+  body.v2 .v1only { display: none; }
+  .status { font-size: 12px; color: var(--muted); }
+  .err { color: var(--bad); }
+  pre { background: var(--code); padding: 12px; border-radius: 6px; overflow: auto; max-height: 420px; font-size: 12px; margin: 0; white-space: pre-wrap; word-break: break-word; }
+  details { margin-top: 12px; }
+  summary { cursor: pointer; color: var(--muted); font-size: 12px; }
+  .answer { font-size: 15px; margin: 0 0 8px; }
+  .kv { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0; }
+  .pill { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 12px; background: var(--code); border: 1px solid var(--border); }
+  .pill.ok, .pill.pass { background: var(--ok-bg); color: var(--ok); border-color: transparent; }
+  .pill.fail { background: var(--bad-bg); color: var(--bad); border-color: transparent; }
+  .pill.needs_review, .pill.no_policy_found, .pill.warn { background: var(--warn-bg); color: var(--warn); border-color: transparent; }
+  .cite { border-left: 3px solid var(--border); padding: 4px 10px; margin: 8px 0; font-size: 13px; }
+  .cite .meta { font-size: 11px; color: var(--muted); }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  th { color: var(--muted); font-weight: 500; font-size: 12px; }
+  .scroll { overflow-x: auto; }
+  h3 { font-size: 13px; margin: 16px 0 6px; color: var(--muted); font-weight: 600; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Hodos RAG Tester</h1>
+  <nav id="tabs">
+    <button data-tab="policy" class="active">Policy</button>
+    <button data-tab="ask">Ask</button>
+    <button data-tab="audit">Audit</button>
+    <button data-tab="health">Health</button>
+  </nav>
+  <div class="seg" id="version">
+    <button data-v="v1" class="active">v1 simple</button>
+    <button data-v="v2">v2 probabilistic</button>
+  </div>
+</header>
+
+<main>
+  <section id="policy" class="active">
+    <div class="card">
+      <label for="p-doc">doc_id</label>
+      <input id="p-doc" class="doc-id" value="travel-policy-2026">
+      <label for="p-text">Policy text</label>
+      <textarea id="p-text">Meal expenses are limited to Rs. 1500 per day. Transport expenses via taxi are limited to Rs. 1000 per day. Lodging for L3 employees in Mumbai is capped at Rs. 6000 per night. Internet charges are waived.</textarea>
+      <div class="actions">
+        <button class="primary" id="p-go">Ingest</button>
+        <label class="ghost" style="margin:0;cursor:pointer;padding:7px 12px;border:1px solid var(--border);border-radius:6px;color:var(--text)">
+          Load .txt / .md <input type="file" id="p-file" accept=".txt,.md,text/plain" hidden>
+        </label>
+        <span class="status" id="p-status"></span>
+      </div>
+    </div>
+    <div id="p-out"></div>
+  </section>
+
+  <section id="ask">
+    <div class="card">
+      <label for="a-q">Question</label>
+      <input id="a-q" value="What is the meal cap for travel?">
+      <div class="v1only">
+        <label for="a-k">top_k</label>
+        <input id="a-k" type="number" min="1" max="20" value="4" style="max-width:120px">
+      </div>
+      <div class="v2only">
+        <div class="row">
+          <div><label for="a-doc">doc_id</label><input id="a-doc" class="doc-id" value="travel-policy-2026"></div>
+          <div><label for="a-cat">category</label><input id="a-cat" value="any"></div>
+          <div><label for="a-grade">grade</label><input id="a-grade" value="any"></div>
+          <div><label for="a-loc">location</label><input id="a-loc" value="any"></div>
+          <div><label for="a-ver">version</label><input id="a-ver" value="v1"></div>
+        </div>
+        <label style="display:flex;gap:6px;align-items:center;margin-top:12px;color:var(--text);font-size:13px">
+          <input type="checkbox" id="a-cache" checked style="width:auto"> use_cache
+        </label>
+        <label style="display:flex;gap:6px;align-items:center;margin-top:6px;color:var(--text);font-size:13px">
+          <input type="checkbox" id="a-struct" checked style="width:auto"> use_structured (exact table-row match)
+        </label>
+      </div>
+      <div class="actions">
+        <button class="primary" id="a-go">Ask</button>
+        <span class="status" id="a-status"></span>
+      </div>
+    </div>
+    <div id="a-out"></div>
+  </section>
+
+  <section id="audit">
+    <div class="card">
+      <label for="u-file">Bill (.pdf .png .jpg .jpeg .tiff .bmp)</label>
+      <input id="u-file" type="file" accept=".pdf,.png,.jpg,.jpeg,.tiff,.bmp">
+      <div class="v2only">
+        <div class="row">
+          <div><label for="u-doc">doc_id</label><input id="u-doc" class="doc-id" value="travel-policy-2026"></div>
+          <div><label for="u-grade">grade</label><input id="u-grade" value="any"></div>
+          <div><label for="u-loc">location</label><input id="u-loc" value="any"></div>
+          <div><label for="u-days">days</label><input id="u-days" type="number" min="1" value="1"></div>
+          <div><label for="u-ver">version</label><input id="u-ver" value="v1"></div>
+        </div>
+      </div>
+      <div class="actions">
+        <button class="primary" id="u-go">Audit</button>
+        <span class="status" id="u-status"></span>
+      </div>
+    </div>
+    <div id="u-out"></div>
+  </section>
+
+  <section id="health">
+    <div class="card">
+      <div class="actions" style="margin-top:0">
+        <button class="primary" id="h-go">Check health</button>
+        <span class="status" id="h-status"></span>
+      </div>
+    </div>
+    <div id="h-out"></div>
+  </section>
+</main>
+
+<script>
+const $ = (id) => document.getElementById(id);
+let version = "v1";
+const prefix = () => (version === "v2" ? "/v2" : "");
+
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const num = (n, d = 2) => (n === null || n === undefined ? "—" : typeof n === "number" ? +n.toFixed(d) : esc(n));
+const pill = (text, cls = "") => `<span class="pill ${esc(cls || text)}">${esc(text)}</span>`;
+const raw = (data) => `<details><summary>Raw JSON</summary><pre>${esc(JSON.stringify(data, null, 2))}</pre></details>`;
+
+// Tabs and version toggle
+$("tabs").addEventListener("click", (e) => {
+  const t = e.target.dataset.tab;
+  if (!t) return;
+  document.querySelectorAll("#tabs button").forEach((b) => b.classList.toggle("active", b.dataset.tab === t));
+  document.querySelectorAll("section").forEach((s) => s.classList.toggle("active", s.id === t));
+});
+$("version").addEventListener("click", (e) => {
+  const v = e.target.dataset.v;
+  if (!v) return;
+  version = v;
+  document.body.classList.toggle("v2", v === "v2");
+  document.querySelectorAll("#version button").forEach((b) => b.classList.toggle("active", b.dataset.v === v));
+});
+
+// Keep doc_id inputs in sync
+document.querySelectorAll(".doc-id").forEach((el) =>
+  el.addEventListener("input", () => document.querySelectorAll(".doc-id").forEach((o) => o !== el && (o.value = el.value)))
+);
+
+$("p-file").addEventListener("change", async (e) => {
+  const f = e.target.files[0];
+  if (f) $("p-text").value = await f.text();
+});
+
+async function call(key, path, options, render) {
+  const btn = $(`${key}-go`), status = $(`${key}-status`), out = $(`${key}-out`);
+  btn.disabled = true;
+  status.className = "status";
+  status.textContent = `${options?.method || "GET"} ${path} …`;
+  const t0 = performance.now();
+  try {
+    const res = await fetch(path, options);
+    const text = await res.text();
+    let data;
+    try { data = JSON.parse(text); } catch { data = text; }
+    const ms = Math.round(performance.now() - t0);
+    if (!res.ok) {
+      status.className = "status err";
+      status.textContent = `${res.status} ${res.statusText} · ${ms} ms`;
+      out.innerHTML = `<div class="card"><pre>${esc(typeof data === "string" ? data : JSON.stringify(data, null, 2))}</pre></div>`;
+      return;
+    }
+    status.textContent = `${res.status} · ${ms} ms`;
+    out.innerHTML = `<div class="card">${render(data)}${raw(data)}</div>`;
+  } catch (err) {
+    status.className = "status err";
+    status.textContent = `Request failed: ${err.message}`;
+    out.innerHTML = "";
+  } finally {
+    btn.disabled = false;
+  }
+}
+
+const postJSON = (body) => ({ method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) });
+
+// Policy
+$("p-go").addEventListener("click", () =>
+  call("p", `${prefix()}/policy`, postJSON({ doc_id: $("p-doc").value, text: $("p-text").value }), (d) => {
+    const keys = Object.entries(d).filter(([, v]) => typeof v !== "object" || v === null);
+    let html = `<div class="kv">${keys.map(([k, v]) => pill(`${k}: ${v}`, "x")).join("")}</div>`;
+    const sr = d.structured_rules;
+    if (sr) {
+      html += `<h3>Structured rows (${sr.rows.length} from ${sr.tables} table${sr.tables === 1 ? "" : "s"})</h3>`;
+      if (sr.rows.length) html += `<div class="scroll"><table><tr><th>Category</th><th>Grade</th><th>City tier</th><th>Rule</th><th>Cap</th><th>Unit</th><th>Ref</th></tr>${sr.rows.map((r) =>
+        `<tr><td>${esc(r.category)}</td><td>${esc(r.grade)}</td><td>${esc(r.city_tier)}</td><td>${esc(r.rule_type)}</td><td>${num(r.cap)}${r.currency ? " " + esc(r.currency) : ""}</td><td>${esc(r.unit || "—")}</td><td class="status">${esc(r.ref)}</td></tr>`).join("")}</table></div>`;
+      if (sr.skipped.length) html += `<h3>Skipped cells</h3>${sr.skipped.map((k) => `<div>${pill("skipped", "warn")} <code>${esc(k.cell)}</code> <span class="status">${esc(k.ref)} · ${esc(k.reason)}</span></div>`).join("")}`;
+      const tiers = Object.entries(sr.city_tiers || {});
+      if (tiers.length) html += `<h3>City tiers</h3><div class="kv">${tiers.map(([c, t]) => pill(`${c === "*" ? "other cities" : c}: ${t}`, "x")).join("")}</div>`;
+    }
+    return html;
+  })
+);
+
+// Ask
+function renderCitations(cites) {
+  if (!cites?.length) return "";
+  return `<h3>Citations</h3>` + cites.map((c) =>
+    `<div class="cite"><div class="meta">${esc(c.chunk_id)}${c.doc_id ? " · " + esc(c.doc_id) : ""}${c.score !== undefined ? " · score " + num(c.score, 3) : ""}</div>${esc(c.text)}</div>`
+  ).join("");
+}
+
+function renderAskV2(d) {
+  const meta = [
+    d.status && pill(d.status, d.status === "ok" ? "ok" : "warn"),
+    d.source && pill(`source: ${d.source}${d.cache_layer ? " / " + d.cache_layer : ""}`, "x"),
+    d.method && pill(`method: ${d.method}`, "x"),
+    d.rule_type && pill(`rule: ${d.rule_type}`, "x"),
+    d.limit_amount != null && pill(`limit: ${d.currency || ""} ${d.limit_amount} ${d.period || ""}`, "x"),
+    d.confidence != null && pill(`confidence: ${num(d.confidence, 3)}`, d.confidence >= 0.6 ? "ok" : "warn"),
+    d.cache_similarity != null && pill(`cache sim: ${d.cache_similarity}`, "x"),
+  ].filter(Boolean).join("");
+  let html = `<p class="answer">${esc(d.answer) || "<em>No answer</em>"}</p><div class="kv">${meta}</div>`;
+  if (d.cached_question) html += `<div class="status">Matched cached question: ${esc(d.cached_question)}</div>`;
+  if (d.table_lookup) html += `<div class="status">Table lookup: ${esc(d.table_lookup.status)} — ${esc(d.table_lookup.reason)}</div>`;
+  if (d.conditions?.length) html += `<h3>Conditions</h3><ul>${d.conditions.map((c) => `<li>${esc(typeof c === "string" ? c : JSON.stringify(c))}</li>`).join("")}</ul>`;
+  if (d.warnings?.length) html += `<h3>Warnings</h3>${d.warnings.map((w) => `<div>${pill("warn")} ${esc(w)}</div>`).join("")}`;
+  html += renderCitations(d.citations);
+  if (d.retrieval?.hops?.length) {
+    html += `<h3>Retrieval hops</h3><div class="scroll"><table><tr><th>#</th><th>Query</th><th>Details</th></tr>${d.retrieval.hops.map((h) => {
+      const { hop, query, ...rest } = h;
+      return `<tr><td>${esc(hop)}</td><td>${esc(query)}</td><td><code>${esc(JSON.stringify(rest))}</code></td></tr>`;
+    }).join("")}</table></div>`;
+  }
+  return html;
+}
+
+$("a-go").addEventListener("click", () => {
+  const body = version === "v2"
+    ? { question: $("a-q").value, doc_id: $("a-doc").value, category: $("a-cat").value, grade: $("a-grade").value,
+        location: $("a-loc").value, version: $("a-ver").value, use_cache: $("a-cache").checked,
+        use_structured: $("a-struct").checked }
+    : { question: $("a-q").value, top_k: +$("a-k").value || 4 };
+  call("a", `${prefix()}/ask`, postJSON(body), version === "v2" ? renderAskV2 : (d) =>
+    `<p class="answer">${esc(d.answer) || "<em>No answer</em>"}</p>${renderCitations(d.citations)}`);
+});
+$("a-q").addEventListener("keydown", (e) => e.key === "Enter" && $("a-go").click());
+
+// Audit
+function renderAudit(d) {
+  let html = `<div class="kv">${[
+    d.overall && pill(`overall: ${d.overall}`, d.overall),
+    pill(`vendor: ${d.vendor_guess || "—"}`, "x"),
+    pill(`date: ${d.date_guess || "—"}`, "x"),
+    ...(d.extraction_methods_used || []).map((m) => pill(m, "x")),
+  ].filter(Boolean).join("")}</div>`;
+
+  const v = d.category_verdicts || [];
+  if (v.length) {
+    const v2 = version === "v2";
+    html += `<h3>Category verdicts</h3><div class="scroll"><table><tr><th>Category</th><th>Claimed</th><th>${v2 ? "Allowed" : "Limit"}</th><th>Rule</th><th>Verdict</th>${v2 ? "<th>Confidence</th>" : ""}<th>Basis</th></tr>${v.map((c) => `
+      <tr><td>${esc(c.category)}</td><td>${num(c.claimed_total)}</td>
+      <td>${num(v2 ? (c.allowed_amount ?? c.limit_amount) : c.retrieved_limit)}${v2 && c.period ? ` <span class="status">${esc(c.period)}</span>` : ""}</td>
+      <td>${esc(c.rule_type)}</td>
+      <td>${pill(c.verdict)}${c.provisional_verdict ? ` <span class="status">(provisional ${esc(c.provisional_verdict)})</span>` : ""}</td>
+      ${v2 ? `<td>${num(c.confidence, 3)}</td>` : ""}
+      <td>${esc(v2 ? c.answer : c.citation_text)}</td></tr>`).join("")}</table></div>`;
+  }
+  if (d.line_items?.length) {
+    html += `<h3>Line items</h3><div class="scroll"><table><tr><th>Description</th><th>Category</th><th>Amount</th></tr>${d.line_items.map((i) =>
+      `<tr><td>${esc(i.description)}</td><td>${esc(i.category)}</td><td>${num(i.amount)}</td></tr>`).join("")}</table></div>`;
+  }
+  if (d.page_routes?.length) {
+    html += `<h3>Page routes</h3><div class="scroll"><table><tr><th>Page</th><th>Route</th><th>Method</th><th>P(handwritten)</th><th>OCR conf</th><th>Notes</th></tr>${d.page_routes.map((p) =>
+      `<tr><td>${esc(p.page)}</td><td>${esc(p.route)}</td><td>${esc(p.method)}</td><td>${num(p.p_handwritten, 3)}</td><td>${num(p.ocr_confidence, 1)}</td><td>${esc((p.notes || []).join("; "))}</td></tr>`).join("")}</table></div>`;
+  }
+  html += `<details><summary>Extracted text</summary><pre>${esc(d.raw_extracted_text)}</pre></details>`;
+  return html;
+}
+
+$("u-go").addEventListener("click", () => {
+  const file = $("u-file").files[0];
+  if (!file) { $("u-status").className = "status err"; $("u-status").textContent = "Pick a file first."; return; }
+  const fd = new FormData();
+  fd.append("file", file);
+  if (version === "v2") {
+    fd.append("doc_id", $("u-doc").value);
+    fd.append("grade", $("u-grade").value);
+    fd.append("location", $("u-loc").value);
+    fd.append("days", $("u-days").value || "1");
+    fd.append("version", $("u-ver").value);
+  }
+  call("u", `${prefix()}/audit`, { method: "POST", body: fd }, renderAudit);
+});
+
+// Health
+$("h-go").addEventListener("click", () =>
+  call("h", `${prefix()}/health`, undefined, (d) => {
+    const pills = [pill(d.status, d.status === "ok" ? "ok" : "warn")];
+    if (d.llm) pills.push(pill(`LLM ${d.llm.model}: ${d.llm.available ? "up" : "down"}`, d.llm.available ? "ok" : "warn"));
+    if (d.vlm) pills.push(pill(`VLM ${d.vlm.model}: ${d.vlm.available ? "up" : "down"}`, d.vlm.available ? "ok" : "warn"));
+    if (d.bill_router) pills.push(pill(`router trained: ${d.bill_router.trained}`, d.bill_router.trained ? "ok" : "warn"));
+    if (d.documents) pills.push(pill(`documents: ${d.documents.length ? d.documents.join(", ") : "none"}`, "x"));
+    return `<div class="kv">${pills.join("")}</div>`;
+  })
+);
+</script>
+</body>
+</html>

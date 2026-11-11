@@ -8,3 +8,8 @@ app/data/policies/*
 !app/data/policies/.gitkeep
 app/data/vector_store/*
 !app/data/vector_store/.gitkeep
+app/data/probabilistic/
+.env
+.venv-docling/
+eval/policies/financebench/*.pdf
+eval/cache/

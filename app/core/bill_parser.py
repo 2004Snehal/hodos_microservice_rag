@@ -53,11 +53,20 @@ class ParsedBill:
 
 
 def _guess_category(line: str) -> Optional[str]:
+    """
+    The keyword that appears EARLIEST in the line decides the category, and
+    keywords only match at the start of a word. "Taxi fare to hotel" is
+    transport (taxi comes first), not lodging; "Dinner" doesn't match the
+    lodging keyword "inn".
+    """
     lower = line.lower()
+    best_category, best_position = None, len(lower) + 1
     for category, keywords in CATEGORY_KEYWORDS.items():
-        if any(kw in lower for kw in keywords):
-            return category
-    return None
+        for kw in keywords:
+            match = re.search(rf"\b{re.escape(kw)}", lower)
+            if match and match.start() < best_position:
+                best_category, best_position = category, match.start()
+    return best_category
 
 
 def _extract_amount(line: str) -> Optional[float]:

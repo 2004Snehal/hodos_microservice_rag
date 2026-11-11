@@ -1,0 +1,71 @@
+# Hodos RAG microservice
+#
+#   docker compose up --build -d                  API + Redis + docling-serve, LLM/VLM via Ollama on the host
+#   docker compose --profile ollama up --build -d also run Ollama in a container
+#                                                 (Linux / GPU servers; set OLLAMA_URL=http://ollama:11434)
+#
+# On macOS keep Ollama on the host: containers can't use the Apple GPU, and the
+# host's ~/.ollama models are then shared by every project.
+
+services:
+  api:
+    build: .
+    image: hodos-rag:latest
+    ports:
+      - "${HODOS_PORT:-8000}:8000"
+    environment:
+      HODOS_REDIS_URL: redis://redis:6379/0
+      OLLAMA_URL: ${OLLAMA_URL:-http://host.docker.internal:11434}
+      HODOS_LLM_MODEL: ${HODOS_LLM_MODEL:-qwen3:4b}
+      HODOS_VLM_MODEL: ${HODOS_VLM_MODEL:-qwen3-vl:4b}
+      HODOS_SEMANTIC_THRESHOLD: ${HODOS_SEMANTIC_THRESHOLD:-0.85}
+      HODOS_CACHE_TTL_SECONDS: ${HODOS_CACHE_TTL_SECONDS:-604800}
+      HODOS_DOCLING_URL: ${HODOS_DOCLING_URL:-http://docling:5001}
+    extra_hosts:
+      - "host.docker.internal:host-gateway"   # needed on Linux; built in on Docker Desktop / Colima / OrbStack
+    volumes:
+      - hodos-data:/app/app/data
+    depends_on:
+      redis:
+        condition: service_healthy
+      docling:
+        condition: service_started
+    restart: unless-stopped
+
+  # Policy PDF -> markdown (layout, tables, OCR). A separate service because
+  # Docling needs torch + numpy 2; see app/core/docling_client.py.
+  docling:
+    image: quay.io/docling-project/docling-serve:v1.38.2
+    restart: unless-stopped
+
+  redis:
+    # Redis 8 ships the query engine (vector search) used by the semantic cache.
+    image: redis:8.2
+    command: ["redis-server", "--appendonly", "yes"]
+    volumes:
+      - redis-data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    restart: unless-stopped
+
+  ollama:
+    profiles: ["ollama"]
+    image: ollama/ollama:latest
+    volumes:
+      - ollama-models:/root/.ollama
+    ports:
+      - "11434:11434"
+    restart: unless-stopped
+    # GPU servers: uncomment
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices: [{ driver: nvidia, count: all, capabilities: [gpu] }]
+
+volumes:
+  hodos-data:
+  redis-data:
+  ollama-models:

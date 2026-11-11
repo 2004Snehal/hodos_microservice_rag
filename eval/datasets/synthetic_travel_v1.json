@@ -1,0 +1,392 @@
+{
+ "name": "synthetic_travel_v1",
+ "policy": "eval/policies/synthetic_travel_v1.txt",
+ "source": "hand-written 10-section travel policy used for the chunk-size study",
+ "gold_from": "the policy text",
+ "items": [
+  {
+   "id": "r00",
+   "type": "retrieval_only",
+   "question": "What is the daily meal limit in metro cities?",
+   "category": "any",
+   "evidence_phrases": [
+    "Rs. 1500 per day"
+   ]
+  },
+  {
+   "id": "r01",
+   "type": "retrieval_only",
+   "question": "Meal limit in non-metro cities?",
+   "category": "any",
+   "evidence_phrases": [
+    "Rs. 1000 per day"
+   ]
+  },
+  {
+   "id": "r02",
+   "type": "retrieval_only",
+   "question": "How much can L5 claim for meals?",
+   "category": "any",
+   "evidence_phrases": [
+    "Rs. 2500 per day"
+   ]
+  },
+  {
+   "id": "r03",
+   "type": "retrieval_only",
+   "question": "Is alcohol reimbursable?",
+   "category": "any",
+   "evidence_phrases": [
+    "Alcohol is not reimbursable"
+   ]
+  },
+  {
+   "id": "r04",
+   "type": "retrieval_only",
+   "question": "Lodging cap for L3 in metro cities?",
+   "category": "any",
+   "evidence_phrases": [
+    "Rs. 6000 per night"
+   ]
+  },
+  {
+   "id": "r05",
+   "type": "retrieval_only",
+   "question": "Hotel limit for L4 in metro?",
+   "category": "any",
+   "evidence_phrases": [
+    "Rs. 8000 per night"
+   ]
+  },
+  {
+   "id": "r06",
+   "type": "retrieval_only",
+   "question": "Allowance when staying with family instead of hotel?",
+   "category": "any",
+   "evidence_phrases": [
+    "Rs. 1200 per night"
+   ]
+  },
+  {
+   "id": "r07",
+   "type": "retrieval_only",
+   "question": "What is the cap for taxi rides?",
+   "category": "any",
+   "evidence_phrases": [
+    "Rs. 800 per trip"
+   ]
+  },
+  {
+   "id": "r08",
+   "type": "retrieval_only",
+   "question": "Are airport transfers capped?",
+   "category": "any",
+   "evidence_phrases": [
+    "Airport transfers are reimbursed at actuals"
+   ]
+  },
+  {
+   "id": "r09",
+   "type": "retrieval_only",
+   "question": "Mileage rate for personal car?",
+   "category": "any",
+   "evidence_phrases": [
+    "Rs. 12 per kilometre"
+   ]
+  },
+  {
+   "id": "r10",
+   "type": "retrieval_only",
+   "question": "Can L5 fly business class?",
+   "category": "any",
+   "evidence_phrases": [
+    "business class on flights longer than four hours"
+   ]
+  },
+  {
+   "id": "r11",
+   "type": "retrieval_only",
+   "question": "Who approves international travel and how early?",
+   "category": "any",
+   "evidence_phrases": [
+    "vice president at least 21 days"
+   ]
+  },
+  {
+   "id": "r12",
+   "type": "retrieval_only",
+   "question": "International per diem amount?",
+   "category": "any",
+   "evidence_phrases": [
+    "USD 75 per day"
+   ]
+  },
+  {
+   "id": "r13",
+   "type": "retrieval_only",
+   "question": "Are meal caps waived on long international trips?",
+   "category": "any",
+   "evidence_phrases": [
+    "waived entirely"
+   ]
+  },
+  {
+   "id": "r14",
+   "type": "retrieval_only",
+   "question": "Client entertainment limit per guest?",
+   "category": "any",
+   "evidence_phrases": [
+    "Rs. 3000 per guest"
+   ]
+  },
+  {
+   "id": "r15",
+   "type": "multi_clause",
+   "question": "Deadline for submitting claims?",
+   "category": "any",
+   "evidence_phrases": [
+    "within 30 days",
+    "after 90 days"
+   ]
+  },
+  {
+   "id": "r16",
+   "type": "retrieval_only",
+   "question": "Who approves claims above 50000?",
+   "category": "any",
+   "evidence_phrases": [
+    "finance controller"
+   ]
+  },
+  {
+   "id": "r17",
+   "type": "retrieval_only",
+   "question": "Can a department head allow going over a cap?",
+   "category": "any",
+   "evidence_phrases": [
+    "20 percent above"
+   ]
+  },
+  {
+   "id": "r18",
+   "type": "retrieval_only",
+   "question": "Are lodging caps applied during floods?",
+   "category": "any",
+   "evidence_phrases": [
+    "lodging caps are suspended"
+   ]
+  },
+  {
+   "id": "r19",
+   "type": "multi_clause",
+   "question": "Meal cap for an L3 employee travelling internationally?",
+   "category": "any",
+   "evidence_phrases": [
+    "9.3 Grade L3",
+    "USD 75 per day"
+   ]
+  },
+  {
+   "id": "r20",
+   "type": "multi_clause",
+   "question": "Can I book a hotel myself without the travel desk?",
+   "category": "any",
+   "evidence_phrases": [
+    "corporate travel desk",
+    "department head before the stay"
+   ]
+  },
+  {
+   "id": "r21",
+   "type": "multi_clause",
+   "question": "Do client dinners count against my meal limit?",
+   "category": "any",
+   "evidence_phrases": [
+    "section 8 and do not count",
+    "Rs. 3000 per guest"
+   ]
+  },
+  {
+   "id": "j00",
+   "type": "judgment",
+   "question": "What is the daily meal limit in metro cities?",
+   "category": "meal",
+   "grade": "any",
+   "location": "metro",
+   "evidence_phrases": [],
+   "expected": {
+    "rule_type": "cap",
+    "limit_amount": 1500
+   }
+  },
+  {
+   "id": "j01",
+   "type": "judgment",
+   "question": "What is the meal limit in non-metro cities?",
+   "category": "meal",
+   "grade": "any",
+   "location": "non-metro",
+   "evidence_phrases": [],
+   "expected": {
+    "rule_type": "cap",
+    "limit_amount": 1000
+   }
+  },
+  {
+   "id": "j02",
+   "type": "judgment",
+   "question": "How much can a grade L5 employee claim for meals per day?",
+   "category": "meal",
+   "grade": "L5",
+   "location": "any",
+   "evidence_phrases": [],
+   "expected": {
+    "rule_type": "cap",
+    "limit_amount": 2500
+   }
+  },
+  {
+   "id": "j03",
+   "type": "judgment",
+   "question": "What is the lodging cap for L3 in metro cities?",
+   "category": "lodging",
+   "grade": "L3",
+   "location": "metro",
+   "evidence_phrases": [],
+   "expected": {
+    "rule_type": "cap",
+    "limit_amount": 6000
+   }
+  },
+  {
+   "id": "j04",
+   "type": "judgment",
+   "question": "What is the hotel limit for L4 in metro cities?",
+   "category": "lodging",
+   "grade": "L4",
+   "location": "metro",
+   "evidence_phrases": [],
+   "expected": {
+    "rule_type": "cap",
+    "limit_amount": 8000
+   }
+  },
+  {
+   "id": "j05",
+   "type": "judgment",
+   "question": "What allowance applies when staying with family instead of a hotel?",
+   "category": "lodging",
+   "grade": "any",
+   "location": "any",
+   "evidence_phrases": [],
+   "expected": {
+    "rule_type": "cap",
+    "limit_amount": 1200
+   }
+  },
+  {
+   "id": "j06",
+   "type": "judgment",
+   "question": "What is the cap for taxi rides within the city?",
+   "category": "transport",
+   "grade": "any",
+   "location": "any",
+   "evidence_phrases": [],
+   "expected": {
+    "rule_type": "cap",
+    "limit_amount": 800
+   }
+  },
+  {
+   "id": "j07",
+   "type": "judgment",
+   "question": "What is the mileage rate for using a personal car?",
+   "category": "transport",
+   "grade": "any",
+   "location": "any",
+   "evidence_phrases": [],
+   "expected": {
+    "rule_type": "cap",
+    "limit_amount": 12
+   }
+  },
+  {
+   "id": "j08",
+   "type": "judgment",
+   "question": "What is the international per diem?",
+   "category": "meal",
+   "grade": "any",
+   "location": "international",
+   "evidence_phrases": [],
+   "expected": {
+    "rule_type": "cap",
+    "limit_amount": 75
+   }
+  },
+  {
+   "id": "j09",
+   "type": "judgment",
+   "question": "What is the client entertainment limit per guest?",
+   "category": "entertainment",
+   "grade": "any",
+   "location": "any",
+   "evidence_phrases": [],
+   "expected": {
+    "rule_type": "cap",
+    "limit_amount": 3000
+   }
+  },
+  {
+   "id": "j10",
+   "type": "judgment",
+   "question": "What is the meal cap for an L3 employee travelling internationally?",
+   "category": "meal",
+   "grade": "L3",
+   "location": "international",
+   "evidence_phrases": [],
+   "expected": {
+    "rule_type": "cap",
+    "limit_amount": 75
+   }
+  },
+  {
+   "id": "j11",
+   "type": "judgment",
+   "question": "Are meal caps applied on international business trips longer than five days?",
+   "category": "meal",
+   "grade": "any",
+   "location": "international",
+   "evidence_phrases": [],
+   "expected": {
+    "rule_type": "waived",
+    "limit_amount": null
+   }
+  },
+  {
+   "id": "j12",
+   "type": "judgment",
+   "question": "Do self-drive rental cars need approval?",
+   "category": "transport",
+   "grade": "any",
+   "location": "any",
+   "evidence_phrases": [],
+   "expected": {
+    "rule_type": "requires_preapproval",
+    "limit_amount": null
+   }
+  },
+  {
+   "id": "j13",
+   "type": "judgment",
+   "question": "Is a hotel booking made outside the travel desk allowed?",
+   "category": "lodging",
+   "grade": "any",
+   "location": "any",
+   "evidence_phrases": [],
+   "expected": {
+    "rule_type": "requires_preapproval",
+    "limit_amount": null
+   }
+  }
+ ]
+}

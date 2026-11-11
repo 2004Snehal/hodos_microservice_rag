@@ -1,0 +1,319 @@
+{
+ "name": "company_xx_travel_india_docling_tesseract",
+ "policy": "eval/policies/company_xx_travel_india.docling_tesseract.md",
+ "source": "eval/policies/company_xx_travel_india.pdf via Docling 2.143 + Tesseract OCR (eval/extract_tables_docling.py, variant docling_tesseract)",
+ "gold_from": "the PDF page images, not the OCR text",
+ "notes": [
+  "expected.limit_amount null = not checked; expected omitted = retrieval-only question (no rule_type in the pipeline's schema fits it).",
+  "Same questions and gold as company_xx_travel_india; text is Docling markdown with Tesseract OCR (97% of the Tesseract-only prose sentences kept, all 3 tables found).",
+  "Docling joins '7-' + '10' across a line break: the text says '710 days' where the PDF says 7-10 days.",
+  "Evidence phrases changed for this text: hotel_rest, own_2wheeler (table / list cells split), expense_sheet_deadline."
+ ],
+ "items": [
+  {
+   "id": "meal_company_stay",
+   "type": "single_clause",
+   "question": "What is the daily meal allowance when the company arranges the hotel?",
+   "category": "meal",
+   "evidence_phrases": [
+    "Meal Allowance of INR 1,250"
+   ],
+   "expected": {
+    "rule_type": "cap",
+    "limit_amount": 1250
+   }
+  },
+  {
+   "id": "own_stay_allowance",
+   "type": "single_clause",
+   "question": "How much daily allowance does an employee get when making their own stay arrangement?",
+   "category": "lodging",
+   "evidence_phrases": [
+    "entitled to INR 2,500"
+   ],
+   "expected": {
+    "rule_type": "cap",
+    "limit_amount": 2500
+   }
+  },
+  {
+   "id": "hotel_mumbai",
+   "type": "table_lookup",
+   "question": "What is the hotel limit per night in Mumbai for a non-senior management traveller?",
+   "category": "lodging",
+   "location": "Mumbai",
+   "evidence_phrases": [
+    "7,000"
+   ],
+   "expected": {
+    "rule_type": "cap",
+    "limit_amount": 7000
+   }
+  },
+  {
+   "id": "hotel_rest",
+   "type": "table_lookup",
+   "question": "What is the hotel limit per night in Indore, which is not a metro or top city?",
+   "category": "lodging",
+   "location": "Indore",
+   "evidence_phrases": [
+    "Rest of the cities",
+    "5,000"
+   ],
+   "expected": {
+    "rule_type": "cap",
+    "limit_amount": 5000
+   }
+  },
+  {
+   "id": "hotel_senior_mgmt",
+   "type": "single_clause",
+   "question": "What is the hotel limit for senior management travellers on domestic trips?",
+   "category": "lodging",
+   "grade": "SM",
+   "evidence_phrases": [
+    "book at actuals within reasonable limits"
+   ],
+   "expected": {
+    "rule_type": "waived",
+    "limit_amount": null
+   }
+  },
+  {
+   "id": "own_4wheeler",
+   "type": "single_clause",
+   "question": "What is the reimbursement rate per km for using my own car (4-wheeler) for official work?",
+   "category": "transport",
+   "evidence_phrases": [
+    "4-wheeler: INR 18.0/km"
+   ],
+   "expected": {
+    "rule_type": "cap",
+    "limit_amount": 18
+   }
+  },
+  {
+   "id": "own_2wheeler",
+   "type": "single_clause",
+   "question": "What is the reimbursement rate per km for a 2-wheeler used for official work?",
+   "category": "transport",
+   "evidence_phrases": [
+    "2-wheeler",
+    "INR 8.0/km"
+   ],
+   "expected": {
+    "rule_type": "cap",
+    "limit_amount": 8
+   }
+  },
+  {
+   "id": "local_conv_no_bill",
+   "type": "single_clause",
+   "question": "Up to what amount can a manager approve a local conveyance claim without bills?",
+   "category": "transport",
+   "evidence_phrases": [
+    "maximum of INR 1,000 per claim"
+   ],
+   "expected": {
+    "rule_type": "cap",
+    "limit_amount": 1000
+   }
+  },
+  {
+   "id": "local_conv_over_1000",
+   "type": "multi_clause",
+   "question": "What approval is needed for a local conveyance claim above INR 1,000 without bills?",
+   "category": "transport",
+   "evidence_phrases": [
+    "higher than INR 1,000",
+    "Manager + 1"
+   ],
+   "expected": {
+    "rule_type": "requires_preapproval",
+    "limit_amount": null
+   }
+  },
+  {
+   "id": "forex_limit",
+   "type": "single_clause",
+   "question": "How much foreign currency can be withdrawn on the corporate card for an international trip?",
+   "category": "forex",
+   "location": "international",
+   "evidence_phrases": [
+    "50,000 INR per trip"
+   ],
+   "expected": {
+    "rule_type": "cap",
+    "limit_amount": 50000
+   }
+  },
+  {
+   "id": "hotel_over_tariff",
+   "type": "multi_clause",
+   "question": "What approval is needed to book a hotel that costs more than the city tariff limit?",
+   "category": "lodging",
+   "evidence_phrases": [
+    "Prior Manager +1 Approval is required"
+   ],
+   "expected": {
+    "rule_type": "requires_preapproval",
+    "limit_amount": null
+   }
+  },
+  {
+   "id": "airport_contracted_cab",
+   "type": "single_clause",
+   "question": "Can I use a company contracted cab like BluSmart to go to the airport?",
+   "category": "transport",
+   "evidence_phrases": [
+    "limited use with prior approval"
+   ],
+   "expected": {
+    "rule_type": "requires_preapproval",
+    "limit_amount": null
+   }
+  },
+  {
+   "id": "laundry_domestic",
+   "type": "single_clause",
+   "question": "Is laundry reimbursed on a domestic trip of 10 consecutive nights?",
+   "category": "laundry",
+   "evidence_phrases": [
+    "C.8 Laundry Expenses"
+   ],
+   "expected": {
+    "rule_type": "waived",
+    "limit_amount": null
+   }
+  },
+  {
+   "id": "telephone_domestic",
+   "type": "single_clause",
+   "question": "How are official telephone and postage expenses on a domestic tour reimbursed?",
+   "category": "telephone",
+   "evidence_phrases": [
+    "postage & telephone expenses"
+   ],
+   "expected": {
+    "rule_type": "waived",
+    "limit_amount": null
+   }
+  },
+  {
+   "id": "hotel_international",
+   "type": "single_clause",
+   "question": "What is the hotel limit on international travel?",
+   "category": "lodging",
+   "location": "international",
+   "evidence_phrases": [
+    "accommodation cost will be paid at actual"
+   ],
+   "expected": {
+    "rule_type": "waived",
+    "limit_amount": null
+   }
+  },
+  {
+   "id": "intl_daily_allowance",
+   "type": "negative",
+   "question": "What is the daily meal allowance amount for international travel?",
+   "category": "meal",
+   "location": "international",
+   "evidence_phrases": [
+    "can be accessed here"
+   ],
+   "expected": {
+    "rule_type": "no_rule_found",
+    "limit_amount": null
+   }
+  },
+  {
+   "id": "laptop",
+   "type": "negative",
+   "question": "What is the reimbursement cap for buying a laptop?",
+   "category": "equipment",
+   "evidence_phrases": [],
+   "expected": {
+    "rule_type": "no_rule_found",
+    "limit_amount": null
+   }
+  },
+  {
+   "id": "short_tour_lt6h",
+   "type": "multi_clause",
+   "question": "What meal allowance is paid for a same-day short tour lasting less than 6 hours?",
+   "category": "meal",
+   "evidence_phrases": [
+    "50% of Meal Allowance"
+   ],
+   "expected": {
+    "rule_type": "cap",
+    "limit_amount": null,
+    "answer_contains": "50"
+   }
+  },
+  {
+   "id": "business_class",
+   "type": "retrieval_only",
+   "question": "When can senior management fly business class?",
+   "category": "air",
+   "evidence_phrases": [
+    "6 hours or more"
+   ]
+  },
+  {
+   "id": "domestic_flight_advance",
+   "type": "retrieval_only",
+   "question": "How many days in advance should domestic flights be booked?",
+   "category": "air",
+   "evidence_phrases": [
+    "seven"
+   ]
+  },
+  {
+   "id": "tips",
+   "type": "retrieval_only",
+   "question": "Can tips be claimed separately?",
+   "category": "meal",
+   "evidence_phrases": [
+    "no separate claims"
+   ]
+  },
+  {
+   "id": "record_retention",
+   "type": "retrieval_only",
+   "question": "How long must employees keep expense documents?",
+   "category": "other",
+   "evidence_phrases": [
+    "11 years"
+   ]
+  },
+  {
+   "id": "domestic_advance",
+   "type": "retrieval_only",
+   "question": "Is a business advance given for domestic tours?",
+   "category": "other",
+   "evidence_phrases": [
+    "no business advance given for Domestic Tours"
+   ]
+  },
+  {
+   "id": "expense_sheet_deadline",
+   "type": "retrieval_only",
+   "question": "By when must the travel expense sheet be submitted after a tour?",
+   "category": "other",
+   "evidence_phrases": [
+    "not later than"
+   ]
+  },
+  {
+   "id": "conference_per_diem",
+   "type": "multi_clause",
+   "question": "Can I claim per diem when the conference organiser pays for all meals?",
+   "category": "meal",
+   "evidence_phrases": [
+    "per diem allowances cannot be claimed"
+   ]
+  }
+ ]
+}

@@ -31,6 +31,8 @@ trips exceeding five days.
 def main():
     cache_dir = Path("/tmp/hodos_advanced_demo_cache")
     pipeline = AdvancedRagPipeline(cache_dir=cache_dir)
+    pipeline.cache.clear()  # start from a cold cache so step 2 really runs retrieval
+    print(f"cache backend: {pipeline.cache.stats()['backend']}")
 
     print("=== 1. Building RAPTOR tree for the policy document ===")
     build_result = pipeline.build_tree_for_document("travel-policy-2026", SAMPLE_POLICY)
@@ -53,19 +55,22 @@ def main():
     print(f"hops_taken: {result_1['hops_taken']}")
     print(f"final_coverage: {result_1['final_coverage']:.2f}")
 
-    print("\n=== 3. Second ask — Served from Cache ===")
-    result_2 = pipeline.ask(
-        question="what is the meal cap for L3 employees in Mumbai?",
-        doc_id="travel-policy-2026",
-        category="meal",
-        grade="L3",
-        location="Mumbai",
-        version="v1",
-        category_keywords=CATEGORY_KEYWORDS["meal"],
-    )
-    print(f"source: {result_2['source']}")
-    print(f"rule_type: {result_2['rule_type']}")
-    print(f"limit_amount: {result_2['limit_amount']}")
+    print("\n=== 3. Repeat asks — served from cache ===")
+    for label, question in [
+        ("same question", "what is the meal cap for L3 employees in Mumbai?"),
+        ("paraphrase", "what is the daily food limit for L3 in Mumbai"),
+    ]:
+        result_2 = pipeline.ask(
+            question=question,
+            doc_id="travel-policy-2026",
+            category="meal",
+            grade="L3",
+            location="Mumbai",
+            version="v1",
+            category_keywords=CATEGORY_KEYWORDS["meal"],
+        )
+        print(f"[{label}] source: {result_2['source']} via {result_2.get('cache_layer')} "
+              f"(similarity {result_2.get('cache_similarity')}) -> limit_amount: {result_2['limit_amount']}")
 
     print("\n=== 4. WAIVED category ===")
     result_3 = pipeline.ask(

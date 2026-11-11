@@ -1,0 +1,55 @@
+{
+  "name": "company_xx_travel_india_tables",
+  "source_pdf": "eval/policies/company_xx_travel_india.pdf",
+  "current_system_text": "eval/policies/company_xx_travel_india.ocr.txt",
+  "gold_from": "the PDF page images",
+  "notes": [
+    "The allowance table is printed with its grey header row BELOW the data row; the gold header is that grey row.",
+    "own_stay_allowance is its own category: it is paid instead of a hotel and includes meals, so it is neither a lodging cap nor a meal cap.",
+    "The hotel city-limits table states no unit; the gold unit per_night comes from it being a hotel tariff. A parser that skips it for 'no unit' is behaving as designed, so rules are also scored ignoring unit."
+  ],
+  "tables": [
+    {
+      "id": "daily_allowance",
+      "page": 4,
+      "rule_bearing": true,
+      "header": ["Band / Level", "Meal Allowance/ Rate (erstwhile per diem allowance)", "Own Accommodation Allowance (erstwhile per diem allowance and Inclusive of Meal Allowance)"],
+      "rows": [["All Levels", "INR 1,250", "INR 2,500"]]
+    },
+    {
+      "id": "guest_house_contacts",
+      "page": "4-5",
+      "rule_bearing": false,
+      "header": ["City", "Email", "Contact Number"],
+      "rows": [
+        ["New Delhi", "COMPANY XX.in@COMPANY XX.com", "+91 XXXXXXXXXXX"],
+        ["Bengaluru", "XXXXX@COMPANY XX.com", "+91 XXXXXXX"]
+      ]
+    },
+    {
+      "id": "hotel_city_limits",
+      "page": 5,
+      "rule_bearing": true,
+      "header": ["Type of City / Cities", "Limit for Cities (excluding taxes)"],
+      "rows": [
+        ["Metros +Top cities + Holiday destinations: (Mumbai,Pune,Kolkata,Bangalore, Hyderabad, Chennai, Delhi, Gurugram, Noida, Ahmedabad, Goa)", "INR 7,000/-"],
+        ["Rest of the cities", "INR 5,000/-"]
+      ]
+    }
+  ],
+  "rules": [
+    {"id": "meal_allowance", "category": "meal", "grade": "all", "city_tier": "all", "rule_type": "cap", "cap": 1250, "unit": "per_day", "currency": "INR"},
+    {"id": "own_stay_allowance", "category": "own_accommodation_allowance", "grade": "all", "city_tier": "all", "rule_type": "cap", "cap": 2500, "unit": "per_day", "currency": "INR"},
+    {"id": "hotel_metro", "category": "lodging", "grade": "all", "city_tier": "metro", "rule_type": "cap", "cap": 7000, "unit": "per_night", "currency": "INR"},
+    {"id": "hotel_other", "category": "lodging", "grade": "all", "city_tier": "other", "rule_type": "cap", "cap": 5000, "unit": "per_night", "currency": "INR"}
+  ],
+  "city_tiers": {
+    "metro": ["mumbai", "pune", "kolkata", "bangalore", "hyderabad", "chennai", "delhi", "gurugram", "noida", "ahmedabad", "goa"],
+    "other": ["*"]
+  },
+  "lookups": [
+    {"id": "meal_any", "category": "meal", "grade": "any", "location": "any", "expect": {"status": "hit", "cap": 1250}},
+    {"id": "lodging_mumbai", "category": "lodging", "grade": "any", "location": "Mumbai", "expect": {"status": "hit", "cap": 7000}},
+    {"id": "lodging_indore", "category": "lodging", "grade": "any", "location": "Indore", "expect": {"status": "hit", "cap": 5000}}
+  ]
+}

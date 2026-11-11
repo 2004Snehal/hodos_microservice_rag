@@ -7,6 +7,7 @@ pymupdf==1.28.2
 pytesseract==0.3.13
 pillow==10.4.0
 python-multipart==0.0.9
+pysbd==0.3.4
 
 # Optional — only used by app/advanced/raptor/ (not imported by the active
 # service). If not installed, RaptorTree falls back to clustering on raw
@@ -15,3 +16,8 @@ umap-learn==0.5.6
 
 # Used by scripts/demo.py
 requests==2.32.3
+
+# Multi-layer semantic cache (app/advanced/caching/semantic_cache.py).
+# Redis is optional at runtime; without it the cache falls back to in-memory.
+redis==8.1.0
+fastembed==0.8.1

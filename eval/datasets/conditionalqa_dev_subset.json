@@ -1,0 +1,1647 @@
+{
+ "name": "conditionalqa_dev_subset",
+ "policies": {
+  "residential-support-scheme": "eval/policies/conditionalqa/residential-support-scheme.txt",
+  "challenge-solicitors-bill": "eval/policies/conditionalqa/challenge-solicitors-bill.txt",
+  "funeral-payments": "eval/policies/conditionalqa/funeral-payments.txt",
+  "bereavement-support-payment": "eval/policies/conditionalqa/bereavement-support-payment.txt",
+  "compensation-road-property-value": "eval/policies/conditionalqa/compensation-road-property-value.txt",
+  "claim-gift-aid": "eval/policies/conditionalqa/claim-gift-aid.txt",
+  "directors-loans": "eval/policies/conditionalqa/directors-loans.txt",
+  "tax-on-shopping": "eval/policies/conditionalqa/tax-on-shopping.txt",
+  "support-for-foster-parents": "eval/policies/conditionalqa/support-for-foster-parents.txt",
+  "maternity-pay-leave": "eval/policies/conditionalqa/maternity-pay-leave.txt",
+  "running-payroll": "eval/policies/conditionalqa/running-payroll.txt",
+  "state-pension-if-you-retire-abroad": "eval/policies/conditionalqa/state-pension-if-you-retire-abroad.txt",
+  "financial-help-disabled": "eval/policies/conditionalqa/financial-help-disabled.txt",
+  "vaccine-damage-payment": "eval/policies/conditionalqa/vaccine-damage-payment.txt",
+  "vat-registration": "eval/policies/conditionalqa/vat-registration.txt"
+ },
+ "source": "ConditionalQA v1_0 dev (github.com/haitian-sun/ConditionalQA), BSD-2-Clause, research use",
+ "source_sha256": {
+  "documents.json": "1c977c1b14738b9ce1e53336c5abf3b3de34b72ee24985e7de6d8fae30856c59",
+  "dev.json": "a06cfe3e8b3ffe04f2652a2dbd912b647eb4448b724585c891539344b02fb7c7"
+ },
+ "gold_from": "ConditionalQA annotations (not verified by legal professionals, per the dataset README)",
+ "notes": [
+  "Questions are scenario + question, as ConditionalQA intends.",
+  "Answerable questions are scored on retrieval only: the pipeline's judge returns an expense rule_type, not a span/yes-no with conditions.",
+  "Amounts are in £; app.core.table_rules only reads ₹/Rs/INR/$/USD as currency."
+ ],
+ "items": [
+  {
+   "id": "dev-3",
+   "doc_id": "vaccine-damage-payment",
+   "type": "conditional",
+   "question": "As a vulnerable adult I received the Covid-19 vaccination in January 2021. Almost immediately I started to feel very unwell, and over the next few weeks the left side of my face became paralysed, almost like I had had a stroke. I am now unable to talk properly. Can I claim off the government for damage caused by the vaccine?",
+   "category": "any",
+   "evidence_phrases": [
+    "If you’re severely disabled as a result of a vaccination against certain diseases, you could get a one-off tax-free payment of £120,000. This is called a Vaccine Damage Payment.",
+    "You could get a payment if you’re severely disabled and your disability was caused by vaccination against any of the following diseases:",
+    "coronavirus (COVID-19)",
+    "Disablement is worked out as a percentage, and ‘severe disablement’ means at least 60% disabled."
+   ],
+   "cqa_answers": [
+    [
+     "yes",
+     [
+      "Disablement is worked out as a percentage, and ‘severe disablement’ means at least 60% disabled."
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "dev-7",
+   "doc_id": "financial-help-disabled",
+   "type": "unanswerable",
+   "question": "I was injured in an accident at work 6 months ago and now I am unable to work for the rest of my working life due to my injuries. What is the maximum amount of Disability Living Allowance I can claim?",
+   "category": "any",
+   "evidence_phrases": [],
+   "cqa_answers": [],
+   "expected": {
+    "rule_type": "no_rule_found",
+    "limit_amount": null
+   }
+  },
+  {
+   "id": "dev-8",
+   "doc_id": "vaccine-damage-payment",
+   "type": "conditional",
+   "question": "My uncle has  developed a serious blood clot after getting his first dose of covid vaccine which has left him severed paralysed and disabled. Is there a way he can be compensated for the damages  after this unfortunate episode?",
+   "category": "any",
+   "evidence_phrases": [
+    "If you’re severely disabled as a result of a vaccination against certain diseases, you could get a one-off tax-free payment of £120,000. This is called a Vaccine Damage Payment.",
+    "A Vaccine Damage Payment is a tax free one-off payment of £120,000.",
+    "You could get a payment if you’re severely disabled and your disability was caused by vaccination against any of the following diseases:",
+    "coronavirus (COVID-19)",
+    "Disablement is worked out as a percentage, and ‘severe disablement’ means at least 60% disabled."
+   ],
+   "cqa_answers": [
+    [
+     "yes",
+     [
+      "Disablement is worked out as a percentage, and ‘severe disablement’ means at least 60% disabled."
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "dev-12",
+   "doc_id": "support-for-foster-parents",
+   "type": "conditional",
+   "question": "I have completed a training to be an approved foster. I am getting a foster care allowance to help the cost of caring for a child. I get approximatively £12000 per annum What are my tax liability of the money I receive from foster care allowance and are there any tax relaxation ?",
+   "category": "any",
+   "evidence_phrases": [
+    "In your tax return, you’ll be able to claim:",
+    "a tax exemption of up to £10,000 per household",
+    "tax relief for every week you foster a child",
+    "In a tax year, households do not pay tax on the first £10,000 they earn from fostering. You’ll still pay tax on money you earn from a job or investment.",
+    "On top of the £10,000 exemption, you also get tax relief for every week (or part week) that a child is in your care. This means you do not have to pay tax on some of your earnings over £10,000.",
+    "Under 11 | £200 per child",
+    "11 or over | £250 per child"
+   ],
+   "cqa_answers": [
+    [
+     "in a tax year, households do not pay tax on the first £10,000 they earn from fostering.",
+     []
+    ],
+    [
+     "you also get tax relief for every week (or part week) that a child is in your care. this means you do not have to pay tax on some of your earnings over £10,000.",
+     [
+      "| Under 11 | £200 per child |",
+      "| 11 or over | £250 per child |"
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "dev-17",
+   "doc_id": "support-for-foster-parents",
+   "type": "unconditional",
+   "question": "My partner and i are foster parents to our lovely 6 years  old girl who lost her parents during iraq war. We have taken a personal intiative to acqure more skills on how to give our girl the best foster care through training . Will we be eligible for a paid leave  from work during foster care training?",
+   "category": "any",
+   "evidence_phrases": [
+    "You do not have a statutory right to time off work to care for foster children.",
+    "If you’re fostering for adoption you’ll be entitled to adoption pay and leave from when the child comes to live with you."
+   ],
+   "cqa_answers": [
+    [
+     "no",
+     []
+    ]
+   ]
+  },
+  {
+   "id": "dev-24",
+   "doc_id": "support-for-foster-parents",
+   "type": "unconditional",
+   "question": "I live in the South East and I have just taken on a 5 year old child as a foster parent. I want to know what financial support I can get from the government to help. What is the weekly allowance for my child?",
+   "category": "any",
+   "evidence_phrases": [
+    "The minimum allowance you’ll get depends on where you live and the age of the child you care for.",
+    "Age 0 to 2 | Age 3 to 4 | Age 5 to 10 | Age 11 to 15 | Age 16 to 17",
+    "South East | £149 | £153 | £169 | £193 | £226"
+   ],
+   "cqa_answers": [
+    [
+     "£169",
+     []
+    ]
+   ]
+  },
+  {
+   "id": "dev-25",
+   "doc_id": "financial-help-disabled",
+   "type": "conditional",
+   "question": "I'm 63 and I had a car accident 1 year ago while a was driving a lorry for my company on the A1. I crashed really hard and I can't walk anymore; my GP made me a prescription for some painkillers that I'm taking twice a day. I feel lucky because my nephews live not too far from here and sometimes they come and help me at home. My wife died 2 years ago, what kind of support can I get from the government?",
+   "category": "any",
+   "evidence_phrases": [
+    "Some benefits you might get are:",
+    "Universal Credit",
+    "Personal Independence Payment (PIP) or Disability Living Allowance (DLA)",
+    "Attendance Allowance",
+    "‘new style’ Employment and Support Allowance (ESA)",
+    "Depending on your circumstances, you might also be able to get:",
+    "Industrial Injuries Benefit if you’re disabled as a result of work",
+    "Personal Independence Payment (PIP) is a tax-free benefit for people aged 16 or over who have not reached State Pension age. It can help with the extra costs caused by long term ill-health or a disability.",
+    "You may be able to get ‘new style’ Employment and Support Allowance (ESA) if you cannot work because of illness or disability.",
+    "You may be entitled to get Industrial Injuries Benefit if you’re disabled as a result of:",
+    "an accident at work"
+   ],
+   "cqa_answers": [
+    [
+     "personal independence payment (pip)",
+     []
+    ],
+    [
+     "employment and support allowance (esa)",
+     [
+      "You may be able to get ‘new style’ Employment and Support Allowance (ESA) if you cannot work because of illness or disability."
+     ]
+    ],
+    [
+     "industrial injuries benefit",
+     []
+    ],
+    [
+     "universal credit",
+     []
+    ]
+   ]
+  },
+  {
+   "id": "dev-29",
+   "doc_id": "maternity-pay-leave",
+   "type": "unanswerable",
+   "question": "I'm a 35 years old woman with Chinese passport and I have a working visa sponsored by my company (I'm a IT software developer). I'm worried that I'm going to lose my job and my right to live in UK if I get pregnant and have to stop working. If I have a baby will I keep my visa even if I'm not working and I don't have British citizenship?",
+   "category": "any",
+   "evidence_phrases": [],
+   "cqa_answers": [],
+   "expected": {
+    "rule_type": "no_rule_found",
+    "limit_amount": null
+   }
+  },
+  {
+   "id": "dev-30",
+   "doc_id": "support-for-foster-parents",
+   "type": "conditional",
+   "question": "I have been fostering a 10-year old girl for six months. During a routine dental checkup, we were advised that she would benefit from orthodontic treatment due to an overcrowded jaw; part of this would involve a general anaesthetic for removal of several teeth. Am I able to sign the consent form for my foster child's general anaesthetic procedure?",
+   "category": "any",
+   "evidence_phrases": [
+    "Your foster child’s placement plan should tell you what decisions you can make, known as delegated authority.",
+    "There are 3 different levels to delegated authority:",
+    "day-to-day decisions like dental check ups, hair cuts, school trips, parent-teacher meetings and letting your child go to sleepovers",
+    "If your child’s placement plan does not tell you what level of delegated authority you have you should contact your fostering service to find out.",
+    "You may not have the right to give consent to medical treatment. Check your child placement plan to find out if you have the authority to let your foster child have:",
+    "local or general anaesthetic",
+    "surgery"
+   ],
+   "cqa_answers": [
+    [
+     "check your child placement plan to find out if you have the authority",
+     [
+      "If your child’s placement plan does not tell you what level of delegated authority you have you should contact your fostering service to find out."
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "dev-38",
+   "doc_id": "claim-gift-aid",
+   "type": "conditional",
+   "question": "I run a small, independent charity which attempts to help people struggling with their vet costs. I have several people who pay monthly by direct debit and also receive some one off donations. Am I eligible for Gift Aid?",
+   "category": "any",
+   "evidence_phrases": [
+    "You can claim back 25p every time an individual donates £1 to your charity or community amateur sports club (CASC). This is called Gift Aid.",
+    "You must be recognised as a charity or CASC for tax purposes.",
+    "The donor must:",
+    "have paid at least as much in Income Tax or Capital Gains Tax in that tax year as you want to claim in Gift Aid",
+    "make a Gift Aid declaration that gives you permission to claim it",
+    "You can claim Gift Aid on donations from individuals. The donor must:",
+    "have paid the same amount or more in Income Tax or Capital Gains Tax in that tax year",
+    "You cannot claim on donations:",
+    "made through Payroll Giving",
+    "that are a payment for goods or services or made because your charity or CASC bought goods and services",
+    "where the donor gets a ‘benefit’ over a certain limit",
+    "of shares",
+    "from charity cards or of vouchers, for example Charities Aid Foundation (CAF) vouchers"
+   ],
+   "cqa_answers": [
+    [
+     "yes",
+     [
+      "You must be recognised as a charity or CASC for tax purposes.",
+      "- have paid at least as much in Income Tax or Capital Gains Tax in that tax year as you want to claim in Gift Aid",
+      "- make a Gift Aid declaration that gives you permission to claim it"
+     ]
+    ],
+    [
+     "no",
+     [
+      "- that are a payment for goods or services or made because your charity or CASC bought goods and services",
+      "- where the donor gets a ‘benefit’ over a certain limit",
+      "- made through Payroll Giving",
+      "- of shares",
+      "- from charity cards or of vouchers, for example Charities Aid Foundation (CAF) vouchers"
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "dev-39",
+   "doc_id": "claim-gift-aid",
+   "type": "unconditional",
+   "question": "My charity often receives donations of second hand clothes and other items which we pass on to people in need. These are given as gifts and we do not accept payment for them, nor do we offer payment to the donors. Can we still claim gift aid on unpaid donations?",
+   "category": "any",
+   "evidence_phrases": [
+    "You can claim back 25p every time an individual donates £1 to your charity or community amateur sports club (CASC). This is called Gift Aid.",
+    "The donor must:",
+    "make a Gift Aid declaration that gives you permission to claim it",
+    "You can claim Gift Aid on donations from individuals. The donor must:",
+    "have paid the same amount or more in Income Tax or Capital Gains Tax in that tax year",
+    "To claim Gift Aid you need to get a Gift Aid declaration from the donor. It should state that the donor:",
+    "has paid the same amount or more in Income Tax or Capital Gains Tax in that tax year"
+   ],
+   "cqa_answers": [
+    [
+     "no",
+     []
+    ]
+   ]
+  },
+  {
+   "id": "dev-40",
+   "doc_id": "claim-gift-aid",
+   "type": "conditional",
+   "question": "I am on full time role and I am on Pay as you earn(PAYE) to pay income tax. I was approached by a charity asking permission to claim back my tax If I give permission to the charity to claim tax back, are they eligible to claim?",
+   "category": "any",
+   "evidence_phrases": [
+    "You can claim back 25p every time an individual donates £1 to your charity or community amateur sports club (CASC). This is called Gift Aid.",
+    "You must be recognised as a charity or CASC for tax purposes.",
+    "The donor must:",
+    "have paid at least as much in Income Tax or Capital Gains Tax in that tax year as you want to claim in Gift Aid",
+    "make a Gift Aid declaration that gives you permission to claim it",
+    "You can claim Gift Aid on donations from individuals. The donor must:",
+    "have paid the same amount or more in Income Tax or Capital Gains Tax in that tax year",
+    "To claim Gift Aid you need to get a Gift Aid declaration from the donor. It should state that the donor:",
+    "has paid the same amount or more in Income Tax or Capital Gains Tax in that tax year",
+    "agrees to Gift Aid being claimed"
+   ],
+   "cqa_answers": [
+    [
+     "yes",
+     [
+      "- have paid at least as much in Income Tax or Capital Gains Tax in that tax year as you want to claim in Gift Aid",
+      "- make a Gift Aid declaration that gives you permission to claim it",
+      "You must be recognised as a charity or CASC for tax purposes.",
+      "- has paid the same amount or more in Income Tax or Capital Gains Tax in that tax year"
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "dev-41",
+   "doc_id": "claim-gift-aid",
+   "type": "unconditional",
+   "question": "I have a limited company trading as a IT software consultancy. I have paid the Corporation tax for the previous tax year of my company. I want to give permission for a charity to claim gift aid on the corporation tax I paid Can a charity claim gift aid on my limited company ?",
+   "category": "any",
+   "evidence_phrases": [
+    "There are rules on which donations you can claim Gift Aid on.",
+    "The donor must:",
+    "have paid at least as much in Income Tax or Capital Gains Tax in that tax year as you want to claim in Gift Aid",
+    "You can claim Gift Aid on donations from individuals. The donor must:",
+    "have paid the same amount or more in Income Tax or Capital Gains Tax in that tax year",
+    "You cannot claim on donations:",
+    "from limited companies"
+   ],
+   "cqa_answers": [
+    [
+     "no",
+     []
+    ]
+   ]
+  },
+  {
+   "id": "dev-58",
+   "doc_id": "claim-gift-aid",
+   "type": "conditional",
+   "question": "During our parents school meeting ,the headteacher requested us to make a voluntary contributions towards Year 7 educational trip .My daughter is in Year 7 and i made a payment of £5000 to sponser the trip. Can i claim this as a gift Aid?",
+   "category": "any",
+   "evidence_phrases": [
+    "You must be recognised as a charity or CASC for tax purposes.",
+    "The donor must:",
+    "have paid at least as much in Income Tax or Capital Gains Tax in that tax year as you want to claim in Gift Aid",
+    "make a Gift Aid declaration that gives you permission to claim it",
+    "You can claim Gift Aid on donations from individuals. The donor must:",
+    "have paid the same amount or more in Income Tax or Capital Gains Tax in that tax year"
+   ],
+   "cqa_answers": [
+    [
+     "yes",
+     [
+      "You must be recognised as a charity or CASC for tax purposes.",
+      "- have paid at least as much in Income Tax or Capital Gains Tax in that tax year as you want to claim in Gift Aid",
+      "- make a Gift Aid declaration that gives you permission to claim it"
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "dev-59",
+   "doc_id": "claim-gift-aid",
+   "type": "unconditional",
+   "question": "I have recieved alot of donations and i have kept all the records for over 5 years and i would like to claim Gift Aids. Can i claim online?",
+   "category": "any",
+   "evidence_phrases": [
+    "You can claim Gift Aid using Charities Online with:",
+    "eligible software, like a database",
+    "a spreadsheet of your donations",
+    "You need to claim for a donation within 4 years of the end of the financial period you received it in. This is:"
+   ],
+   "cqa_answers": [
+    [
+     "no",
+     []
+    ]
+   ]
+  },
+  {
+   "id": "dev-95",
+   "doc_id": "running-payroll",
+   "type": "conditional",
+   "question": "I started a limited company and employed 5 employees. I registered for PAYE scheme. We were very busy and could not pay HMRC Will our account be closed ?",
+   "category": "any",
+   "evidence_phrases": [
+    "HMRC will close your PAYE scheme if you’re a new employer and you do not send a report to or pay HMRC in 120 days."
+   ],
+   "cqa_answers": [
+    [
+     "yes",
+     [
+      "HMRC will close your PAYE scheme if you’re a new employer and you do not send a report to or pay HMRC in 120 days."
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "dev-98",
+   "doc_id": "running-payroll",
+   "type": "conditional",
+   "question": "I am about to give out the first payslips to my employees. The payslips generated shows the gross pay, tax and national insurance. Is there anything else that I need to include?",
+   "category": "any",
+   "evidence_phrases": [
+    "Payslips must show:",
+    "pay before any deductions (‘gross’ wages)",
+    "deductions like tax and National Insurance",
+    "pay after deductions (‘net’ wages)",
+    "the number of hours worked, if the pay varies depending on time worked"
+   ],
+   "cqa_answers": [
+    [
+     "pay after deductions",
+     []
+    ],
+    [
+     "the number of hours worked",
+     [
+      "- the number of hours worked, if the pay varies depending on time worked"
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "dev-99",
+   "doc_id": "running-payroll",
+   "type": "unconditional",
+   "question": "I have a new employee who has a student loan. They have told me that their student loan is considered to be Plan 2. They have an annual wage of £20,000. I am looking to calculate their student loan repayment. What is the threshold for a Plan 2 student loan?",
+   "category": "any",
+   "evidence_phrases": [
+    "You’ll need to calculate and deduct how much they need to repay based on which plan they’re on. They repay:",
+    "9% of their income above £27,295 a year for Plan 2"
+   ],
+   "cqa_answers": [
+    [
+     "£27,295",
+     []
+    ]
+   ]
+  },
+  {
+   "id": "dev-100",
+   "doc_id": "running-payroll",
+   "type": "unconditional",
+   "question": "I am the managing director of an accounting firm based in Manchester. All of our current employees are salaried, with payroll being run monthly and the appropriate payments being sent to HMRC. After a particularly stressful year due to the pandemic, one of our most senior staff members has decided to take a six month leave of absence. How should I record employees who have taken a leave of absence when I submit my FPS?",
+   "category": "any",
+   "evidence_phrases": [
+    "Once your employee has started their leave of absence, put ‘Yes’ in the ‘Irregular payment pattern indicator’ in all FPS reports you send to HMRC until the employee returns."
+   ],
+   "cqa_answers": [
+    [
+     "‘yes’ in the ‘irregular payment pattern indicator’",
+     []
+    ]
+   ]
+  },
+  {
+   "id": "dev-101",
+   "doc_id": "running-payroll",
+   "type": "unconditional",
+   "question": "I own and run a small electronics startup company, spun out from a UK university. Our latest employee is a recent postgraduate who has outstanding debts to the student loan company incurred when doing his doctoral research. He is currently earning £32,000 pa. How much should I deduct from this employee's monthly salary to cover his student loan repayments?",
+   "category": "any",
+   "evidence_phrases": [
+    "You’ll need to calculate and deduct how much they need to repay based on which plan they’re on. They repay:",
+    "6% of their income above £21,000 a year for Postgraduate loans"
+   ],
+   "cqa_answers": [
+    [
+     "6% of their income above £21,000 a year",
+     []
+    ]
+   ]
+  },
+  {
+   "id": "dev-118",
+   "doc_id": "tax-on-shopping",
+   "type": "unanswerable",
+   "question": "I live in Northern Ireland. I met my cousin who is resident in Chile but has Spanish citizenship for a brief trip to Northern Ireland.  She bought a number of goods from shops and kept the receipts as she was told that she could claim the VAT at the airport.  She did not do so, however, and I have them in my possession. Can I claim the VAT back at the airport on her behalf?",
+   "category": "any",
+   "evidence_phrases": [],
+   "cqa_answers": [],
+   "expected": {
+    "rule_type": "no_rule_found",
+    "limit_amount": null
+   }
+  },
+  {
+   "id": "dev-119",
+   "doc_id": "tax-on-shopping",
+   "type": "unconditional",
+   "question": "I am the carer for my mother who is disabled and has mobility issues.  I shop on her behalf due to he disability.  I pay for the items with my debit card and she pays me back.  I have recently purchased on her behalf a mobility vehicle for which she paid me back the money.  I was charged VAT for it. Can my mother claim back the VAT paid on the mobility vehicle?",
+   "category": "any",
+   "evidence_phrases": [
+    "You do not have to pay VAT on certain goods and services if they’re just for your own use and you’re disabled or have a long-term illness.",
+    "If you’re over 60, you pay a reduced rate of VAT (5%) on certain mobility aids when you pay for them to be supplied and installed in your home.",
+    "You can get the reduced rate on:"
+   ],
+   "cqa_answers": [
+    [
+     "no",
+     []
+    ]
+   ]
+  },
+  {
+   "id": "dev-123",
+   "doc_id": "tax-on-shopping",
+   "type": "unconditional",
+   "question": "I am 65 years old. I am looking to buy grab rails, which I will have the product installed at my home. Will I be eligible for the reduced VAT rate?",
+   "category": "any",
+   "evidence_phrases": [
+    "If you’re over 60, you pay a reduced rate of VAT (5%) on certain mobility aids when you pay for them to be supplied and installed in your home.",
+    "You can get the reduced rate on:",
+    "grab rails",
+    "You do not have to order and pay for the product yourself - a friend, local council, charity or housing association can do it for you.",
+    "Your supplier should know about the reduced rate and apply it. You qualify if:",
+    "you’re over 60 when the product is supplied or installed",
+    "the product is installed - you do not get the reduced rate if you just buy it",
+    "the product is for a private home, for example your own home or one shared with friends or relatives (a residential care home does not qualify)"
+   ],
+   "cqa_answers": [
+    [
+     "yes",
+     []
+    ]
+   ]
+  },
+  {
+   "id": "dev-124",
+   "doc_id": "tax-on-shopping",
+   "type": "unconditional",
+   "question": "I want to buy some electronic products from the UK without paying VAT. I will have the products delivered directly to my factory in Japan. Will I be able to buy these products as tax-free?",
+   "category": "any",
+   "evidence_phrases": [
+    "You can only buy tax-free goods from shops in Great Britain (England, Wales and Scotland) if they’re delivered straight to an address outside the UK. Check with the retailer if they offer this service."
+   ],
+   "cqa_answers": [
+    [
+     "yes",
+     []
+    ]
+   ]
+  },
+  {
+   "id": "dev-125",
+   "doc_id": "tax-on-shopping",
+   "type": "unconditional",
+   "question": "My friend Ann is from Canada . She is was visiting the UK temporarily and won a lottery during a gambling event. She won a lot of money. Would like to know if she should inform the HMRC . Does she need to pay gambling tax?",
+   "category": "any",
+   "evidence_phrases": [
+    "Gambling operators (for example, betting shops and websites, casinos or slot machine owners) have to pay gambling duties on profits they make from gambling. Customers do not pay duty on their stake (what they bet or pay to play) or winnings."
+   ],
+   "cqa_answers": [
+    [
+     "no",
+     []
+    ]
+   ]
+  },
+  {
+   "id": "dev-126",
+   "doc_id": "tax-on-shopping",
+   "type": "unconditional",
+   "question": "My grandfather is 65 years old and physically disabled . He owns a flat and would like to install an easily accessible bath and new lighting system. For him to get a reduced VAT on the items he wishes to buy. What does he need to do to be qualify for the reduced rate?",
+   "category": "any",
+   "evidence_phrases": [
+    "Your supplier should know about the reduced rate and apply it. You qualify if:",
+    "you’re over 60 when the product is supplied or installed",
+    "the product is installed - you do not get the reduced rate if you just buy it",
+    "the product is for a private home, for example your own home or one shared with friends or relatives (a residential care home does not qualify)",
+    "You’ll need to confirm to your supplier in writing that you meet these conditions. They may give you a form, or you can sign your own declaration. Ask a relative, partner or other responsible person if you’re not able to fill it in yourself."
+   ],
+   "cqa_answers": [
+    [
+     "confirm to your supplier in writing that you meet these conditions",
+     []
+    ]
+   ]
+  },
+  {
+   "id": "dev-129",
+   "doc_id": "bereavement-support-payment",
+   "type": "conditional",
+   "question": "My husband died after an accident at work. He was only 52. I am heartbroken and now strapped for money. Do I qualify for Bereavement Support payment?",
+   "category": "any",
+   "evidence_phrases": [
+    "You may be able to get Bereavement Support Payment (BSP) if your husband, wife or civil partner died in the last 21 months.",
+    "You could be eligible if your partner either:",
+    "died because of an accident at work or a disease caused by work",
+    "When they died you must have been:",
+    "under State Pension age",
+    "living in the UK or a country that pays bereavement benefits"
+   ],
+   "cqa_answers": [
+    [
+     "yes",
+     [
+      "You may be able to get Bereavement Support Payment (BSP) if your husband, wife or civil partner died in the last 21 months.",
+      "- under State Pension age",
+      "- living in the UK or a country that pays bereavement benefits"
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "dev-130",
+   "doc_id": "bereavement-support-payment",
+   "type": "unconditional",
+   "question": "My wife died after contracting a disease to do with asbestos from her workplace. She was only 58. I need tome support urgently. What is the application process for BSP?",
+   "category": "any",
+   "evidence_phrases": [
+    "The quickest way to apply is by phone. You can also apply using a paper form.",
+    "To get a form, you can either:",
+    "download a Bereavement Support Payment form (BSP1)",
+    "contact your nearest Jobcentre Plus to get one through the post"
+   ],
+   "cqa_answers": [
+    [
+     "the quickest way to apply is by phone. you can also apply using a paper form.",
+     []
+    ],
+    [
+     "download a bereavement support payment form (bsp1)",
+     []
+    ],
+    [
+     "contact your nearest jobcentre plus to get one through the post",
+     []
+    ]
+   ]
+  },
+  {
+   "id": "dev-139",
+   "doc_id": "directors-loans",
+   "type": "unconditional",
+   "question": "Since my company is in a bit of a rough spot financially at the moment I am interested in lending it money. I will charge interest on this amount as it will be a big chunk of my personal savings. Will the interest I will be payed count as personal income for me?",
+   "category": "any",
+   "evidence_phrases": [
+    "Interest you charge your company on a loan counts as both:",
+    "personal income for you"
+   ],
+   "cqa_answers": [
+    [
+     "yes",
+     []
+    ]
+   ]
+  },
+  {
+   "id": "dev-140",
+   "doc_id": "directors-loans",
+   "type": "unconditional",
+   "question": "I am a director at the company I work at. Since I have fallen into some financial trouble after my divorce and my house catching on fire I requested a loan from my company. The board agreed and lent me £25000. I have been paying interest on this loan but at a lower rate then the official one since I am still struggling to get on my feet. Do we note the payments below the official rate in a normal way?",
+   "category": "any",
+   "evidence_phrases": [
+    "Your personal and company tax responsibilities depend on how the loan is settled. You also need to check if you have extra tax responsibilities if:",
+    "the loan was more than £10,000 (£5,000 in 2013-14)",
+    "you paid your company interest on the loan below the official rate",
+    "If you’re a shareholder and director, your company must:",
+    "record interest you pay below the official rate as company income",
+    "treat the discounted interest as a ‘benefit in kind’",
+    "You must report the interest on a personal Self Assessment tax return. You may have to pay tax on the difference between the official rate and the rate you paid."
+   ],
+   "cqa_answers": [
+    [
+     "no",
+     []
+    ]
+   ]
+  },
+  {
+   "id": "dev-141",
+   "doc_id": "bereavement-support-payment",
+   "type": "conditional",
+   "question": "My husband died during a workplace accident 2 months ago. He had payed national insurance for 15 years and I am 50 years old. Am I eligible for Bereavement Support?",
+   "category": "any",
+   "evidence_phrases": [
+    "You may be able to get Bereavement Support Payment (BSP) if your husband, wife or civil partner died in the last 21 months.",
+    "You must claim within 3 months of your partner’s death to get the full amount. You can claim up to 21 months after their death but you’ll get fewer monthly payments.",
+    "You could be eligible if your partner either:",
+    "paid National Insurance contributions for at least 25 weeks in one tax year since 6 April 1975",
+    "died because of an accident at work or a disease caused by work",
+    "When they died you must have been:",
+    "under State Pension age",
+    "living in the UK or a country that pays bereavement benefits"
+   ],
+   "cqa_answers": [
+    [
+     "yes",
+     [
+      "- living in the UK or a country that pays bereavement benefits"
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "dev-142",
+   "doc_id": "bereavement-support-payment",
+   "type": "conditional",
+   "question": "My partner and I are planning our wills and finances in the event one of us passes away. We both are planning on purchasing life insurance, but need to determine other sources of income to decide how much to buy. How much money does bereavement support provide?",
+   "category": "any",
+   "evidence_phrases": [
+    "You’ll get a first payment and then up to 18 monthly payments. There are 2 rates.",
+    "First payment | Monthly payment",
+    "Higher rate | £3,500 | £350",
+    "Lower rate | £2,500 | £100",
+    "If you get Child Benefit (or if you do not get it but are entitled to it), you’ll get the higher rate.",
+    "If you do not get Child Benefit, you’ll get the lower rate unless you were pregnant when your husband, wife or civil partner died."
+   ],
+   "cqa_answers": [
+    [
+     "£3,500",
+     [
+      "|  | First payment | Monthly payment |",
+      "| Higher rate | £3,500 | £350 |",
+      "If you get Child Benefit (or if you do not get it but are entitled to it), you’ll get the higher rate."
+     ]
+    ],
+    [
+     "£350",
+     [
+      "|  | First payment | Monthly payment |",
+      "| Higher rate | £3,500 | £350 |",
+      "If you get Child Benefit (or if you do not get it but are entitled to it), you’ll get the higher rate."
+     ]
+    ],
+    [
+     "£2,500",
+     [
+      "|  | First payment | Monthly payment |",
+      "| Lower rate | £2,500 | £100 |",
+      "If you do not get Child Benefit, you’ll get the lower rate unless you were pregnant when your husband, wife or civil partner died."
+     ]
+    ],
+    [
+     "£100",
+     [
+      "|  | First payment | Monthly payment |",
+      "| Lower rate | £2,500 | £100 |",
+      "If you do not get Child Benefit, you’ll get the lower rate unless you were pregnant when your husband, wife or civil partner died."
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "dev-143",
+   "doc_id": "funeral-payments",
+   "type": "conditional",
+   "question": "I am an eighty year old woman who was recently widowed. My husband and I were living off our state pensions and have very little in savings. I feel mortified asking for help with funeral costs but I cannot manage them myself. What sort of help is available to me for my husband's funeral?",
+   "category": "any",
+   "evidence_phrases": [
+    "You could get a Funeral Expenses Payment (also called a Funeral Payment) if you get certain benefits and need help to pay for a funeral you’re arranging.",
+    "Funeral Expenses Payment can help pay for some of the costs of the following:",
+    "burial fees for a particular plot",
+    "cremation fees, including the cost of the doctor’s certificate",
+    "travel to arrange or go to the funeral",
+    "the cost of moving the body within the UK, if it’s being moved more than 50 miles",
+    "death certificates or other documents"
+   ],
+   "cqa_answers": [
+    [
+     "burial fees for a particular plot",
+     []
+    ],
+    [
+     "cremation fees, including the cost of the doctor’s certificate",
+     []
+    ],
+    [
+     "travel to arrange or go to the funeral",
+     []
+    ],
+    [
+     "the cost of moving the body within the uk",
+     [
+      "- the cost of moving the body within the UK, if it’s being moved more than 50 miles"
+     ]
+    ],
+    [
+     "death certificates or other documents",
+     []
+    ]
+   ]
+  },
+  {
+   "id": "dev-144",
+   "doc_id": "funeral-payments",
+   "type": "conditional",
+   "question": "My mother died two days ago. She was a French citizen as am I and indicated that she wished to be laid to rest in her home town in France. I am an only child and am not able to manage the expense all by myself. She does not have any insurance. As my mother is an EU citizen, am I eligible to claim help with funeral expenses?",
+   "category": "any",
+   "evidence_phrases": [
+    "You could get a Funeral Expenses Payment (also called a Funeral Payment) if you get certain benefits and need help to pay for a funeral you’re arranging.",
+    "You can get a Funeral Expenses Payment if all of the following apply:",
+    "you get certain benefits or tax credits",
+    "you meet the rules on your relationship with the deceased",
+    "you’re arranging a funeral in the UK, the European Economic Area (EEA) or Switzerland",
+    "You (or your partner) must get one or more of the following:",
+    "Income Support",
+    "income-based Jobseeker’s Allowance",
+    "income-related Employment and Support Allowance",
+    "Pension Credit",
+    "Housing Benefit",
+    "the disability or severe disability element of Working Tax Credit",
+    "Child Tax Credit",
+    "Universal Credit",
+    "You might also be eligible if you’re getting a Support for Mortgage Interest loan.",
+    "You must be one of the following:",
+    "a close relative or close friend of the deceased"
+   ],
+   "cqa_answers": [
+    [
+     "yes",
+     [
+      "- Income Support",
+      "- income-based Jobseeker’s Allowance",
+      "- income-related Employment and Support Allowance",
+      "- Pension Credit",
+      "- Housing Benefit",
+      "- the disability or severe disability element of Working Tax Credit",
+      "- Child Tax Credit",
+      "- Universal Credit",
+      "You might also be eligible if you’re getting a Support for Mortgage Interest loan."
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "dev-145",
+   "doc_id": "funeral-payments",
+   "type": "conditional",
+   "question": "Ann lives in the UK and receives house benefits. Her husband has succumbed to cancer. She needs help to give her late husband a decent burial. Can she be eligible for funeral expenses payments?",
+   "category": "any",
+   "evidence_phrases": [
+    "You can get a Funeral Expenses Payment if all of the following apply:",
+    "you get certain benefits or tax credits",
+    "you meet the rules on your relationship with the deceased",
+    "you’re arranging a funeral in the UK, the European Economic Area (EEA) or Switzerland",
+    "You (or your partner) must get one or more of the following:",
+    "Housing Benefit",
+    "If there’s a close relative of the deceased who is not getting one of these benefits, you might not be able to claim Funeral Expenses Payment.",
+    "You must be one of the following:",
+    "the partner of the deceased when they died",
+    "You might not get a Funeral Expenses Payment if another close relative of the deceased (such as a sibling or parent) is in work."
+   ],
+   "cqa_answers": [
+    [
+     "no",
+     [
+      "If there’s a close relative of the deceased who is not getting one of these benefits, you might not be able to claim Funeral Expenses Payment.",
+      "You might not get a Funeral Expenses Payment if another close relative of the deceased (such as a sibling or parent) is in work."
+     ]
+    ],
+    [
+     "yes",
+     []
+    ]
+   ]
+  },
+  {
+   "id": "dev-146",
+   "doc_id": "funeral-payments",
+   "type": "unconditional",
+   "question": "My neighbor lives in the UK and his wife has died. He is eligible for a funeral expenses payment and wants to make a claim. Is there a service helpline he can call?",
+   "category": "any",
+   "evidence_phrases": [
+    "Claim by phone by calling the Bereavement Service helpline.",
+    "An adviser will also help you claim any other bereavement benefits you might be entitled to."
+   ],
+   "cqa_answers": [
+    [
+     "yes",
+     []
+    ]
+   ]
+  },
+  {
+   "id": "dev-148",
+   "doc_id": "directors-loans",
+   "type": "conditional",
+   "question": "My family runs a chain of grocery stores and I borrowed some money to buy a new car for my wife. Can this be classified as a director’s loan?",
+   "category": "any",
+   "evidence_phrases": [
+    "A director’s loan is when you (or other close family members) get money from your company that is not:"
+   ],
+   "cqa_answers": [
+    [
+     "yes",
+     [
+      "A director’s loan is when you (or other close family members) get money from your company that is not:"
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "dev-149",
+   "doc_id": "directors-loans",
+   "type": "unconditional",
+   "question": "I lend £30,000 cash to our family limited company last April as it was struggling during the covid pandemic. We agreed that the money will be paid back with interest. What should the company do?",
+   "category": "any",
+   "evidence_phrases": [
+    "Your company must:",
+    "pay you the interest less Income Tax at the basic rate of 20%",
+    "report and pay the Income Tax every quarter using form CT61"
+   ],
+   "cqa_answers": [
+    [
+     "pay you the interest less income tax at the basic rate of 20%",
+     []
+    ],
+    [
+     "report and pay the income tax every quarter using form ct61",
+     []
+    ]
+   ]
+  },
+  {
+   "id": "dev-158",
+   "doc_id": "challenge-solicitors-bill",
+   "type": "unconditional",
+   "question": "I have just finished going through a divorce. The situation was particularly nasty, which lead to extended paperwork and 5 meetings with the solicitor for 2 hours each. At the end of the process, the bill was £9500. I think this was more than it should have been. How can I challenge the cost of the bill?",
+   "category": "any",
+   "evidence_phrases": [
+    "You can challenge your solicitor’s bill if you think you’ve been charged too much.",
+    "Ask the Senior Courts Costs Office to make a ‘detailed assessment’ of your bill. They can reduce your bill if they agree it’s too expensive."
+   ],
+   "cqa_answers": [
+    [
+     "ask the senior courts costs office to make a ‘detailed assessment’ of your bill",
+     []
+    ]
+   ]
+  },
+  {
+   "id": "dev-159",
+   "doc_id": "challenge-solicitors-bill",
+   "type": "conditional",
+   "question": "I own a medium sized business. We recently negotiated a contract with an automotive parts supplier to supply injection moulded panels. We used a solicitor throughout the process and the final bill was £100950. This is more than we had agreed upon when I first met with the solicitor. How much would it cost to challenge the bill through an independent body?",
+   "category": "any",
+   "evidence_phrases": [
+    "Download and fill in 3 copies of Part 8 claim form (N208). You must pay £45.",
+    "Amount on your solicitor’s bill | Fee",
+    "£100,000.01 to £150,000 | £1,345",
+    "You must pay your own costs and the other party’s reasonable costs of the detailed assessment, unless:",
+    "the judge reduces your solicitor’s bill by 20% or more",
+    "there are special circumstances, for example you originally offered to settle the bill for an amount more than the final amount fixed by the court",
+    "How much you pay will depend on how much time your solicitor has spent in court - this is usually worked out from their hourly rate."
+   ],
+   "cqa_answers": [
+    [
+     "£45",
+     []
+    ],
+    [
+     "£1,345",
+     []
+    ],
+    [
+     "your own costs and the other party’s reasonable costs of the detailed assessment",
+     [
+      "- the judge reduces your solicitor’s bill by 20% or more",
+      "- there are special circumstances, for example you originally offered to settle the bill for an amount more than the final amount fixed by the court"
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "dev-166",
+   "doc_id": "residential-support-scheme",
+   "type": "unconditional",
+   "question": "I am seventeen and intend to go to University to study medicine in the next two years. I have no personal income and my parents cannot afford to fund me. I will have to stay in the cheapest digs that I can find. Can I get funding for my rental accomodation for five years?",
+   "category": "any",
+   "evidence_phrases": [
+    "You may be able to get help with the cost of term-time accommodation if you’re studying a further education course that’s far from your home.",
+    "You may be able to get help with the cost of accommodation from the Residential Bursary Fund (RBF).",
+    "You must:",
+    "be at least 16 and under 19 on 31 August 2021",
+    "Your course must:",
+    "be ‘16 to 19 funded’ (your college can confirm this)",
+    "You can get payments for a maximum of 3 years."
+   ],
+   "cqa_answers": [
+    [
+     "no",
+     []
+    ]
+   ]
+  },
+  {
+   "id": "dev-167",
+   "doc_id": "residential-support-scheme",
+   "type": "unconditional",
+   "question": "I am 35 and wish to study as a mature student, starting from next year. I will have to move from my home in order to study, and quit my job. I have a small amount of savings but not enough for my full course. Although I have savings, can I apply for any sort of financial help towards rent?",
+   "category": "any",
+   "evidence_phrases": [
+    "You may be able to get help with the cost of term-time accommodation if you’re studying a further education course that’s far from your home.",
+    "You must:",
+    "be at least 16 and under 19 on 31 August 2021"
+   ],
+   "cqa_answers": [
+    [
+     "no",
+     []
+    ]
+   ]
+  },
+  {
+   "id": "dev-172",
+   "doc_id": "residential-support-scheme",
+   "type": "conditional",
+   "question": "my son has been accepted at a college that is in London. we are too far away from London for him to commute daily and he needs housing there. can my son get residential support for his studies in London ?",
+   "category": "any",
+   "evidence_phrases": [
+    "You must:",
+    "meet the residency requirements (your college will check this)",
+    "be at least 16 and under 19 on 31 August 2021",
+    "You may be eligible if you’re 19 and either:",
+    "continuing on a course you started aged 16 to 18",
+    "have an education, health and care plan (EHCP)",
+    "Your course must:",
+    "be ‘16 to 19 funded’ (your college can confirm this)",
+    "You may be able to get help with the cost of accommodation from the Residential Support Scheme (RSS).",
+    "not be on housing benefit",
+    "have a household income of less than £30,993",
+    "be studying your first level 2 or level 3 qualification (for example 2 or more A levels, a diploma or a national vocational qualification)",
+    "be full-time at a college in England",
+    "Your course must also be more than either 15 miles or a 2 hour round trip from your home, and not available any closer than that."
+   ],
+   "cqa_answers": [
+    [
+     "yes",
+     [
+      "- be at least 16 and under 19 on 31 August 2021",
+      "- meet the residency requirements (your college will check this)",
+      "- not be on housing benefit",
+      "- have a household income of less than £30,993",
+      "- be studying your first level 2 or level 3 qualification (for example 2 or more A levels, a diploma or a national vocational qualification)",
+      "- continuing on a course you started aged 16 to 18",
+      "- have an education, health and care plan (EHCP)",
+      "- be full-time at a college in England",
+      "- be ‘16 to 19 funded’ (your college can confirm this)",
+      "Your course must also be more than either 15 miles or a 2 hour round trip from your home, and not available any closer than that."
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "dev-173",
+   "doc_id": "residential-support-scheme",
+   "type": "unconditional",
+   "question": "my daughter has received support for her accomodation at the school she is attending and her course is to last four years. how long do the college accomodation support payments last ?",
+   "category": "any",
+   "evidence_phrases": [
+    "You can get payments for a maximum of 3 years."
+   ],
+   "cqa_answers": [
+    [
+     "a maximum of 3 years",
+     []
+    ]
+   ]
+  },
+  {
+   "id": "dev-174",
+   "doc_id": "challenge-solicitors-bill",
+   "type": "unconditional",
+   "question": "I recently had a legal battle and I used a solicitor to sort things out for me. I am pretty sure he has charge me excessively and i am not happy. How do i apply to challenge his bill?",
+   "category": "any",
+   "evidence_phrases": [
+    "Download and fill in 3 copies of Part 8 claim form (N208). You must pay £45.",
+    "Send a cheque made payable to ‘HMCTS’ with all 3 copies of your completed form and a copy of your solicitor’s bill to:",
+    "You can apply to your local District Registry (a court that deals with certain High Court cases) instead if you live outside of London.",
+    "Apply to your nearest county court if the original case was dealt with by a county court and your solicitor’s bill is for £5,000 or less."
+   ],
+   "cqa_answers": [
+    [
+     "download and fill in 3 copies of part 8 claim form (n208)",
+     []
+    ],
+    [
+     "send a cheque made payable to ‘hmcts’ with all 3 copies of your completed form and a copy of your solicitor’s bill",
+     []
+    ]
+   ]
+  },
+  {
+   "id": "dev-177",
+   "doc_id": "compensation-road-property-value",
+   "type": "conditional",
+   "question": "I live near a road which has been altered and have been experiencing a lot of noise pollution from the traffic . I had plans to sell the property but even the potential buyers have withdrawn and the property value has decreased. Where can i make part 1 claim?",
+   "category": "any",
+   "evidence_phrases": [
+    "You can apply for compensation if the value of your property goes down because of pollution or disturbance from the use of a new or altered road.",
+    "This is known as a ‘Part I claim’.",
+    "You usually need to make your claim to the authority responsible for the road - this is:",
+    "your local council for local roads",
+    "Highways England for major roads, including motorways and some A roads",
+    "You need to make your claim to Connect Plus if it’s for M25 widening at:",
+    "junctions 16 to 23",
+    "junctions 27 to 30"
+   ],
+   "cqa_answers": [
+    [
+     "your local council",
+     [
+      "- your local council for local roads"
+     ]
+    ],
+    [
+     "highways england",
+     [
+      "- Highways England for major roads, including motorways and some A roads"
+     ]
+    ],
+    [
+     "connect plus",
+     [
+      "You need to make your claim to Connect Plus if it’s for M25 widening at:",
+      "- junctions 16 to 23",
+      "- junctions 27 to 30"
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "dev-178",
+   "doc_id": "compensation-road-property-value",
+   "type": "conditional",
+   "question": "My agricultural land has become polluted due to the new road built next to it, where lots of heavy lorries drive past each day. Can I make a part 1 claim for agricultural land?",
+   "category": "any",
+   "evidence_phrases": [
+    "You can apply for compensation if the value of your property goes down because of pollution or disturbance from the use of a new or altered road.",
+    "The value of your property must have gone down by more than £50 as the result of specific types of pollution or disturbance from the use of a new or altered road.",
+    "You can only make a Part I claim because of:",
+    "smell",
+    "fumes",
+    "smoke",
+    "solid or liquid discharge on to your property",
+    "You must own the property both:",
+    "before the road opened to traffic",
+    "when you make your claim"
+   ],
+   "cqa_answers": [
+    [
+     "yes",
+     [
+      "The value of your property must have gone down by more than £50 as the result of specific types of pollution or disturbance from the use of a new or altered road.",
+      "- before the road opened to traffic",
+      "- when you make your claim"
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "dev-186",
+   "doc_id": "compensation-road-property-value",
+   "type": "conditional",
+   "question": "A new road has been built near my house. At first we didn't worry too much but now we realise it has made our house harder to sell. Who do I make a claim for compensation to?",
+   "category": "any",
+   "evidence_phrases": [
+    "You can apply for compensation if the value of your property goes down because of pollution or disturbance from the use of a new or altered road.",
+    "You usually need to make your claim to the authority responsible for the road - this is:",
+    "your local council for local roads",
+    "Highways England for major roads, including motorways and some A roads",
+    "You need to make your claim to Connect Plus if it’s for M25 widening at:",
+    "junctions 16 to 23",
+    "junctions 27 to 30"
+   ],
+   "cqa_answers": [
+    [
+     "your local council",
+     [
+      "- your local council for local roads"
+     ]
+    ],
+    [
+     "highways england",
+     [
+      "- Highways England for major roads, including motorways and some A roads"
+     ]
+    ],
+    [
+     "connect plus",
+     [
+      "You need to make your claim to Connect Plus if it’s for M25 widening at:",
+      "- junctions 16 to 23",
+      "- junctions 27 to 30"
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "dev-187",
+   "doc_id": "compensation-road-property-value",
+   "type": "conditional",
+   "question": "A road next to my property has recently been expanded and many heavy trucks are now using the rout. I'm not happy as i have asthma and it's affecting my health. Do I have a right to compensation?",
+   "category": "any",
+   "evidence_phrases": [
+    "You can claim after a road’s been open to traffic for 1 year.",
+    "The value of your property must have gone down by more than £50 as the result of specific types of pollution or disturbance from the use of a new or altered road.",
+    "You can only make a Part I claim because of:",
+    "smell",
+    "fumes",
+    "smoke",
+    "You can usually only claim for property you own and occupy.",
+    "You must own the property both:",
+    "before the road opened to traffic",
+    "when you make your claim",
+    "You must also be able to prove you own 1 of the following:",
+    "the property’s freehold",
+    "the property’s leasehold, with at least 3 years left to run on your lease on the date you make your claim"
+   ],
+   "cqa_answers": [
+    [
+     "yes",
+     [
+      "You can claim after a road’s been open to traffic for 1 year.",
+      "The value of your property must have gone down by more than £50 as the result of specific types of pollution or disturbance from the use of a new or altered road.",
+      "- before the road opened to traffic",
+      "- when you make your claim",
+      "- the property’s freehold",
+      "- the property’s leasehold, with at least 3 years left to run on your lease on the date you make your claim"
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "dev-204",
+   "doc_id": "vat-registration",
+   "type": "unconditional",
+   "question": "I am a 54 year old who owns a company in Newcastle, my taxable turnover is around £76,000 each year down from £120,000 5 years ago. Can I opt out of VAT?",
+   "category": "any",
+   "evidence_phrases": [
+    "You must register your business for VAT with HM Revenue and Customs (HMRC) if its VAT taxable turnover is more than £85,000.",
+    "You can register voluntarily if your turnover is less than £85,000, unless everything you sell is exempt. You’ll have certain responsibilities if you register for VAT.",
+    "You can ask HM Revenue and Customs (HMRC) to cancel your registration if your VAT taxable turnover falls below the deregistration threshold of £83,000."
+   ],
+   "cqa_answers": [
+    [
+     "yes",
+     []
+    ]
+   ]
+  },
+  {
+   "id": "dev-205",
+   "doc_id": "vat-registration",
+   "type": "conditional",
+   "question": "I am a 53 year old from Essex, I have recently liquidised a lot of my business which takes me above the VAT threshold for this tax year. I expect a VAT turnover of £50,000 per annum. Does this make me exempt?",
+   "category": "any",
+   "evidence_phrases": [
+    "You must register your business for VAT with HM Revenue and Customs (HMRC) if its VAT taxable turnover is more than £85,000.",
+    "You must register for VAT if your VAT taxable turnover goes over £85,000 (the ‘threshold’), or you know that it will. Your VAT taxable turnover is the total of everything sold that is not VAT exempt.",
+    "You can apply for a registration ‘exception’ if your taxable turnover goes over the threshold temporarily.",
+    "Write to HMRC with evidence showing why you believe your VAT taxable turnover will not go over the deregistration threshold of £83,000 in the next 12 months.",
+    "HMRC will consider your exception and write confirming if you get one. If not, they’ll register you for VAT."
+   ],
+   "cqa_answers": [
+    [
+     "yes",
+     [
+      "Write to HMRC with evidence showing why you believe your VAT taxable turnover will not go over the deregistration threshold of £83,000 in the next 12 months.",
+      "HMRC will consider your exception and write confirming if you get one. If not, they’ll register you for VAT."
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "dev-206",
+   "doc_id": "vat-registration",
+   "type": "unconditional",
+   "question": "I have a small business manufacturing and selling high quality cured meats in Northern Ireland. We sell all around the world, including to the EU. What prefix do I need to put in front of my VAT number for EU sales?",
+   "category": "any",
+   "evidence_phrases": [
+    "When you register, you’ll be sent a VAT registration certificate. This confirms:",
+    "your VAT number",
+    "If you’re a VAT-registered business, you need to tell HMRC if any of the following apply:",
+    "your goods are located in Northern Ireland at the time of sale",
+    "you sell or move goods from Northern Ireland to an EU country",
+    "When you are trading with the EU and sell goods in Northern Ireland, you’ll need to:",
+    "put an ‘XI’ prefix in front of your VAT number when communicating with an EU customer or supplier (your invoices will show XI in front of your VAT number - for example, XI 123456789 - instead of GB)"
+   ],
+   "cqa_answers": [
+    [
+     "xi",
+     []
+    ]
+   ]
+  },
+  {
+   "id": "dev-207",
+   "doc_id": "vat-registration",
+   "type": "conditional",
+   "question": "I have a business renting out construction tools like cement mixers and whacker plates. I have just registered for VAT as my turnover has now gone over the £85,000 threshold. How far can I backdate claims for VAT on tools I have purchased previously?",
+   "category": "any",
+   "evidence_phrases": [
+    "You must register your business for VAT with HM Revenue and Customs (HMRC) if its VAT taxable turnover is more than £85,000.",
+    "There’s a time limit for backdating claims for VAT paid before registration. From your date of registration the time limit is:",
+    "4 years for goods you still have, or that were used to make other goods you still have",
+    "6 months for services",
+    "You can only reclaim VAT on purchases for the business now registered for VAT. They must relate to your ‘business purpose’. This means they must relate to VAT taxable goods or services that you supply."
+   ],
+   "cqa_answers": [
+    [
+     "4 years",
+     [
+      "- 4 years for goods you still have, or that were used to make other goods you still have"
+     ]
+    ],
+    [
+     "6 months",
+     [
+      "- 6 months for services"
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "dev-208",
+   "doc_id": "vat-registration",
+   "type": "unconditional",
+   "question": "I live in Kent and run a small retail business selling bicycles and their parts and accessories to the general public. I am not currently VAT registered, but my turnover is approaching the threshold for registration. This figure, however, includes mail order sales to customers outside the UK, which I believe are currently zero-rated in VAT terms. Do sales of zero-rated items count towards the threshold when calculating my turnover for a given twelve month period?",
+   "category": "any",
+   "evidence_phrases": [
+    "You must register for VAT if your VAT taxable turnover goes over £85,000 (the ‘threshold’), or you know that it will. Your VAT taxable turnover is the total of everything sold that is not VAT exempt.",
+    "VAT taxable turnover is the total value of everything you sell that is not exempt from VAT.",
+    "Include any zero-rated items - only exclude VAT-exempt sales, and goods or services you supply outside of the UK."
+   ],
+   "cqa_answers": [
+    [
+     "no",
+     []
+    ]
+   ]
+  },
+  {
+   "id": "dev-217",
+   "doc_id": "vat-registration",
+   "type": "conditional",
+   "question": "I run a salon business and i collect £ 30,000 per year.My business turn over is less than vatable threshold of �85,000 Do i need VAT registration?",
+   "category": "any",
+   "evidence_phrases": [
+    "You must register your business for VAT with HM Revenue and Customs (HMRC) if its VAT taxable turnover is more than £85,000.",
+    "You can register voluntarily if your turnover is less than £85,000, unless everything you sell is exempt. You’ll have certain responsibilities if you register for VAT.",
+    "You must register for VAT if your VAT taxable turnover goes over £85,000 (the ‘threshold’), or you know that it will. Your VAT taxable turnover is the total of everything sold that is not VAT exempt.",
+    "You must register if you realise that your total VAT taxable turnover is going to be more than £85,000 in the next 30-day period.",
+    "You must register if, by the end of any month, your total VAT taxable turnover for the last 12 months was over £85,000.",
+    "You’ll need to register if you only sell goods or services that are exempt from VAT or ‘out of scope’ but you buy goods for more than £85,000 from EU VAT-registered suppliers to use in your business.",
+    "If you take over a VAT-registered business",
+    "You may have to register for VAT.",
+    "There’s no threshold if neither you nor your business is based in the UK. You must register as soon as you supply any goods and services to the UK (or if you expect to in the next 30 days).",
+    "You can register voluntarily if your business turnover is below £85,000. You must pay HMRC any VAT you owe from the date they register you."
+   ],
+   "cqa_answers": [
+    [
+     "no",
+     []
+    ],
+    [
+     "yes",
+     [
+      "You must register if you realise that your total VAT taxable turnover is going to be more than £85,000 in the next 30-day period.",
+      "You’ll need to register if you only sell goods or services that are exempt from VAT or ‘out of scope’ but you buy goods for more than £85,000 from EU VAT-registered suppliers to use in your business.",
+      "### If you take over a VAT-registered business",
+      "There’s no threshold if neither you nor your business is based in the UK. You must register as soon as you supply any goods and services to the UK (or if you expect to in the next 30 days)."
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "dev-232",
+   "doc_id": "state-pension-if-you-retire-abroad",
+   "type": "unconditional",
+   "question": "I am a UK citizen but I live in Canada. I have been paying the National insurance to the UK and now I am in my state pension year. I would prefer my to be paid in my overseas bank. Which are the bank accounts where pension can be paid?",
+   "category": "any",
+   "evidence_phrases": [
+    "Your State Pension can be paid into:",
+    "a bank in the country you’re living in",
+    "You can use:",
+    "an account in your name",
+    "a joint account"
+   ],
+   "cqa_answers": [
+    [
+     "an account in your name",
+     []
+    ],
+    [
+     "a joint account",
+     []
+    ]
+   ]
+  },
+  {
+   "id": "dev-233",
+   "doc_id": "state-pension-if-you-retire-abroad",
+   "type": "conditional",
+   "question": "I am British National but I live in South Africa. I paid National insurance throughout all my working period in the UK.I have reached my state pension age and I want all my money to be paid in the South African Bank. Which country should I pay my pension tax to?",
+   "category": "any",
+   "evidence_phrases": [
+    "You may have to pay UK tax on your State Pension if you live abroad but are classed as a UK resident for tax purposes. The amount you pay depends on your income.",
+    "You may be taxed on your State Pension by the UK and the country where you live. \nIf you pay tax twice, you can usually claim tax relief to get all or some of it back.",
+    "If the country you live in has a ‘double taxation agreement’ with the UK, you’ll only pay tax on your pension once. This may be to the UK or the country where you live, depending on that country’s tax agreement."
+   ],
+   "cqa_answers": [
+    [
+     "uk",
+     [
+      "You may have to pay UK tax on your State Pension if you live abroad but are classed as a UK resident for tax purposes. The amount you pay depends on your income.",
+      "You may be taxed on your State Pension by the UK and the country where you live. \nIf you pay tax twice, you can usually claim tax relief to get all or some of it back.",
+      "If the country you live in has a ‘double taxation agreement’ with the UK, you’ll only pay tax on your pension once. This may be to the UK or the country where you live, depending on that country’s tax agreement."
+     ]
+    ],
+    [
+     "the country you live in",
+     [
+      "You may be taxed on your State Pension by the UK and the country where you live. \nIf you pay tax twice, you can usually claim tax relief to get all or some of it back.",
+      "If the country you live in has a ‘double taxation agreement’ with the UK, you’ll only pay tax on your pension once. This may be to the UK or the country where you live, depending on that country’s tax agreement."
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "dev-234",
+   "doc_id": "state-pension-if-you-retire-abroad",
+   "type": "unconditional",
+   "question": "I am 65 and have been living in Spain since I retired early three years ago. I am now eligible for the state pension in the UK. I am not employed here in Spain. How can claim a state pension in Spain?",
+   "category": "any",
+   "evidence_phrases": [
+    "To claim your pension, you can either:",
+    "contact the International Pension Centre",
+    "send the international claim form to the International Pension Centre (the address is on the form)"
+   ],
+   "cqa_answers": [
+    [
+     "contact the international pension centre",
+     []
+    ],
+    [
+     "send the international claim form to the international pension centre",
+     []
+    ]
+   ]
+  },
+  {
+   "id": "dev-235",
+   "doc_id": "state-pension-if-you-retire-abroad",
+   "type": "unconditional",
+   "question": "My husband and I are in in our early seventies and are in receipt of a UK state pension. We have been offered the opportunity to live in the US for four months of the year for the next two years. Can we continue to claim our state pensions if we are in the US?",
+   "category": "any",
+   "evidence_phrases": [
+    "You can claim State Pension abroad if you’ve paid enough UK National Insurance  contributions to qualify.",
+    "You must choose which country you want your pension to be paid in. You cannot be paid in one country for part of the year and another for the rest of the year."
+   ],
+   "cqa_answers": [
+    [
+     "yes",
+     []
+    ]
+   ]
+  },
+  {
+   "id": "dev-236",
+   "doc_id": "state-pension-if-you-retire-abroad",
+   "type": "unconditional",
+   "question": "I am a UK citizen but I live abroad.I have reached my state pension age . I want my state pension to be paid to the bank account in the country I am living in. Will that be possible to pay through my overseas bank account?",
+   "category": "any",
+   "evidence_phrases": [
+    "You can claim State Pension abroad if you’ve paid enough UK National Insurance  contributions to qualify.",
+    "Your State Pension can be paid into:",
+    "a bank in the country you’re living in"
+   ],
+   "cqa_answers": [
+    [
+     "yes",
+     []
+    ]
+   ]
+  },
+  {
+   "id": "dev-237",
+   "doc_id": "state-pension-if-you-retire-abroad",
+   "type": "unanswerable",
+   "question": "I am a British National but I live in Romania.I have received my state pension but I have found that I am been double taxed by both countries. I want to claim tax relief or my money back. Does Romania has double taxation agreement with the UK?",
+   "category": "any",
+   "evidence_phrases": [],
+   "cqa_answers": [],
+   "expected": {
+    "rule_type": "no_rule_found",
+    "limit_amount": null
+   }
+  },
+  {
+   "id": "dev-260",
+   "doc_id": "vaccine-damage-payment",
+   "type": "unconditional",
+   "question": "My uncle has developed a serious blood clot after getting his first dose of covid vaccine which has left him severed paralysed and disabled. My uncle is considered to be severely disabled. Is there a way he can be compensated for the damages  after this unfortunate episode?",
+   "category": "any",
+   "evidence_phrases": [
+    "Disablement is worked out as a percentage, and ‘severe disablement’ means at least 60% disabled."
+   ],
+   "cqa_answers": [
+    [
+     "yes",
+     []
+    ]
+   ]
+  },
+  {
+   "id": "dev-261",
+   "doc_id": "maternity-pay-leave",
+   "type": "unconditional",
+   "question": "I work as a full-time employee at a company in the UK, and am currently expecting my second child. Complications with my first pregnancy resulted in my son being born three weeks premature, and I am concerned that the problem may recur. I am going to be off due to pregnancy sickness three weeks before my maternity leave. How long before my due date can I start my Statutory Maternity Leave?",
+   "category": "any",
+   "evidence_phrases": [
+    "Leave will also start:",
+    "automatically if you’re off work for a pregnancy-related illness in the 4 weeks before the week (Sunday to Saturday) that your baby is due"
+   ],
+   "cqa_answers": [
+    [
+     "automatically",
+     []
+    ]
+   ]
+  },
+  {
+   "id": "dev-267",
+   "doc_id": "running-payroll",
+   "type": "unconditional",
+   "question": "I started a limited company and employed 5 employees. I registered for the PAYE scheme. We were very busy and I was not able to find time to pay HMRC in the past 5 months. Will our account be closed ?",
+   "category": "any",
+   "evidence_phrases": [
+    "HMRC will close your PAYE scheme if you’re a new employer and you do not send a report to or pay HMRC in 120 days."
+   ],
+   "cqa_answers": [
+    [
+     "yes",
+     []
+    ]
+   ]
+  },
+  {
+   "id": "dev-270",
+   "doc_id": "financial-help-disabled",
+   "type": "unconditional",
+   "question": "I'm 63 and I had a car accident 1 year ago while a was driving a lorry for my company on the A1. I crashed really hard and I can't walk anymore; my GP made me a prescription for some painkillers that I'm taking twice a day. I feel lucky because my nephews live not too far from here and sometimes they come and help me at home. I am not able to work because of the illness My wife died 2 years ago, what kind of support can I get from the government?",
+   "category": "any",
+   "evidence_phrases": [
+    "Some benefits you might get are:",
+    "Universal Credit",
+    "Personal Independence Payment (PIP) or Disability Living Allowance (DLA)",
+    "Attendance Allowance",
+    "‘new style’ Employment and Support Allowance (ESA)",
+    "Depending on your circumstances, you might also be able to get:",
+    "Industrial Injuries Benefit if you’re disabled as a result of work",
+    "Personal Independence Payment (PIP) is a tax-free benefit for people aged 16 or over who have not reached State Pension age. It can help with the extra costs caused by long term ill-health or a disability.",
+    "You may be able to get ‘new style’ Employment and Support Allowance (ESA) if you cannot work because of illness or disability.",
+    "You may be entitled to get Industrial Injuries Benefit if you’re disabled as a result of:",
+    "an accident at work"
+   ],
+   "cqa_answers": [
+    [
+     "personal independence payment (pip)",
+     []
+    ],
+    [
+     "employment and support allowance (esa)",
+     []
+    ],
+    [
+     "industrial injuries benefit",
+     []
+    ],
+    [
+     "universal credit",
+     []
+    ]
+   ]
+  },
+  {
+   "id": "dev-271",
+   "doc_id": "running-payroll",
+   "type": "unconditional",
+   "question": "I am about to give out the first payslips to my employees, who are paid according to the number of hours they have worked. The payslips generated show the gross pay, tax and national insurance. Is there anything else that I need to include?",
+   "category": "any",
+   "evidence_phrases": [
+    "Payslips must show:",
+    "pay before any deductions (‘gross’ wages)",
+    "deductions like tax and National Insurance",
+    "pay after deductions (‘net’ wages)",
+    "the number of hours worked, if the pay varies depending on time worked"
+   ],
+   "cqa_answers": [
+    [
+     "pay after deductions",
+     []
+    ],
+    [
+     "the number of hours worked",
+     []
+    ]
+   ]
+  },
+  {
+   "id": "dev-273",
+   "doc_id": "vat-registration",
+   "type": "unconditional",
+   "question": "I have a business renting out construction tools like cement mixers and whacker plates. I have just registered for VAT as my turnover has now gone over the £85,000 threshold. I am interested in claiming VAT on tool purchased about 2 years ago that are still in my possession. How far can I backdate claims for VAT on tools I have purchased previously and I still own?",
+   "category": "any",
+   "evidence_phrases": [
+    "There’s a time limit for backdating claims for VAT paid before registration. From your date of registration the time limit is:",
+    "4 years for goods you still have, or that were used to make other goods you still have"
+   ],
+   "cqa_answers": [
+    [
+     "4 years",
+     []
+    ]
+   ]
+  },
+  {
+   "id": "dev-274",
+   "doc_id": "vat-registration",
+   "type": "unconditional",
+   "question": "I have a business renting out construction tools like cement mixers and whacker plates. I have just registered for VAT as my turnover has now gone over the £85,000 threshold. I am interested in claiming VAT on services I have payed for around 3 months ago. How far can I backdate claims for VAT on services I have payed for previously?",
+   "category": "any",
+   "evidence_phrases": [
+    "There’s a time limit for backdating claims for VAT paid before registration. From your date of registration the time limit is:",
+    "6 months for services"
+   ],
+   "cqa_answers": [
+    [
+     "6 months",
+     []
+    ]
+   ]
+  }
+ ]
+}

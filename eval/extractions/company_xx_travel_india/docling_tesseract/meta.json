@@ -1,0 +1,8 @@
+{
+ "system": "docling_tesseract",
+ "docling_version": "2.143.0",
+ "seconds": 17.6,
+ "ocr_engine": "TesseractCliOcrOptions",
+ "table_mode": "TableFormerMode.ACCURATE",
+ "pdf": "eval/policies/company_xx_travel_india.pdf"
+}
