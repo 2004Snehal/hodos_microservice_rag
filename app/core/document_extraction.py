@@ -1,46 +1,28 @@
 """
-document_extraction.py — ACTIVE, real document ingestion (PDF or image -> text).
+document_extraction.py — Document ingestion (PDF or image -> text), with
+handwritten/printed routing.
 
-WHY THIS EXISTS
-The original design (see docs/ARCHITECTURE.md) called for a handwriting
-classifier routing between OCR and a vision-language model. Neither of those
-can actually run in a locked-down/offline environment: a handwriting
-classifier and a VLLM both need model weights pulled from somewhere like
-Hugging Face, which most sandboxed or air-gapped deployments won't have
-network access to (this one doesn't, for example — see the note in
-docs/ARCHITECTURE.md). Rather than ship something that only works if you
-happen to have that access, this module uses a genuinely offline-capable
-heuristic instead of an ML classifier:
+ROUTING, per page
+  1. PDF page with a usable text layer -> "direct_text". Born-digital bills
+     need no model at all; this check always runs first.
+  2. Otherwise the page is an image (photo, scan, image-only PDF). The CNN
+     router (app/core/bill_router/) estimates P(handwritten):
+       handwritten -> VLM (app/llm/vlm.py), if one is installed;
+                      else Tesseract, with a note that it's unreliable here
+       printed     -> Tesseract; escalated to the VLM if Tesseract's mean
+                      word confidence is below OCR_MIN_CONFIDENCE
+       uncertain   -> same as printed
+     If the router's weights are missing, every image page is treated as
+     "uncertain".
 
-    Does this PDF page have an extractable text layer?
-      YES -> it's a born-digital PDF (or a digitally-produced bill/invoice) —
-             pull the text directly. Fast, perfect accuracy, no OCR needed.
-      NO  -> it's scanned/image-only (or a plain image file) — rasterize the
-             page and run Tesseract OCR on the pixels.
-
-This is not a compromise unique to this project — checking for a text layer
-before deciding whether to OCR at all is a completely standard first step in
-real document-processing pipelines, independent of whether a fancier
-handwriting-vs-printed classifier sits downstream of it. It doesn't
-distinguish handwritten from printed text the way the original design's
-classifier would — it distinguishes "this page already has machine-readable
-text" from "this page is just an image," which is the more fundamental
-question and the one that actually decides whether OCR is needed at all.
-
-WHAT THIS DOES NOT DO
-It does not tell you whether an image-only page is handwritten vs. printed —
-Tesseract runs on it either way. Tesseract's accuracy on genuinely messy
-handwriting is poor (it's an OCR engine designed for printed/typed text); if
-you need real handwriting recognition, that's exactly the kind of task a
-VLLM was originally meant to handle, and doing that for real requires either
-network access to a hosted VLLM API or a locally-downloaded open model —
-neither of which this module assumes you have. This is the honest
-limitation being traded for "runs fully offline, no model download."
+Each page records the route, P(handwritten), the OCR confidence and any
+notes, so callers (the /audit endpoints) can show why a page was read the
+way it was.
 """
 
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from pathlib import Path
-from typing import List
+from typing import List, Optional
 
 import pytesseract
 from PIL import Image
@@ -60,12 +42,46 @@ MIN_CHARS_FOR_DIGITAL_PAGE = 20
 # the cost of speed; 300 is a common default for OCR pipelines.
 OCR_RASTER_DPI = 300
 
+# Mean Tesseract word confidence (0-100) below which a printed/uncertain
+# page is re-read by the VLM, when one is available.
+OCR_MIN_CONFIDENCE = 60
+
+_router = None
+_vlm = None
+
+
+def _get_router():
+    global _router
+    if _router is None:
+        from app.core.bill_router.router import HandwritingRouter
+        _router = HandwritingRouter()
+    return _router
+
+
+def _get_vlm():
+    global _vlm
+    if _vlm is None:
+        from app.llm.vlm import OllamaVLM
+        _vlm = OllamaVLM()
+    return _vlm
+
 
 @dataclass
 class PageExtraction:
     page_number: int
-    method: str  # "direct_text" | "ocr"
+    method: str  # "direct_text" | "ocr" | "vlm"
     text: str
+    route: str = "digital"  # "digital" | "printed" | "handwritten" | "uncertain"
+    p_handwritten: Optional[float] = None
+    ocr_confidence: Optional[float] = None
+    notes: List[str] = field(default_factory=list)
+
+    def summary(self) -> dict:
+        return {
+            "page": self.page_number, "route": self.route, "method": self.method,
+            "p_handwritten": self.p_handwritten, "ocr_confidence": self.ocr_confidence,
+            "notes": self.notes,
+        }
 
 
 @dataclass
@@ -80,6 +96,51 @@ class DocumentExtraction:
     @property
     def methods_used(self) -> List[str]:
         return sorted({p.method for p in self.pages})
+
+    @property
+    def page_routes(self) -> List[dict]:
+        return [p.summary() for p in self.pages]
+
+
+def _ocr(img: Image.Image):
+    """Tesseract text plus mean word confidence (0-100)."""
+    text = pytesseract.image_to_string(img).strip()
+    data = pytesseract.image_to_data(img, output_type=pytesseract.Output.DICT)
+    confs = [float(c) for c, w in zip(data["conf"], data["text"]) if float(c) >= 0 and w.strip()]
+    return text, (round(sum(confs) / len(confs), 1) if confs else 0.0)
+
+
+def extract_raster(img: Image.Image, page_number: int = 0) -> PageExtraction:
+    """Route an image page to Tesseract or the VLM."""
+    img = img.convert("RGB")
+    router = _get_router()
+    decision = router.route(img) if router.available() else None
+    route = decision.label if decision else "uncertain"
+    p_hw = decision.p_handwritten if decision else None
+    notes = [] if decision else ["Router weights missing — run scripts/train_bill_router.py."]
+
+    vlm = _get_vlm()
+    if route == "handwritten":
+        if vlm.available():
+            return _vlm_page(vlm, img, page_number, route, p_hw, None, notes)
+        notes.append(f"Handwriting detected but no VLM installed (ollama pull {vlm.model}); "
+                     "Tesseract is unreliable on handwriting.")
+
+    text, confidence = _ocr(img)
+    if route != "handwritten" and confidence < OCR_MIN_CONFIDENCE and vlm.available():
+        notes.append(f"OCR confidence {confidence} < {OCR_MIN_CONFIDENCE}; re-read with VLM.")
+        return _vlm_page(vlm, img, page_number, route, p_hw, confidence, notes)
+    return PageExtraction(page_number, "ocr", text, route, p_hw, confidence, notes)
+
+
+def _vlm_page(vlm, img, page_number, route, p_hw, ocr_confidence, notes) -> PageExtraction:
+    try:
+        result = vlm.transcribe(img)
+        return PageExtraction(page_number, "vlm", result.text, route, p_hw, ocr_confidence, notes)
+    except Exception as exc:  # VLM down / bad output: fall back to OCR rather than fail the audit
+        text, confidence = _ocr(img)
+        notes.append(f"VLM failed ({type(exc).__name__}: {exc}); used Tesseract.")
+        return PageExtraction(page_number, "ocr", text, route, p_hw, confidence, notes)
 
 
 def extract_pdf(path: Path) -> DocumentExtraction:
@@ -97,28 +158,19 @@ def extract_pdf(path: Path) -> DocumentExtraction:
             pages.append(PageExtraction(page_number=i, method="direct_text", text=direct_text))
             continue
 
-        # No usable text layer -> rasterize and OCR.
+        # No usable text layer -> rasterize and route (OCR or VLM).
         zoom = OCR_RASTER_DPI / 72  # PDF points are 72 per inch
         pix = page.get_pixmap(matrix=fitz.Matrix(zoom, zoom))
         img = Image.frombytes("RGB", (pix.width, pix.height), pix.samples)
-        ocr_text = pytesseract.image_to_string(img).strip()
-        pages.append(PageExtraction(page_number=i, method="ocr", text=ocr_text))
+        pages.append(extract_raster(img, page_number=i))
 
     doc.close()
     return DocumentExtraction(source_path=str(path), pages=pages)
 
 
 def extract_image(path: Path) -> DocumentExtraction:
-    """
-    A plain image file (jpg/png/etc.) has no concept of a text layer — it's
-    always routed straight to OCR.
-    """
-    img = Image.open(path)
-    text = pytesseract.image_to_string(img).strip()
-    return DocumentExtraction(
-        source_path=str(path),
-        pages=[PageExtraction(page_number=0, method="ocr", text=text)],
-    )
+    """A plain image file has no text layer — always routed (OCR or VLM)."""
+    return DocumentExtraction(source_path=str(path), pages=[extract_raster(Image.open(path))])
 
 
 def extract_document(path: Path) -> DocumentExtraction:

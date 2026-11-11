@@ -1,0 +1,66 @@
+[
+ {
+  "index": 0,
+  "page": 4,
+  "rows": 1,
+  "cols": 3,
+  "grid": [
+   [
+    "All Levels",
+    "INR 1,250",
+    "INR 2,500"
+   ]
+  ]
+ },
+ {
+  "index": 1,
+  "page": 4,
+  "rows": 2,
+  "cols": 3,
+  "grid": [
+   [
+    "City",
+    "Email",
+    "Contact Number"
+   ],
+   [
+    "New Delhi",
+    "COMPANY XX.in@COMPANY XX.com",
+    "+91 XXXXXXXXXXX"
+   ]
+  ]
+ },
+ {
+  "index": 2,
+  "page": 5,
+  "rows": 1,
+  "cols": 3,
+  "grid": [
+   [
+    "Bengaluru",
+    "XXXXX@COMPANY XX.com",
+    "+91 XXXXXXX"
+   ]
+  ]
+ },
+ {
+  "index": 3,
+  "page": 5,
+  "rows": 3,
+  "cols": 2,
+  "grid": [
+   [
+    "Type of City / Cities",
+    "Limit for Cities (excluding taxes)"
+   ],
+   [
+    "Metros +Top cities + Holiday destinations: (Mumbai,Pune,Kolkata,Bangalore, Hyderabad, Chennai, Delhi, Gurugram, Noida, Ahmedabad, Goa)",
+    "| |NR 7,000/-"
+   ],
+   [
+    "Rest of the cities",
+    "INR 5,000/-"
+   ]
+  ]
+ }
+]

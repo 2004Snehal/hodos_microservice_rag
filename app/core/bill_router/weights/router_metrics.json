@@ -1,0 +1,36 @@
+{
+  "cnn": "Qdrant/resnet50-onnx",
+  "head": "logistic_regression(C=0.05, balanced)",
+  "train_pages": 480,
+  "real_train_pages": 0,
+  "held_out_fonts": {
+    "handwritten": [
+      "Chalkduster.ttf",
+      "Savoye LET.ttc",
+      "Comic Sans MS.ttf"
+    ],
+    "printed": [
+      "Georgia.ttf",
+      "Futura.ttc",
+      "Andale Mono.ttf",
+      "Tahoma.ttf"
+    ]
+  },
+  "synthetic_held_out_fonts": {
+    "pages": 120,
+    "tile_accuracy": 0.9352,
+    "page_accuracy": 0.9833,
+    "page_auc": 1.0,
+    "confusion_matrix [[printed\u2192printed, printed\u2192hw],[hw\u2192printed, hw\u2192hw]]": [
+      [
+        60,
+        0
+      ],
+      [
+        2,
+        58
+      ]
+    ],
+    "uncertain_pages (0.35<p<0.65)": 1
+  }
+}

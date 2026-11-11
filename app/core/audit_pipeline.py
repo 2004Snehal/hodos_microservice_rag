@@ -59,6 +59,7 @@ class CategoryVerdict:
 class AuditResult:
     source_file: str
     extraction_methods_used: List[str]
+    page_routes: List[Dict[str, Any]]
     vendor_guess: Optional[str]
     date_guess: Optional[str]
     raw_extracted_text: str
@@ -68,6 +69,7 @@ class AuditResult:
         return {
             "source_file": self.source_file,
             "extraction_methods_used": self.extraction_methods_used,
+            "page_routes": self.page_routes,
             "vendor_guess": self.vendor_guess,
             "date_guess": self.date_guess,
             "raw_extracted_text": self.raw_extracted_text,
@@ -145,6 +147,7 @@ def run_audit(file_path: Path, store: SimpleVectorStore) -> AuditResult:
     return AuditResult(
         source_file=str(file_path),
         extraction_methods_used=extraction.methods_used,
+        page_routes=extraction.page_routes,
         vendor_guess=parsed.vendor_guess,
         date_guess=parsed.date_guess,
         raw_extracted_text=extraction.full_text,

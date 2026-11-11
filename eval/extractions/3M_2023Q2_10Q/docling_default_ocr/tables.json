@@ -1,0 +1,7310 @@
+[
+ {
+  "index": 0,
+  "page": 1,
+  "rows": 6,
+  "cols": 3,
+  "grid": [
+   [
+    "Title of each class",
+    "Trading Symbol(s)",
+    "Name of each exchange on which registered"
+   ],
+   [
+    "Common Stock, Par Value $.01 Per Share",
+    "MMM",
+    "New York Stock Exchange"
+   ],
+   [
+    "",
+    "MMM",
+    "Chicago Stock Exchange, Inc."
+   ],
+   [
+    "1.500% Notes due 2026",
+    "MMM26",
+    "New York Stock Exchange"
+   ],
+   [
+    "1.750% Notes due 2030",
+    "MMM30",
+    "New York Stock Exchange"
+   ],
+   [
+    "1.500% Notes due 2031",
+    "MMM31",
+    "New York Stock Exchange"
+   ]
+  ]
+ },
+ {
+  "index": 1,
+  "page": 1,
+  "rows": 3,
+  "cols": 4,
+  "grid": [
+   [
+    "Large accelerated filer",
+    "☒",
+    "Accelerated filer",
+    "☐"
+   ],
+   [
+    "Non-accelerated filer",
+    "☐",
+    "Smaller reporting company",
+    "☐"
+   ],
+   [
+    "",
+    "",
+    "Emerging growth company",
+    "☐"
+   ]
+  ]
+ },
+ {
+  "index": 2,
+  "page": 1,
+  "rows": 2,
+  "cols": 2,
+  "grid": [
+   [
+    "Class",
+    "Outstanding at June 30, 2023"
+   ],
+   [
+    "Common Stock, $0.01 par value per share",
+    "551,992,430 shares"
+   ]
+  ]
+ },
+ {
+  "index": 3,
+  "page": 2,
+  "rows": 41,
+  "cols": 3,
+  "grid": [
+   [
+    "",
+    "TABLE OF CONTENTS",
+    "BEGINNING PAGE"
+   ],
+   [
+    "PART I",
+    "FINANCIAL INFORMATION",
+    ""
+   ],
+   [
+    "ITEM 1.",
+    "Financial Statements",
+    "3"
+   ],
+   [
+    "",
+    "Index to Financial Statements:",
+    ""
+   ],
+   [
+    "",
+    "Consolidated Statement of Income (Loss)",
+    "3"
+   ],
+   [
+    "",
+    "Consolidated Statement of Comprehensive Income (Loss)",
+    "4"
+   ],
+   [
+    "",
+    "Consolidated Balance Sheet",
+    "5"
+   ],
+   [
+    "",
+    "Consolidated Statement of Cash Flows",
+    "6"
+   ],
+   [
+    "",
+    "Notes to Consolidated Financial Statements",
+    "7"
+   ],
+   [
+    "",
+    "Note 1. Significant Accounting Policies",
+    "7"
+   ],
+   [
+    "",
+    "Note 2. Revenue",
+    "8"
+   ],
+   [
+    "",
+    "Note 3. Acquisitions and Divestitures",
+    "10"
+   ],
+   [
+    "",
+    "Note 4. Goodwill and Intangible Assets",
+    "11"
+   ],
+   [
+    "",
+    "Note 5. Restructuring Actions",
+    "12"
+   ],
+   [
+    "",
+    "Note 6. Supplemental Income (Loss) Statement Information",
+    "13"
+   ],
+   [
+    "",
+    "Note 7. Supplemental Equity and Comprehensive Income (Loss) Information",
+    "14"
+   ],
+   [
+    "",
+    "Note 8. Income Taxes",
+    "18"
+   ],
+   [
+    "",
+    "Note 9. Marketable Securities",
+    "18"
+   ],
+   [
+    "",
+    "Note 10. Long-Term Debt and Short-Term Borrowings",
+    "19"
+   ],
+   [
+    "",
+    "Note 11. Pension and Postretirement Benefit Plans",
+    "20"
+   ],
+   [
+    "",
+    "Note 12. Derivatives",
+    "21"
+   ],
+   [
+    "",
+    "Note 13. Fair Value Measurements",
+    "26"
+   ],
+   [
+    "",
+    "Note 14. Commitments and Contingencies",
+    "27"
+   ],
+   [
+    "",
+    "Note 15. Business Segments",
+    "52"
+   ],
+   [
+    "ITEM 2.",
+    "Management's Discussion and Analysis of Financial Condition and Results of Operations",
+    "54"
+   ],
+   [
+    "",
+    "Index to Management's Discussion and Analysis:",
+    ""
+   ],
+   [
+    "",
+    "Overview",
+    "54"
+   ],
+   [
+    "",
+    "Results of Operations",
+    "62"
+   ],
+   [
+    "",
+    "Performance by Business Segment",
+    "64"
+   ],
+   [
+    "",
+    "Financial Condition and Liquidity",
+    "70"
+   ],
+   [
+    "",
+    "Cautionary Note Concerning Factors That May Affect Future Results",
+    "75"
+   ],
+   [
+    "ITEM 3.",
+    "Quantitative and Qualitative Disclosures About Market Risk",
+    "76"
+   ],
+   [
+    "ITEM 4.",
+    "Controls and Procedures",
+    "76"
+   ],
+   [
+    "PART II",
+    "OTHER INFORMATION",
+    ""
+   ],
+   [
+    "ITEM 1.",
+    "Legal Proceedings",
+    "77"
+   ],
+   [
+    "ITEM 1A.",
+    "Risk Factors",
+    "77"
+   ],
+   [
+    "ITEM 2.",
+    "Unregistered Sales of Equity Securities and Use of Proceeds",
+    "85"
+   ],
+   [
+    "ITEM 3.",
+    "Defaults Upon Senior Securities",
+    "85"
+   ],
+   [
+    "ITEM 4.",
+    "Mine Safety Disclosures",
+    "85"
+   ],
+   [
+    "ITEM 5.",
+    "Other Information",
+    "85"
+   ],
+   [
+    "ITEM 6.",
+    "Exhibits",
+    "86"
+   ]
+  ]
+ },
+ {
+  "index": 4,
+  "page": 3,
+  "rows": 21,
+  "cols": 5,
+  "grid": [
+   [
+    "",
+    "Three months ended June 30,",
+    "Three months ended June 30,",
+    "Six months ended June 30,",
+    "Six months ended June 30,"
+   ],
+   [
+    "(Millions, except per share amounts)",
+    "2023",
+    "2022",
+    "2023",
+    "2022"
+   ],
+   [
+    "Net sales",
+    "$ 8,325",
+    "$ 8,702",
+    "$ 16,356",
+    "$ 17,531"
+   ],
+   [
+    "Operating expenses",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Cost of sales",
+    "4,606",
+    "5,093",
+    "9,219",
+    "9,919"
+   ],
+   [
+    "Selling, general and administrative expenses",
+    "12,204",
+    "3,023",
+    "13,909",
+    "4,905"
+   ],
+   [
+    "Research, development and related expenses",
+    "473",
+    "476",
+    "945",
+    "956"
+   ],
+   [
+    "Total operating expenses",
+    "17,283",
+    "8,592",
+    "24,073",
+    "15,780"
+   ],
+   [
+    "Operating income (loss)",
+    "(8,958)",
+    "110",
+    "(7,717)",
+    "1,751"
+   ],
+   [
+    "Other expense (income), net",
+    "65",
+    "50",
+    "117",
+    "88"
+   ],
+   [
+    "Income (loss) before income taxes",
+    "(9,023)",
+    "60",
+    "(7,834)",
+    "1,663"
+   ],
+   [
+    "Provision (benefit) for income taxes",
+    "(2,184)",
+    "(23)",
+    "(1,974)",
+    "279"
+   ],
+   [
+    "Income (loss) of consolidated group",
+    "(6,839)",
+    "83",
+    "(5,860)",
+    "1,384"
+   ],
+   [
+    "Income (loss) from unconsolidated subsidiaries, net of taxes",
+    "3",
+    "(1)",
+    "5",
+    "1"
+   ],
+   [
+    "Net income (loss) including noncontrolling interest",
+    "(6,836)",
+    "82",
+    "(5,855)",
+    "1,385"
+   ],
+   [
+    "Less: Net income (loss) attributable to noncontrolling interest",
+    "5",
+    "4",
+    "10",
+    "8"
+   ],
+   [
+    "Net income (loss) attributable to 3M",
+    "$ (6,841)",
+    "$ 78",
+    "$ (5,865)",
+    "$ 1,377"
+   ],
+   [
+    "Weighted average 3M common shares outstanding - basic",
+    "553.9",
+    "571.0",
+    "553.3",
+    "571.6"
+   ],
+   [
+    "Earnings (loss) per share attributable to 3M common shareholders - basic",
+    "$ (12.35)",
+    "$ 0.14",
+    "$ (10.60)",
+    "$ 2.41"
+   ],
+   [
+    "Weighted average 3M common shares outstanding - diluted",
+    "553.9",
+    "572.7",
+    "553.3",
+    "573.8"
+   ],
+   [
+    "Earnings (loss) per share attributable to 3M common shareholders - diluted",
+    "$ (12.35)",
+    "$ 0.14",
+    "$ (10.60)",
+    "$ 2.40"
+   ]
+  ]
+ },
+ {
+  "index": 5,
+  "page": 4,
+  "rows": 11,
+  "cols": 5,
+  "grid": [
+   [
+    "",
+    "Three months ended June 30,",
+    "Three months ended June 30,",
+    "Six months ended June 30,",
+    "Six months ended June 30,"
+   ],
+   [
+    "(Millions)",
+    "2023",
+    "2022",
+    "2023",
+    "2022"
+   ],
+   [
+    "Net income (loss) including noncontrolling interest",
+    "$ (6,836)",
+    "$ 82",
+    "$ (5,855)",
+    "$ 1,385"
+   ],
+   [
+    "Other comprehensive income (loss), net of tax:",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Cumulative translation adjustment",
+    "25",
+    "(705)",
+    "141",
+    "(876)"
+   ],
+   [
+    "Defined benefit pension and postretirement plans adjustment",
+    "50",
+    "85",
+    "101",
+    "172"
+   ],
+   [
+    "Cash flow hedging instruments",
+    "23",
+    "88",
+    "(1)",
+    "87"
+   ],
+   [
+    "Total other comprehensive income (loss), net of tax",
+    "98",
+    "(532)",
+    "241",
+    "(617)"
+   ],
+   [
+    "Comprehensive income (loss) including noncontrolling interest",
+    "(6,738)",
+    "(450)",
+    "(5,614)",
+    "768"
+   ],
+   [
+    "Comprehensive (income) loss attributable to noncontrolling interest",
+    "(6)",
+    "-",
+    "(11)",
+    "(3)"
+   ],
+   [
+    "Comprehensive income (loss) attributable to 3M",
+    "$ (6,744)",
+    "$ (450)",
+    "$ (5,625)",
+    "$ 765"
+   ]
+  ]
+ },
+ {
+  "index": 6,
+  "page": 5,
+  "rows": 52,
+  "cols": 3,
+  "grid": [
+   [
+    "(Dollars in millions, except per share amount)",
+    "June 30, 2023",
+    "December 31, 2022"
+   ],
+   [
+    "Assets",
+    "",
+    ""
+   ],
+   [
+    "Current assets",
+    "",
+    ""
+   ],
+   [
+    "Cash and cash equivalents",
+    "$ 4,258 $",
+    "3,655"
+   ],
+   [
+    "Marketable securities - current",
+    "56",
+    "238"
+   ],
+   [
+    "Accounts receivable - net of allowances of $160 and $174",
+    "4,947",
+    "4,532"
+   ],
+   [
+    "Inventories",
+    "",
+    ""
+   ],
+   [
+    "Finished goods",
+    "2,526",
+    "2,497"
+   ],
+   [
+    "Work in process",
+    "1,527",
+    "1,606"
+   ],
+   [
+    "Raw materials and supplies",
+    "1,227",
+    "1,269"
+   ],
+   [
+    "Total inventories",
+    "5,280",
+    "5,372"
+   ],
+   [
+    "Prepaids",
+    "674",
+    "435"
+   ],
+   [
+    "Other current assets",
+    "539",
+    "456"
+   ],
+   [
+    "Total current assets",
+    "15,754",
+    "14,688"
+   ],
+   [
+    "Property, plant and equipment",
+    "26,459",
+    "25,998"
+   ],
+   [
+    "Less: Accumulated depreciation",
+    "(17,248)",
+    "(16,820)"
+   ],
+   [
+    "Property, plant and equipment - net",
+    "9,211",
+    "9,178"
+   ],
+   [
+    "Operating lease right of use assets",
+    "812",
+    "829"
+   ],
+   [
+    "Goodwill",
+    "12,869",
+    "12,790"
+   ],
+   [
+    "Intangible assets - net",
+    "4,470",
+    "4,699"
+   ],
+   [
+    "Other assets",
+    "5,764",
+    "4,271"
+   ],
+   [
+    "Total assets",
+    "$ 48,880 $",
+    "46,455"
+   ],
+   [
+    "Liabilities",
+    "",
+    ""
+   ],
+   [
+    "Current liabilities",
+    "",
+    ""
+   ],
+   [
+    "Short-term borrowings and current portion of long-term debt",
+    "$ 3,033 $",
+    "1,938"
+   ],
+   [
+    "Accounts payable",
+    "3,231",
+    "3,183"
+   ],
+   [
+    "Accrued payroll",
+    "785",
+    "692"
+   ],
+   [
+    "Accrued income taxes",
+    "172",
+    "259"
+   ],
+   [
+    "Operating lease liabilities - current",
+    "244",
+    "261"
+   ],
+   [
+    "Other current liabilities",
+    "3,471",
+    "3,190"
+   ],
+   [
+    "Total current liabilities",
+    "10,936",
+    "9,523"
+   ],
+   [
+    "Long-term debt",
+    "12,954",
+    "14,001"
+   ],
+   [
+    "Pension and postretirement benefits",
+    "1,912",
+    "1,966"
+   ],
+   [
+    "Operating lease liabilities",
+    "570",
+    "580"
+   ],
+   [
+    "Other liabilities",
+    "14,651",
+    "5,615"
+   ],
+   [
+    "Total liabilities",
+    "41,023",
+    "31,685"
+   ],
+   [
+    "Commitments and contingencies (Note 14)",
+    "",
+    ""
+   ],
+   [
+    "Equity",
+    "",
+    ""
+   ],
+   [
+    "3M Company shareholders' equity:",
+    "",
+    ""
+   ],
+   [
+    "Common stock par value, $.01 par value; 944,033,056 shares issued",
+    "9",
+    "9"
+   ],
+   [
+    "Shares outstanding - June 30, 2023: 551,992,430",
+    "",
+    ""
+   ],
+   [
+    "Shares outstanding - December 31, 2022: 549,245,105",
+    "",
+    ""
+   ],
+   [
+    "Additional paid-in capital",
+    "6,858",
+    "6,691"
+   ],
+   [
+    "Retained earnings",
+    "40,290",
+    "47,950"
+   ],
+   [
+    "Treasury stock, at cost:",
+    "(32,926)",
+    "(33,255)"
+   ],
+   [
+    "Shares at June 30, 2023: 392,040,626",
+    "",
+    ""
+   ],
+   [
+    "Shares at December 31, 2022: 394,787,951",
+    "",
+    ""
+   ],
+   [
+    "Accumulated other comprehensive income (loss)",
+    "(6,433)",
+    "(6,673)"
+   ],
+   [
+    "Total 3M Company shareholders' equity",
+    "7,798",
+    "14,722"
+   ],
+   [
+    "Noncontrolling interest",
+    "59",
+    "48"
+   ],
+   [
+    "Total equity",
+    "7,857",
+    "14,770"
+   ],
+   [
+    "Total liabilities and equity",
+    "$ 48,880 $",
+    "46,455"
+   ]
+  ]
+ },
+ {
+  "index": 7,
+  "page": 6,
+  "rows": 38,
+  "cols": 3,
+  "grid": [
+   [
+    "",
+    "Six months ended June 30,",
+    "Six months ended June 30,"
+   ],
+   [
+    "(Millions)",
+    "2023",
+    "2022"
+   ],
+   [
+    "Cash Flows from Operating Activities",
+    "",
+    ""
+   ],
+   [
+    "Net income (loss) including noncontrolling interest",
+    "$ (5,855) $",
+    "1,385"
+   ],
+   [
+    "Adjustments to reconcile net income (loss) including noncontrolling interest to net cash provided by operating activities",
+    "",
+    ""
+   ],
+   [
+    "Depreciation and amortization",
+    "915",
+    "921"
+   ],
+   [
+    "Company pension and postretirement contributions",
+    "(57)",
+    "(80)"
+   ],
+   [
+    "Company pension and postretirement expense",
+    "75",
+    "83"
+   ],
+   [
+    "Stock-based compensation expense",
+    "176",
+    "182"
+   ],
+   [
+    "Deferred income taxes",
+    "(2,547)",
+    "(451)"
+   ],
+   [
+    "Changes in assets and liabilities",
+    "",
+    ""
+   ],
+   [
+    "Accounts receivable",
+    "(393)",
+    "(457)"
+   ],
+   [
+    "Inventories",
+    "101",
+    "(837)"
+   ],
+   [
+    "Accounts payable",
+    "135",
+    "401"
+   ],
+   [
+    "Accrued income taxes (current and long-term)",
+    "(409)",
+    "(9)"
+   ],
+   [
+    "Other - net",
+    "10,643",
+    "1,000"
+   ],
+   [
+    "Net cash provided by (used in) operating activities",
+    "2,784",
+    "2,138"
+   ],
+   [
+    "Cash Flows from Investing Activities",
+    "",
+    ""
+   ],
+   [
+    "Purchases of property, plant and equipment (PP&E)",
+    "(852)",
+    "(808)"
+   ],
+   [
+    "Proceeds from sale of PP&E and other assets",
+    "23",
+    "56"
+   ],
+   [
+    "Purchases of marketable securities and investments",
+    "(775)",
+    "(518)"
+   ],
+   [
+    "Proceeds from maturities and sale of marketable securities and investments",
+    "945",
+    "456"
+   ],
+   [
+    "Proceeds from sale of businesses, net of cash sold",
+    "3",
+    "13"
+   ],
+   [
+    "Other - net",
+    "37",
+    "(13)"
+   ],
+   [
+    "Net cash provided by (used in) investing activities",
+    "(619)",
+    "(814)"
+   ],
+   [
+    "Cash Flows from Financing Activities",
+    "",
+    ""
+   ],
+   [
+    "Change in short-term debt - net",
+    "651",
+    "344"
+   ],
+   [
+    "Repayment of debt (maturities greater than 90 days)",
+    "(1,802)",
+    "(1,179)"
+   ],
+   [
+    "Proceeds from debt (maturities greater than 90 days)",
+    "1,107",
+    "1"
+   ],
+   [
+    "Purchases of treasury stock",
+    "(29)",
+    "(773)"
+   ],
+   [
+    "Proceeds from issuance of treasury stock pursuant to stock option and benefit plans",
+    "218",
+    "227"
+   ],
+   [
+    "Dividends paid to shareholders",
+    "(1,655)",
+    "(1,700)"
+   ],
+   [
+    "Other - net",
+    "(9)",
+    "(22)"
+   ],
+   [
+    "Net cash provided by (used in) financing activities",
+    "(1,519)",
+    "(3,102)"
+   ],
+   [
+    "Effect of exchange rate changes on cash and cash equivalents",
+    "(43)",
+    "(64)"
+   ],
+   [
+    "Net increase (decrease) in cash and cash equivalents",
+    "603",
+    "(1,842)"
+   ],
+   [
+    "Cash and cash equivalents at beginning of year",
+    "3,655",
+    "4,564"
+   ],
+   [
+    "Cash and cash equivalents at end of period",
+    "$ 4,258 $",
+    "2,722"
+   ]
+  ]
+ },
+ {
+  "index": 8,
+  "page": 7,
+  "rows": 10,
+  "cols": 5,
+  "grid": [
+   [
+    "",
+    "Three months ended June 30,",
+    "Three months ended June 30,",
+    "Six months ended June 30,",
+    "Six months ended June 30,"
+   ],
+   [
+    "(Amounts in millions, except per share amounts)",
+    "2023",
+    "2022",
+    "2023",
+    "2022"
+   ],
+   [
+    "Numerator:",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Net income (loss) attributable to 3M",
+    "$ (6,841)",
+    "$ 78",
+    "$ (5,865)",
+    "$ 1,377"
+   ],
+   [
+    "Denominator:",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Denominator for weighted average 3M common shares outstanding - basic",
+    "553.9",
+    "571.0",
+    "553.3",
+    "571.6"
+   ],
+   [
+    "Dilution associated with the Company's stock-based compensation plans",
+    "-",
+    "1.7",
+    "-",
+    "2.2"
+   ],
+   [
+    "Denominator for weighted average 3M common shares outstanding - diluted",
+    "553.9",
+    "572.7",
+    "553.3",
+    "573.8"
+   ],
+   [
+    "Earnings (loss) per share attributable to 3M common shareholders - basic",
+    "$ (12.35)",
+    "$ 0.14",
+    "$ (10.60)",
+    "$ 2.41"
+   ],
+   [
+    "Earnings (loss) per share attributable to 3M common shareholders - diluted",
+    "$ (12.35)",
+    "$ 0.14",
+    "$ (10.60)",
+    "$ 2.40"
+   ]
+  ]
+ },
+ {
+  "index": 9,
+  "page": 9,
+  "rows": 29,
+  "cols": 5,
+  "grid": [
+   [
+    "",
+    "Three months ended",
+    "Three months ended",
+    "Six months ended June 30,",
+    "Six months ended June 30,"
+   ],
+   [
+    "Net Sales (Millions)",
+    "June 2023",
+    "2022",
+    "2023",
+    "2022"
+   ],
+   [
+    "Abrasives",
+    "$ 334 $",
+    "346 $",
+    "675 $",
+    "675"
+   ],
+   [
+    "Automotive Aftermarket",
+    "305",
+    "289",
+    "617",
+    "584"
+   ],
+   [
+    "Closure and Masking Systems",
+    "241",
+    "270",
+    "486",
+    "528"
+   ],
+   [
+    "Electrical Markets",
+    "329",
+    "336",
+    "653",
+    "645"
+   ],
+   [
+    "Industrial Adhesives and Tapes",
+    "545",
+    "586",
+    "1,089",
+    "1,207"
+   ],
+   [
+    "Personal Safety",
+    "878",
+    "972",
+    "1,781",
+    "2,099"
+   ],
+   [
+    "Roofing Granules",
+    "133",
+    "125",
+    "243",
+    "237"
+   ],
+   [
+    "Total Safety and Industrial Business Segment",
+    "2,765",
+    "2,924",
+    "5,544",
+    "5,975"
+   ],
+   [
+    "Advanced Materials",
+    "305",
+    "307",
+    "606",
+    "612"
+   ],
+   [
+    "Automotive and Aerospace",
+    "477",
+    "428",
+    "939",
+    "888"
+   ],
+   [
+    "Commercial Solutions",
+    "455",
+    "448",
+    "887",
+    "902"
+   ],
+   [
+    "Electronics",
+    "714",
+    "863",
+    "1,386",
+    "1,786"
+   ],
+   [
+    "Transportation Safety",
+    "240",
+    "222",
+    "423",
+    "420"
+   ],
+   [
+    "Total Transportation and Electronics Business Segment",
+    "2,191",
+    "2,268",
+    "4,241",
+    "4,608"
+   ],
+   [
+    "Food Safety",
+    "-",
+    "89",
+    "-",
+    "181"
+   ],
+   [
+    "Health Information Systems",
+    "302",
+    "309",
+    "602",
+    "609"
+   ],
+   [
+    "Medical Solutions",
+    "1,161",
+    "1,169",
+    "2,284",
+    "2,297"
+   ],
+   [
+    "Oral Care",
+    "351",
+    "350",
+    "692",
+    "698"
+   ],
+   [
+    "Separation and Purification Sciences",
+    "247",
+    "262",
+    "479",
+    "522"
+   ],
+   [
+    "Other Health Care",
+    "14",
+    "-",
+    "28",
+    "-"
+   ],
+   [
+    "Total Health Care Business Group",
+    "2,075",
+    "2,179",
+    "4,085",
+    "4,307"
+   ],
+   [
+    "Construction and Home Improvement Markets",
+    "542",
+    "560",
+    "1,071",
+    "1,163"
+   ],
+   [
+    "Home, Health and Auto Care",
+    "428",
+    "428",
+    "828",
+    "865"
+   ],
+   [
+    "Stationery and Office",
+    "323",
+    "342",
+    "586",
+    "611"
+   ],
+   [
+    "Total Consumer Business Group",
+    "1,293",
+    "1,330",
+    "2,485",
+    "2,639"
+   ],
+   [
+    "Corporate and Unallocated",
+    "1",
+    "1",
+    "1",
+    "2"
+   ],
+   [
+    "Total Company",
+    "$ 8,325 $",
+    "8,702 $",
+    "16,356 $",
+    "17,531"
+   ]
+  ]
+ },
+ {
+  "index": 10,
+  "page": 9,
+  "rows": 6,
+  "cols": 5,
+  "grid": [
+   [
+    "",
+    "Three months ended June 30,",
+    "Three months ended June 30,",
+    "Six months ended June 30,",
+    "Six months ended June 30,"
+   ],
+   [
+    "Net Sales (Millions)",
+    "2023",
+    "2022",
+    "2023",
+    "2022"
+   ],
+   [
+    "Americas",
+    "$ 4,678",
+    "$ 4,751",
+    "$ 9,077",
+    "$ 9,189"
+   ],
+   [
+    "Asia Pacific",
+    "2,134",
+    "2,447",
+    "4,314",
+    "5,217"
+   ],
+   [
+    "Europe, Middle East and Africa",
+    "1,513",
+    "1,504",
+    "2,965",
+    "3,125"
+   ],
+   [
+    "Worldwide",
+    "$ 8,325",
+    "$ 8,702",
+    "$ 16,356",
+    "$ 17,531"
+   ]
+  ]
+ },
+ {
+  "index": 11,
+  "page": 11,
+  "rows": 4,
+  "cols": 6,
+  "grid": [
+   [
+    "(Millions)",
+    "Safety and Industrial",
+    "Transportation and Electronics",
+    "Health Care",
+    "Consumer",
+    "Total Company"
+   ],
+   [
+    "Balance as of December 31, 2022",
+    "$ 4,509",
+    "$ 1,501",
+    "$ 6,515",
+    "$ 265 $",
+    "12,790"
+   ],
+   [
+    "Translation and other",
+    "12",
+    "9",
+    "56",
+    "2",
+    "79"
+   ],
+   [
+    "Balance as of June 30, 2023",
+    "$ 4,521",
+    "$ 1,510",
+    "$ 6,571",
+    "$ 267",
+    "$ 12,869"
+   ]
+  ]
+ },
+ {
+  "index": 12,
+  "page": 11,
+  "rows": 16,
+  "cols": 3,
+  "grid": [
+   [
+    "(Millions)",
+    "June 30, 2023",
+    "December 31, 2022"
+   ],
+   [
+    "Customer related intangible assets",
+    "$ 4,084",
+    "$ 4,062"
+   ],
+   [
+    "Patents",
+    "429",
+    "426"
+   ],
+   [
+    "Other technology-based intangible assets",
+    "2,089",
+    "2,081"
+   ],
+   [
+    "Definite-lived tradenames",
+    "1,167",
+    "1,166"
+   ],
+   [
+    "Other amortizable intangible assets",
+    "82",
+    "84"
+   ],
+   [
+    "Total gross carrying amount",
+    "7,851",
+    "7,819"
+   ],
+   [
+    "Accumulated amortization - customer related",
+    "(1,872)",
+    "(1,747)"
+   ],
+   [
+    "Accumulated amortization - patents",
+    "(426)",
+    "(421)"
+   ],
+   [
+    "Accumulated amortization - other technology-based",
+    "(1,098)",
+    "(1,000)"
+   ],
+   [
+    "Accumulated amortization - definite-lived tradenames",
+    "(543)",
+    "(509)"
+   ],
+   [
+    "Accumulated amortization - other",
+    "(59)",
+    "(60)"
+   ],
+   [
+    "Total accumulated amortization",
+    "(3,998)",
+    "(3,737)"
+   ],
+   [
+    "Total finite-lived intangible assets - net",
+    "3,853",
+    "4,082"
+   ],
+   [
+    "Non-amortizable intangible assets (primarily tradenames)",
+    "617",
+    "617"
+   ],
+   [
+    "Total intangible assets - net",
+    "$ 4,470",
+    "$ 4,699"
+   ]
+  ]
+ },
+ {
+  "index": 13,
+  "page": 12,
+  "rows": 3,
+  "cols": 5,
+  "grid": [
+   [
+    "",
+    "Three months ended June 30,",
+    "Three months ended June 30,",
+    "Twelve months ended December 31,",
+    "Twelve months ended December 31,"
+   ],
+   [
+    "(Millions)",
+    "2023",
+    "2022",
+    "2023",
+    "2022"
+   ],
+   [
+    "Amortization expense",
+    "$ 121",
+    "$ 129",
+    "$ 243",
+    "$ 260"
+   ]
+  ]
+ },
+ {
+  "index": 14,
+  "page": 12,
+  "rows": 2,
+  "cols": 8,
+  "grid": [
+   [
+    "(Millions)",
+    "Remainder of 2023",
+    "2024",
+    "2025",
+    "2026",
+    "2027",
+    "2028",
+    "After 2028"
+   ],
+   [
+    "Amortization expense",
+    "$ 236 $",
+    "453 $",
+    "423 $",
+    "418 $",
+    "398 $",
+    "379 $",
+    "1,546"
+   ]
+  ]
+ },
+ {
+  "index": 15,
+  "page": 12,
+  "rows": 5,
+  "cols": 3,
+  "grid": [
+   [
+    "(Millions)",
+    "Three months ended June 30, 2023",
+    "Six months ended June 30, 2023"
+   ],
+   [
+    "Cost of sales",
+    "$ 47",
+    "$ 63"
+   ],
+   [
+    "Selling, general and administrative expenses",
+    "146",
+    "178"
+   ],
+   [
+    "Research, development and related expenses",
+    "19",
+    "23"
+   ],
+   [
+    "Total operating income impact",
+    "$ 212",
+    "$ 264"
+   ]
+  ]
+ },
+ {
+  "index": 16,
+  "page": 12,
+  "rows": 8,
+  "cols": 7,
+  "grid": [
+   [
+    "",
+    "Three months ended June 30, 2023",
+    "Three months ended June 30, 2023",
+    "Three months ended June 30, 2023",
+    "Six months ended June 30, 2023",
+    "Six months ended June 30, 2023",
+    "Six months ended June 30, 2023"
+   ],
+   [
+    "(Millions)",
+    "Employee Related",
+    "Asset-Related and Other",
+    "Total",
+    "Employee Related",
+    "Asset-Related and Other",
+    "Total"
+   ],
+   [
+    "Safety and Industrial",
+    "$ 44",
+    "$ - $",
+    "44",
+    "$ 54",
+    "$ -",
+    "$ 54"
+   ],
+   [
+    "Transportation and Electronics",
+    "25",
+    "-",
+    "25",
+    "37",
+    "-",
+    "37"
+   ],
+   [
+    "Health Care",
+    "10",
+    "-",
+    "10",
+    "12",
+    "-",
+    "12"
+   ],
+   [
+    "Consumer",
+    "13",
+    "-",
+    "13",
+    "16",
+    "-",
+    "16"
+   ],
+   [
+    "Corporate and unallocated",
+    "100",
+    "20",
+    "120",
+    "125",
+    "20",
+    "145"
+   ],
+   [
+    "Total operating expense",
+    "$ 192",
+    "$ 20 $",
+    "212",
+    "$ 244",
+    "$ 20",
+    "$ 264"
+   ]
+  ]
+ },
+ {
+  "index": 17,
+  "page": 13,
+  "rows": 6,
+  "cols": 4,
+  "grid": [
+   [
+    "(Millions)",
+    "Employee-Related",
+    "Asset-Related and Other",
+    "Total"
+   ],
+   [
+    "Expense incurred in the first quarter of 2023",
+    "$ 52",
+    "$ -",
+    "$ 52"
+   ],
+   [
+    "Incremental expense incurred in the second quarter of 2023",
+    "192",
+    "20",
+    "212"
+   ],
+   [
+    "Non-cash changes",
+    "-",
+    "(20)",
+    "(20)"
+   ],
+   [
+    "Cash payments",
+    "(56)",
+    "-",
+    "(56)"
+   ],
+   [
+    "Accrued restructuring action balance as of June 30, 2023",
+    "$ 188",
+    "$ -",
+    "$ 188"
+   ]
+  ]
+ },
+ {
+  "index": 18,
+  "page": 13,
+  "rows": 6,
+  "cols": 5,
+  "grid": [
+   [
+    "",
+    "Three months ended June 30,",
+    "Three months ended June 30,",
+    "Six months ended June 30,",
+    "Six months ended June 30,"
+   ],
+   [
+    "(Millions)",
+    "2023",
+    "2022",
+    "2023",
+    "2022"
+   ],
+   [
+    "Interest expense",
+    "$ 144",
+    "$ 128",
+    "$ 267",
+    "$ 241"
+   ],
+   [
+    "Interest income",
+    "(48)",
+    "(11)",
+    "(88)",
+    "(19)"
+   ],
+   [
+    "Pension and postretirement net periodic benefit cost (benefit)",
+    "(31)",
+    "(67)",
+    "(62)",
+    "(134)"
+   ],
+   [
+    "Total",
+    "$ 65",
+    "$ 50",
+    "$ 117",
+    "$ 88"
+   ]
+  ]
+ },
+ {
+  "index": 19,
+  "page": 14,
+  "rows": 13,
+  "cols": 7,
+  "grid": [
+   [
+    "",
+    "",
+    "3M Company Shareholders",
+    "3M Company Shareholders",
+    "3M Company Shareholders",
+    "3M Company Shareholders",
+    ""
+   ],
+   [
+    "(Millions)",
+    "Total",
+    "Common Stock and Additional Paid-in Capital",
+    "Retained Earnings",
+    "Treasury Stock",
+    "Accumulated Other Comprehensive Income (Loss)",
+    "Non-controlling Interest"
+   ],
+   [
+    "Balance at March 31, 2023",
+    "$ 15,351",
+    "$ 6,825",
+    "$ 47,966",
+    "$ (32,963)",
+    "$ (6,530)",
+    "$ 53"
+   ],
+   [
+    "Net income (loss)",
+    "(6,836)",
+    "",
+    "(6,841)",
+    "",
+    "",
+    "5"
+   ],
+   [
+    "Other comprehensive income (loss), net of tax:",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Cumulative translation adjustment",
+    "25",
+    "",
+    "",
+    "",
+    "24",
+    "1"
+   ],
+   [
+    "Defined benefit pension and post-retirement plans adjustment",
+    "50",
+    "",
+    "",
+    "",
+    "50",
+    ""
+   ],
+   [
+    "Cash flow hedging instruments",
+    "23",
+    "",
+    "",
+    "",
+    "23",
+    ""
+   ],
+   [
+    "Total other comprehensive income (loss), net of tax",
+    "98",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Dividends declared",
+    "(828)",
+    "",
+    "(828)",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Stock-based compensation",
+    "42",
+    "42",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Issuances pursuant to stock option and benefit plans",
+    "30",
+    "",
+    "(7)",
+    "37",
+    "",
+    ""
+   ],
+   [
+    "Balance at June 30, 2023",
+    "$ 7,857",
+    "$ 6,867",
+    "$ 40,290",
+    "$ (32,926)",
+    "$ (6,433)",
+    "$ 59"
+   ]
+  ]
+ },
+ {
+  "index": 20,
+  "page": 14,
+  "rows": 13,
+  "cols": 7,
+  "grid": [
+   [
+    "",
+    "",
+    "3M Company Shareholders",
+    "3M Company Shareholders",
+    "3M Company Shareholders",
+    "3M Company Shareholders",
+    ""
+   ],
+   [
+    "(Millions)",
+    "Total",
+    "Common Stock and Additional Paid-in Capital",
+    "Retained Earnings",
+    "Treasury Stock",
+    "Accumulated Other Comprehensive Income (Loss)",
+    "Non-controlling Interest"
+   ],
+   [
+    "Balance at March 31, 2022",
+    "$ 15,004",
+    "$ 6,568",
+    "$ 46,056",
+    "$ (30,860)",
+    "$ (6,834)",
+    "$ 74"
+   ],
+   [
+    "Net income",
+    "82",
+    "",
+    "78",
+    "",
+    "",
+    "4"
+   ],
+   [
+    "Other comprehensive income (loss), net of tax:",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Cumulative translation adjustment",
+    "(705)",
+    "",
+    "",
+    "",
+    "(701)",
+    "(4)"
+   ],
+   [
+    "Defined benefit pension and post-retirement plans adjustment",
+    "85",
+    "",
+    "",
+    "",
+    "85",
+    ""
+   ],
+   [
+    "Cash flow hedging instruments",
+    "88",
+    "",
+    "",
+    "",
+    "88",
+    ""
+   ],
+   [
+    "Total other comprehensive income (loss), net of tax",
+    "(532)",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Dividends declared",
+    "(848)",
+    "",
+    "(848)",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Stock-based compensation",
+    "48",
+    "48",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Issuances pursuant to stock option and benefit plans",
+    "62",
+    "",
+    "(17)",
+    "79",
+    "",
+    ""
+   ],
+   [
+    "Balance at June 30, 2022",
+    "$ 13,816",
+    "$ 6,616",
+    "$ 45,269",
+    "$ (30,781)",
+    "$ (7,362)",
+    "$ 74"
+   ]
+  ]
+ },
+ {
+  "index": 21,
+  "page": 15,
+  "rows": 14,
+  "cols": 7,
+  "grid": [
+   [
+    "",
+    "",
+    "3M Company Shareholders",
+    "3M Company Shareholders",
+    "3M Company Shareholders",
+    "3M Company Shareholders",
+    ""
+   ],
+   [
+    "(Millions)",
+    "Total",
+    "Common Stock and Additional Paid-in Capital",
+    "Retained Earnings",
+    "Treasury Stock",
+    "Accumulated Other Comprehensive Income (Loss)",
+    "Non-controlling Interest"
+   ],
+   [
+    "Balance at December 31, 2022",
+    "$ 14,770",
+    "$ 6,700",
+    "$ 47,950",
+    "$ (33,255)",
+    "$ (6,673)",
+    "$ 48"
+   ],
+   [
+    "Net income (loss)",
+    "(5,855)",
+    "",
+    "(5,865)",
+    "",
+    "",
+    "10"
+   ],
+   [
+    "Other comprehensive income (loss), net of tax:",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Cumulative translation adjustment",
+    "141",
+    "",
+    "",
+    "",
+    "140",
+    "1"
+   ],
+   [
+    "Defined benefit pension and post-retirement plans adjustment",
+    "101",
+    "",
+    "",
+    "",
+    "101",
+    ""
+   ],
+   [
+    "Cash flow hedging instruments",
+    "(1)",
+    "",
+    "",
+    "",
+    "(1)",
+    ""
+   ],
+   [
+    "Total other comprehensive income (loss), net of tax",
+    "241",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Dividends declared",
+    "(1,655)",
+    "",
+    "(1,655)",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Stock-based compensation",
+    "167",
+    "167",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Reacquired stock",
+    "(29)",
+    "",
+    "",
+    "(29)",
+    "",
+    ""
+   ],
+   [
+    "Issuances pursuant to stock option and benefit plans",
+    "218",
+    "",
+    "(140)",
+    "358",
+    "",
+    ""
+   ],
+   [
+    "Balance at June 30, 2023",
+    "$ 7,857",
+    "$ 6,867",
+    "$ 40,290",
+    "$ (32,926)",
+    "$ (6,433)",
+    "$ 59"
+   ]
+  ]
+ },
+ {
+  "index": 22,
+  "page": 15,
+  "rows": 14,
+  "cols": 7,
+  "grid": [
+   [
+    "",
+    "",
+    "3M Company Shareholders",
+    "3M Company Shareholders",
+    "3M Company Shareholders",
+    "3M Company Shareholders",
+    ""
+   ],
+   [
+    "(Millions)",
+    "Total",
+    "Common Stock and Additional Paid-in Capital",
+    "Retained Earnings",
+    "Treasury Stock",
+    "Accumulated Other Comprehensive Income (Loss)",
+    "Non-controlling Interest"
+   ],
+   [
+    "Balance at December 31, 2021",
+    "$ 15,117",
+    "$ 6,438",
+    "$ 45,821",
+    "$ (30,463)",
+    "$ (6,750)",
+    "$ 71"
+   ],
+   [
+    "Net income",
+    "1,385",
+    "",
+    "1,377",
+    "",
+    "",
+    "8"
+   ],
+   [
+    "Other comprehensive income (loss), net of tax:",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Cumulative translation adjustment",
+    "(876)",
+    "",
+    "",
+    "",
+    "(871)",
+    "(5)"
+   ],
+   [
+    "Defined benefit pension and post-retirement plans adjustment",
+    "172",
+    "",
+    "",
+    "",
+    "172",
+    ""
+   ],
+   [
+    "Cash flow hedging instruments",
+    "87",
+    "",
+    "",
+    "",
+    "87",
+    ""
+   ],
+   [
+    "Total other comprehensive income (loss), net of tax",
+    "(617)",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Dividends declared",
+    "(1,700)",
+    "",
+    "(1,700)",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Stock-based compensation",
+    "178",
+    "178",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Reacquired stock",
+    "(773)",
+    "",
+    "",
+    "(773)",
+    "",
+    ""
+   ],
+   [
+    "Issuances pursuant to stock option and benefit plans",
+    "226",
+    "",
+    "(229)",
+    "455",
+    "",
+    ""
+   ],
+   [
+    "Balance at June 30, 2022",
+    "$ 13,816",
+    "$ 6,616",
+    "$ 45,269",
+    "$ (30,781)",
+    "$ (7,362)",
+    "$ 74"
+   ]
+  ]
+ },
+ {
+  "index": 23,
+  "page": 16,
+  "rows": 9,
+  "cols": 5,
+  "grid": [
+   [
+    "(Millions)",
+    "Cumulative Translation Adjustment",
+    "Defined Benefit Pension and Postretirement Plans Adjustment",
+    "Cash Flow Hedging Instruments, Unrealized Gain (Loss)",
+    "Total Accumulated Other Comprehensive Income (Loss)"
+   ],
+   [
+    "Balance at March 31, 2023, net of tax:",
+    "$ (2,712)",
+    "$ (3,787)",
+    "$ (31)",
+    "$ (6,530)"
+   ],
+   [
+    "Other comprehensive income (loss), before tax:",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Amounts before reclassifications",
+    "3",
+    "-",
+    "72",
+    "75"
+   ],
+   [
+    "Amounts reclassified out",
+    "39",
+    "65",
+    "(40)",
+    "64"
+   ],
+   [
+    "Total other comprehensive income (loss), before tax",
+    "42",
+    "65",
+    "32",
+    "139"
+   ],
+   [
+    "Tax effect",
+    "(18)",
+    "(15)",
+    "(9)",
+    "(42)"
+   ],
+   [
+    "Total other comprehensive income (loss), net of tax",
+    "24",
+    "50",
+    "23",
+    "97"
+   ],
+   [
+    "Balance at June 30, 2023, net of tax:",
+    "$ (2,688)",
+    "$ (3,737)",
+    "$ (8)",
+    "$ (6,433)"
+   ]
+  ]
+ },
+ {
+  "index": 24,
+  "page": 16,
+  "rows": 9,
+  "cols": 5,
+  "grid": [
+   [
+    "(Millions)",
+    "Cumulative Translation Adjustment",
+    "Defined Benefit Pension and Postretirement Plans Adjustment",
+    "Cash Flow Hedging Instruments, Unrealized Gain (Loss)",
+    "Total Accumulated Other Comprehensive Income (Loss)"
+   ],
+   [
+    "Balance at March 31, 2022, net of tax:",
+    "$ (2,113)",
+    "$ (4,666)",
+    "$ (55)",
+    "$ (6,834)"
+   ],
+   [
+    "Other comprehensive income (loss), before tax:",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Amounts before reclassifications",
+    "(664)",
+    "-",
+    "128",
+    "(536)"
+   ],
+   [
+    "Amounts reclassified out",
+    "-",
+    "112",
+    "(15)",
+    "97"
+   ],
+   [
+    "Total other comprehensive income (loss), before tax",
+    "(664)",
+    "112",
+    "113",
+    "(439)"
+   ],
+   [
+    "Tax effect",
+    "(37)",
+    "(27)",
+    "(25)",
+    "(89)"
+   ],
+   [
+    "Total other comprehensive income (loss), net of tax",
+    "(701)",
+    "85",
+    "88",
+    "(528)"
+   ],
+   [
+    "Balance at June 30, 2022, net of tax:",
+    "$ (2,814)",
+    "$ (4,581)",
+    "$ 33",
+    "$ (7,362)"
+   ]
+  ]
+ },
+ {
+  "index": 25,
+  "page": 16,
+  "rows": 9,
+  "cols": 5,
+  "grid": [
+   [
+    "(Millions)",
+    "Cumulative Translation Adjustment",
+    "Defined Benefit Pension and Postretirement Plans Adjustment",
+    "Cash Flow Hedging Instruments, Unrealized Gain (Loss)",
+    "Total Accumulated Other Comprehensive Income (Loss)"
+   ],
+   [
+    "Balance at December 31, 2022, net of tax:",
+    "$ (2,828)",
+    "$ (3,838)",
+    "$ (7)",
+    "$ (6,673)"
+   ],
+   [
+    "Other comprehensive income (loss), before tax:",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Amounts before reclassifications",
+    "108",
+    "-",
+    "78",
+    "186"
+   ],
+   [
+    "Amounts reclassified out",
+    "39",
+    "129",
+    "(81)",
+    "87"
+   ],
+   [
+    "Total other comprehensive income (loss), before tax",
+    "147",
+    "129",
+    "(3)",
+    "273"
+   ],
+   [
+    "Tax effect",
+    "(7)",
+    "(28)",
+    "2",
+    "(33)"
+   ],
+   [
+    "Total other comprehensive income (loss), net of tax",
+    "140",
+    "101",
+    "(1)",
+    "240"
+   ],
+   [
+    "Balance at June 30, 2023, net of tax:",
+    "$ (2,688)",
+    "$ (3,737)",
+    "$ (8)",
+    "$ (6,433)"
+   ]
+  ]
+ },
+ {
+  "index": 26,
+  "page": 17,
+  "rows": 9,
+  "cols": 5,
+  "grid": [
+   [
+    "(Millions)",
+    "Cumulative Translation Adjustment",
+    "Defined Benefit Pension and Postretirement Plans Adjustment",
+    "Cash Flow Hedging Instruments, Unrealized Gain (Loss)",
+    "Total Accumulated Other Comprehensive Income (Loss)"
+   ],
+   [
+    "Balance at December 31, 2021, net of tax:",
+    "$ (1,943)",
+    "$ (4,753)",
+    "$ (54)",
+    "$ (6,750)"
+   ],
+   [
+    "Other comprehensive income (loss), before tax:",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Amounts before reclassifications",
+    "(814)",
+    "-",
+    "134",
+    "(680)"
+   ],
+   [
+    "Amounts reclassified out",
+    "-",
+    "227",
+    "(22)",
+    "205"
+   ],
+   [
+    "Total other comprehensive income (loss), before tax",
+    "(814)",
+    "227",
+    "112",
+    "(475)"
+   ],
+   [
+    "Tax effect",
+    "(57)",
+    "(55)",
+    "(25)",
+    "(137)"
+   ],
+   [
+    "Total other comprehensive income (loss), net of tax",
+    "(871)",
+    "172",
+    "87",
+    "(612)"
+   ],
+   [
+    "Balance at June 30, 2022, net of tax:",
+    "$ (2,814)",
+    "$ (4,581)",
+    "$ 33",
+    "$ (7,362)"
+   ]
+  ]
+ },
+ {
+  "index": 27,
+  "page": 17,
+  "rows": 24,
+  "cols": 6,
+  "grid": [
+   [
+    "Details about Accumulated Other Comprehensive Income (Loss) Components",
+    "Amount Reclassified from Accumulated Other Comprehensive Income (Loss)",
+    "Amount Reclassified from Accumulated Other Comprehensive Income (Loss)",
+    "Amount Reclassified from Accumulated Other Comprehensive Income (Loss)",
+    "Amount Reclassified from Accumulated Other Comprehensive Income (Loss)",
+    ""
+   ],
+   [
+    "",
+    "Three months ended June 30,",
+    "Three months ended June 30,",
+    "Six months ended June 30,",
+    "Six months ended June 30,",
+    ""
+   ],
+   [
+    "(Millions)",
+    "2023",
+    "2022",
+    "2023",
+    "2022",
+    "Location on Income (Loss) Statement"
+   ],
+   [
+    "Cumulative translation adjustment",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Reclassification adjustment associated with Russia (see Note 13)",
+    "$ (39)",
+    "$ -",
+    "$ (39)",
+    "$ -",
+    "Selling, general and administrative expenses"
+   ],
+   [
+    "Total before tax",
+    "(39)",
+    "-",
+    "(39)",
+    "-",
+    ""
+   ],
+   [
+    "Tax effect",
+    "-",
+    "-",
+    "-",
+    "-",
+    ""
+   ],
+   [
+    "Net of tax",
+    "(39)",
+    "-",
+    "(39)",
+    "-",
+    ""
+   ],
+   [
+    "Defined benefit pension and postretirement plans adjustments",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Gains (losses) associated with defined benefit pension and postretirement plans amortization",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Transition asset",
+    "$ (1)",
+    "$ (1)",
+    "$ (1)",
+    "$ (1)",
+    "Other (expense) income, net"
+   ],
+   [
+    "Prior service benefit",
+    "14",
+    "15",
+    "27",
+    "28",
+    "Other (expense) income, net"
+   ],
+   [
+    "Net actuarial loss",
+    "(78)",
+    "(125)",
+    "(155)",
+    "(252)",
+    "Other (expense) income, net"
+   ],
+   [
+    "Curtailments/Settlements",
+    "-",
+    "(1)",
+    "-",
+    "(2)",
+    "Other (expense) income, net"
+   ],
+   [
+    "Total before tax",
+    "(65)",
+    "(112)",
+    "(129)",
+    "(227)",
+    ""
+   ],
+   [
+    "Tax effect",
+    "15",
+    "27",
+    "28",
+    "55",
+    "Provision for income taxes"
+   ],
+   [
+    "Net of tax",
+    "(50)",
+    "(85)",
+    "(101)",
+    "(172)",
+    ""
+   ],
+   [
+    "Cash flow hedging instruments gains (losses)",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Foreign currency forward/option contracts",
+    "42",
+    "17",
+    "85",
+    "26",
+    "Cost of sales"
+   ],
+   [
+    "Interest rate contracts",
+    "(2)",
+    "(2)",
+    "(4)",
+    "(4)",
+    "Interest expense"
+   ],
+   [
+    "Total before tax",
+    "40",
+    "15",
+    "81",
+    "22",
+    ""
+   ],
+   [
+    "Tax effect",
+    "(8)",
+    "(3)",
+    "(18)",
+    "(5)",
+    "Provision for income taxes"
+   ],
+   [
+    "Net of tax",
+    "32",
+    "12",
+    "63",
+    "17",
+    ""
+   ],
+   [
+    "Total reclassifications for the period, net of tax",
+    "$ (57)",
+    "$ (73)",
+    "(77)",
+    "$ (155)",
+    ""
+   ]
+  ]
+ },
+ {
+  "index": 28,
+  "page": 18,
+  "rows": 8,
+  "cols": 3,
+  "grid": [
+   [
+    "(Millions)",
+    "June 30, 2023",
+    "December 31, 2022"
+   ],
+   [
+    "Commercial paper",
+    "$ 10",
+    "$ 213"
+   ],
+   [
+    "Certificates of deposit/time deposits",
+    "42",
+    "21"
+   ],
+   [
+    "U.S. municipal securities",
+    "4",
+    "4"
+   ],
+   [
+    "Current marketable securities",
+    "56",
+    "238"
+   ],
+   [
+    "U.S. municipal securities",
+    "23",
+    "23"
+   ],
+   [
+    "Non-current marketable securities",
+    "23",
+    "23"
+   ],
+   [
+    "Total marketable securities",
+    "$ 79",
+    "$ 261"
+   ]
+  ]
+ },
+ {
+  "index": 29,
+  "page": 18,
+  "rows": 5,
+  "cols": 3,
+  "grid": [
+   [
+    "(Millions)",
+    "June 30, 2023",
+    "June 30, 2023"
+   ],
+   [
+    "Due in one year or less",
+    "$",
+    "56"
+   ],
+   [
+    "Due after one year through five years",
+    "",
+    "15"
+   ],
+   [
+    "Due after five years through ten years",
+    "",
+    "8"
+   ],
+   [
+    "Total marketable securities",
+    "$",
+    "79"
+   ]
+  ]
+ },
+ {
+  "index": 30,
+  "page": 19,
+  "rows": 2,
+  "cols": 8,
+  "grid": [
+   [
+    "Remainder of 2023",
+    "2024",
+    "2025",
+    "2026",
+    "2027",
+    "2028",
+    "After 2028",
+    "Total"
+   ],
+   [
+    "$ 149 $",
+    "1,100 $",
+    "1,866 $",
+    "1,458 $",
+    "846 $",
+    "722 $",
+    "8,062 $",
+    "14,203"
+   ]
+  ]
+ },
+ {
+  "index": 31,
+  "page": 20,
+  "rows": 16,
+  "cols": 7,
+  "grid": [
+   [
+    "",
+    "Three months ended June 30,",
+    "Three months ended June 30,",
+    "Three months ended June 30,",
+    "Three months ended June 30,",
+    "Three months ended June 30,",
+    "Three months ended June 30,"
+   ],
+   [
+    "",
+    "Qualified and Non-qualified Pension Benefits",
+    "Qualified and Non-qualified Pension Benefits",
+    "Qualified and Non-qualified Pension Benefits",
+    "Qualified and Non-qualified Pension Benefits",
+    "",
+    ""
+   ],
+   [
+    "",
+    "United States",
+    "United States",
+    "International",
+    "International",
+    "Postretirement",
+    "Postretirement"
+   ],
+   [
+    "(Millions)",
+    "2023",
+    "2022",
+    "2023",
+    "2022",
+    "2023",
+    "Benefits 2022"
+   ],
+   [
+    "Net periodic benefit cost (benefit)",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Operating expense",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Service cost",
+    "$ 43",
+    "$ 64",
+    "$ 20",
+    "$ 33",
+    "$ 6",
+    "$ 10"
+   ],
+   [
+    "Non-operating expense",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Interest cost",
+    "165",
+    "104",
+    "54",
+    "32",
+    "23",
+    "13"
+   ],
+   [
+    "Expected return on plan assets",
+    "(244)",
+    "(241)",
+    "(75)",
+    "(70)",
+    "(19)",
+    "(17)"
+   ],
+   [
+    "Amortization of transition asset",
+    "-",
+    "-",
+    "1",
+    "1",
+    "-",
+    "-"
+   ],
+   [
+    "Amortization of prior service benefit",
+    "(6)",
+    "(6)",
+    "-",
+    "-",
+    "(8)",
+    "(9)"
+   ],
+   [
+    "Amortization of net actuarial loss",
+    "74",
+    "106",
+    "2",
+    "9",
+    "2",
+    "10"
+   ],
+   [
+    "Settlements, curtailments, special termination benefits and other",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "1"
+   ],
+   [
+    "Total non-operating expense (benefit)",
+    "(11)",
+    "(37)",
+    "(18)",
+    "(28)",
+    "(2)",
+    "(2)"
+   ],
+   [
+    "Total net periodic benefit cost (benefit)",
+    "$ 32",
+    "$ 27",
+    "$ 2",
+    "$ 5",
+    "$ 4",
+    "$ 8"
+   ]
+  ]
+ },
+ {
+  "index": 32,
+  "page": 20,
+  "rows": 16,
+  "cols": 7,
+  "grid": [
+   [
+    "",
+    "Six months ended June 30,",
+    "Six months ended June 30,",
+    "Six months ended June 30,",
+    "Six months ended June 30,",
+    "Six months ended June 30,",
+    "Six months ended June 30,"
+   ],
+   [
+    "",
+    "Qualified and Non-qualified Pension Benefits",
+    "Qualified and Non-qualified Pension Benefits",
+    "Qualified and Non-qualified Pension Benefits",
+    "Qualified and Non-qualified Pension Benefits",
+    "",
+    ""
+   ],
+   [
+    "",
+    "United States",
+    "United States",
+    "International",
+    "International",
+    "Postretirement",
+    "Postretirement"
+   ],
+   [
+    "(Millions)",
+    "2023",
+    "2022",
+    "2023",
+    "2022",
+    "2023",
+    "Benefits 2022"
+   ],
+   [
+    "Net periodic benefit cost (benefit)",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Operating expense",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Service cost",
+    "$ 86",
+    "$ 128",
+    "$ 39",
+    "$ 68",
+    "$ 12",
+    "$ 21"
+   ],
+   [
+    "Non-operating expense",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Interest cost",
+    "331",
+    "208",
+    "109",
+    "64",
+    "45",
+    "26"
+   ],
+   [
+    "Expected return on plan assets",
+    "(488)",
+    "(482)",
+    "(150)",
+    "(142)",
+    "(38)",
+    "(35)"
+   ],
+   [
+    "Amortization of transition asset",
+    "-",
+    "-",
+    "1",
+    "1",
+    "-",
+    "-"
+   ],
+   [
+    "Amortization of prior service benefit",
+    "(12)",
+    "(12)",
+    "1",
+    "-",
+    "(16)",
+    "(16)"
+   ],
+   [
+    "Amortization of net actuarial loss",
+    "147",
+    "212",
+    "4",
+    "20",
+    "4",
+    "20"
+   ],
+   [
+    "Settlements, curtailments, special termination benefits and other",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "2"
+   ],
+   [
+    "Total non-operating expense (benefit)",
+    "(22)",
+    "(74)",
+    "(35)",
+    "(57)",
+    "(5)",
+    "(3)"
+   ],
+   [
+    "Total net periodic benefit cost (benefit)",
+    "$ 64",
+    "$ 54",
+    "$ 4",
+    "$ 11",
+    "$ 7",
+    "$ 18"
+   ]
+  ]
+ },
+ {
+  "index": 33,
+  "page": 21,
+  "rows": 6,
+  "cols": 5,
+  "grid": [
+   [
+    "",
+    "Pretax Gain (Loss) Recognized in Other Comprehensive Income (Loss) on Derivative",
+    "Pretax Gain (Loss) Recognized in Other Comprehensive Income (Loss) on Derivative",
+    "Pretax Gain (Loss) Recognized in Other Comprehensive Income (Loss) on Derivative",
+    "Pretax Gain (Loss) Recognized in Other Comprehensive Income (Loss) on Derivative"
+   ],
+   [
+    "",
+    "Three months ended June 30,",
+    "Three months ended June 30,",
+    "Six months ended June 30,",
+    "Six months ended June 30,"
+   ],
+   [
+    "(Millions)",
+    "2023",
+    "2022",
+    "2023",
+    "2022"
+   ],
+   [
+    "Foreign currency forward/option contracts",
+    "$ 72",
+    "$ 128",
+    "$ 78",
+    "$ 134"
+   ],
+   [
+    "Interest rate contracts",
+    "-",
+    "-",
+    "-",
+    "-"
+   ],
+   [
+    "Total",
+    "$ 72",
+    "$ 128",
+    "$ 78",
+    "$ 134"
+   ]
+  ]
+ },
+ {
+  "index": 34,
+  "page": 21,
+  "rows": 3,
+  "cols": 5,
+  "grid": [
+   [
+    "(Millions)",
+    "Carrying Value of the Hedged Liabilities",
+    "Carrying Value of the Hedged Liabilities",
+    "Cumulative Amount of Fair Value Hedging Adjustment Included in the Carrying Value of the Hedged Liabilities",
+    "Cumulative Amount of Fair Value Hedging Adjustment Included in the Carrying Value of the Hedged Liabilities"
+   ],
+   [
+    "Location on the Consolidated Balance Sheet",
+    "June 30, 2023",
+    "December 31, 2022",
+    "June 30, 2023",
+    "December 31, 2022"
+   ],
+   [
+    "Long-term debt",
+    "$ 907 $",
+    "903",
+    "$ (96)",
+    "$ (98)"
+   ]
+  ]
+ },
+ {
+  "index": 35,
+  "page": 22,
+  "rows": 6,
+  "cols": 5,
+  "grid": [
+   [
+    "",
+    "Pretax Gain (Loss) Recognized as Cumulative Translation within Other Comprehensive Income (Loss)",
+    "Pretax Gain (Loss) Recognized as Cumulative Translation within Other Comprehensive Income (Loss)",
+    "Pretax Gain (Loss) Recognized as Cumulative Translation within Other Comprehensive Income (Loss)",
+    "Pretax Gain (Loss) Recognized as Cumulative Translation within Other Comprehensive Income (Loss)"
+   ],
+   [
+    "",
+    "Three months ended June 30,",
+    "Three months ended June 30,",
+    "Six months ended June 30,",
+    "Six months ended June 30,"
+   ],
+   [
+    "(Millions)",
+    "2023",
+    "2022",
+    "2023",
+    "2022"
+   ],
+   [
+    "Foreign currency denominated debt",
+    "$ (22)",
+    "$ 133",
+    "$ (65)",
+    "$ 192"
+   ],
+   [
+    "Foreign currency forward contracts",
+    "(1)",
+    "9",
+    "(3)",
+    "11"
+   ],
+   [
+    "Total",
+    "$ (23)",
+    "$ 142",
+    "$ (68)",
+    "$ 203"
+   ]
+  ]
+ },
+ {
+  "index": 36,
+  "page": 23,
+  "rows": 18,
+  "cols": 9,
+  "grid": [
+   [
+    "",
+    "Location and Amount of Gain (Loss) Recognized in Income (Loss)",
+    "Location and Amount of Gain (Loss) Recognized in Income (Loss)",
+    "Location and Amount of Gain (Loss) Recognized in Income (Loss)",
+    "Location and Amount of Gain (Loss) Recognized in Income (Loss)",
+    "Location and Amount of Gain (Loss) Recognized in Income (Loss)",
+    "Location and Amount of Gain (Loss) Recognized in Income (Loss)",
+    "Location and Amount of Gain (Loss) Recognized in Income (Loss)",
+    "Location and Amount of Gain (Loss) Recognized in Income (Loss)"
+   ],
+   [
+    "",
+    "Three months ended June 30,",
+    "Three months ended June 30,",
+    "Three months ended June 30,",
+    "Three months ended June 30,",
+    "Six months ended June 30,",
+    "Six months ended June 30,",
+    "Six months ended June 30,",
+    "Six months ended June 30,"
+   ],
+   [
+    "",
+    "Cost of sales",
+    "Cost of sales",
+    "Other expense (income), net",
+    "Other expense (income), net",
+    "Cost of sales",
+    "Cost of sales",
+    "Other expense (income), net",
+    "Other expense (income), net"
+   ],
+   [
+    "(Millions)",
+    "2023",
+    "2022",
+    "2023",
+    "2022",
+    "2023",
+    "2022",
+    "2023",
+    "2022"
+   ],
+   [
+    "Information regarding cash flow and fair value hedging relationships:",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Total amounts of income and expense line items presented in the consolidated statement of income (loss) in which the effects of derivatives are recorded",
+    "$ 4,606",
+    "$ 5,093",
+    "$ 65",
+    "$ 50",
+    "$ 9,219",
+    "$ 9,919",
+    "$ 117",
+    "$ 88"
+   ],
+   [
+    "Gain or (loss) on cash flow hedging relationships:",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Foreign currency forward/option contracts:",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Amount of gain or (loss) reclassified from accumulated other comprehensive income (loss) into income",
+    "42",
+    "17",
+    "-",
+    "-",
+    "85",
+    "26",
+    "-",
+    "-"
+   ],
+   [
+    "Interest rate contracts:",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Amount of gain or (loss) reclassified from accumulated other comprehensive income into income",
+    "-",
+    "-",
+    "(2)",
+    "(2)",
+    "-",
+    "-",
+    "(4)",
+    "(4)"
+   ],
+   [
+    "Gain or (loss) on fair value hedging relationships:",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Interest rate contracts:",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Hedged items",
+    "-",
+    "-",
+    "9",
+    "23",
+    "-",
+    "-",
+    "(3)",
+    "71"
+   ],
+   [
+    "Derivatives designated as hedging instruments",
+    "-",
+    "-",
+    "(9)",
+    "(23)",
+    "-",
+    "-",
+    "3",
+    "(71)"
+   ],
+   [
+    "Information regarding derivatives not designated as hedging instruments:",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Gain or (loss) on derivatives not designated as instruments:",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Foreign currency forward/option contracts",
+    "(13)",
+    "(46)",
+    "39",
+    "(1)",
+    "(5)",
+    "(66)",
+    "13",
+    "24"
+   ]
+  ]
+ },
+ {
+  "index": 37,
+  "page": 24,
+  "rows": 12,
+  "cols": 9,
+  "grid": [
+   [
+    "",
+    "",
+    "",
+    "Assets",
+    "Assets",
+    "Assets",
+    "Liabilities",
+    "Liabilities",
+    "Liabilities"
+   ],
+   [
+    "",
+    "Gross Notional Amount",
+    "Gross Notional Amount",
+    "",
+    "Fair Value Amount",
+    "Fair Value Amount",
+    "",
+    "Fair Value Amount",
+    "Fair Value Amount"
+   ],
+   [
+    "(Millions)",
+    "June 30, 2023",
+    "December 31, 2022",
+    "Location",
+    "June 30, 2023",
+    "December 31, 2022",
+    "Location",
+    "June 30, 2023",
+    "December 31, 2022"
+   ],
+   [
+    "Derivatives designated as hedging instruments",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Foreign currency forward/option contracts",
+    "$ 4,188",
+    "$ 2,368",
+    "Other current assets",
+    "$ 104",
+    "$ 89",
+    "Other current liabilities",
+    "$ 28",
+    "$ 27"
+   ],
+   [
+    "Foreign currency forward/option contracts",
+    "706",
+    "835",
+    "Other assets",
+    "39",
+    "55",
+    "Other liabilities",
+    "9",
+    "9"
+   ],
+   [
+    "Interest rate contracts",
+    "800",
+    "800",
+    "Other assets",
+    "-",
+    "-",
+    "Other liabilities",
+    "99",
+    "102"
+   ],
+   [
+    "Total derivatives designated as hedging instruments",
+    "",
+    "",
+    "",
+    "143",
+    "144",
+    "",
+    "136",
+    "138"
+   ],
+   [
+    "Derivatives not designated as hedging instruments",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Foreign currency forward/option contracts",
+    "3,089",
+    "2,816",
+    "Other current assets",
+    "12",
+    "73",
+    "Other current liabilities",
+    "15",
+    "4"
+   ],
+   [
+    "Total derivatives not designated as hedging instruments",
+    "",
+    "",
+    "",
+    "12",
+    "73",
+    "",
+    "15",
+    "4"
+   ],
+   [
+    "Total derivative instruments",
+    "",
+    "",
+    "",
+    "$ 155",
+    "$ 217",
+    "",
+    "$ 151",
+    "$ 142"
+   ]
+  ]
+ },
+ {
+  "index": 38,
+  "page": 25,
+  "rows": 6,
+  "cols": 9,
+  "grid": [
+   [
+    "",
+    "",
+    "",
+    "Gross Amounts not Offset in the Consolidated Balance Sheet that are Subject to Master Netting Agreements",
+    "Gross Amounts not Offset in the Consolidated Balance Sheet that are Subject to Master Netting Agreements",
+    "Gross Amounts not Offset in the Consolidated Balance Sheet that are Subject to Master Netting Agreements",
+    "Gross Amounts not Offset in the Consolidated Balance Sheet that are Subject to Master Netting Agreements",
+    "",
+    ""
+   ],
+   [
+    "",
+    "Gross Amount of Derivative Assets Presented in the Consolidated Balance Sheet",
+    "Gross Amount of Derivative Assets Presented in the Consolidated Balance Sheet",
+    "Gross Amount of Eligible Offsetting Recognized Derivative Liabilities",
+    "Gross Amount of Eligible Offsetting Recognized Derivative Liabilities",
+    "Cash Collateral",
+    "Cash Collateral",
+    "Net Amount of Derivative Assets",
+    "Net Amount of Derivative Assets"
+   ],
+   [
+    "(Millions)",
+    "June 30, 2023",
+    "December 31, 2022",
+    "June 30, 2023",
+    "December 31, 2022",
+    "June 30, 2023",
+    "Received December 31, 2022",
+    "June 30, 2023",
+    "December 31, 2022"
+   ],
+   [
+    "Derivatives subject to master netting agreements",
+    "$ 155",
+    "$ 217",
+    "$ 46",
+    "$ 40",
+    "$ -",
+    "$ -",
+    "$ 109",
+    "$ 177"
+   ],
+   [
+    "Derivatives not subject to master netting agreements",
+    "-",
+    "-",
+    "",
+    "",
+    "",
+    "",
+    "-",
+    "-"
+   ],
+   [
+    "Total",
+    "$ 155",
+    "$ 217",
+    "",
+    "",
+    "",
+    "",
+    "$ 109",
+    "$ 177"
+   ]
+  ]
+ },
+ {
+  "index": 39,
+  "page": 25,
+  "rows": 6,
+  "cols": 9,
+  "grid": [
+   [
+    "",
+    "",
+    "",
+    "Gross Amounts not Offset in the Consolidated Balance Sheet that are Subject to Master Netting Agreements",
+    "Gross Amounts not Offset in the Consolidated Balance Sheet that are Subject to Master Netting Agreements",
+    "Gross Amounts not Offset in the Consolidated Balance Sheet that are Subject to Master Netting Agreements",
+    "Gross Amounts not Offset in the Consolidated Balance Sheet that are Subject to Master Netting Agreements",
+    "",
+    ""
+   ],
+   [
+    "",
+    "Gross Amount of Derivative Liabilities Presented in the Consolidated Balance Sheet",
+    "Gross Amount of Derivative Liabilities Presented in the Consolidated Balance Sheet",
+    "Gross Amount of Eligible Offsetting Recognized Derivative Assets",
+    "Gross Amount of Eligible Offsetting Recognized Derivative Assets",
+    "Cash Collateral Received",
+    "Cash Collateral Received",
+    "Net Amount of Derivative Liabilities",
+    "Net Amount of Derivative Liabilities"
+   ],
+   [
+    "(Millions)",
+    "June 30, 2023",
+    "December 31, 2022",
+    "June 30, 2023",
+    "December 31, 2022",
+    "June 30, 2023",
+    "December 31, 2022",
+    "June 30, 2023",
+    "December 31, 2022"
+   ],
+   [
+    "Derivatives subject to master netting agreements",
+    "$ 150",
+    "$ 142",
+    "$ 46",
+    "$ 40",
+    "$ -",
+    "$ -",
+    "$ 104",
+    "$ 102"
+   ],
+   [
+    "Derivatives not subject to master netting agreements",
+    "1",
+    "-",
+    "",
+    "",
+    "",
+    "",
+    "1",
+    "-"
+   ],
+   [
+    "Total",
+    "$ 151",
+    "$ 142",
+    "",
+    "",
+    "",
+    "",
+    "$ 105",
+    "$ 102"
+   ]
+  ]
+ },
+ {
+  "index": 40,
+  "page": 26,
+  "rows": 15,
+  "cols": 9,
+  "grid": [
+   [
+    "",
+    "",
+    "",
+    "Fair Value Measurements Using Inputs Considered as",
+    "Fair Value Measurements Using Inputs Considered as",
+    "Fair Value Measurements Using Inputs Considered as",
+    "Fair Value Measurements Using Inputs Considered as",
+    "Fair Value Measurements Using Inputs Considered as",
+    "Fair Value Measurements Using Inputs Considered as"
+   ],
+   [
+    "",
+    "Fair Value at",
+    "Fair Value at",
+    "Level 1",
+    "Level 1",
+    "Level 2",
+    "Level 2",
+    "Level 3",
+    "Level 3"
+   ],
+   [
+    "Description (Millions)",
+    "June 30, 2023",
+    "December 31, 2022",
+    "June 30, 2023",
+    "December 31, 2022",
+    "June 30, 2023",
+    "December 31, 2022",
+    "June 30, 2023",
+    "December 31, 2022"
+   ],
+   [
+    "Assets:",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Available-for-sale:",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Marketable securities:",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Commercial paper",
+    "$ 10",
+    "$ 213",
+    "$ -",
+    "$ -",
+    "$ 10",
+    "$ 213",
+    "$ -",
+    "$ -"
+   ],
+   [
+    "Certificates of deposit/time deposits",
+    "42",
+    "21",
+    "-",
+    "-",
+    "42",
+    "21",
+    "-",
+    "-"
+   ],
+   [
+    "U.S. municipal securities",
+    "27",
+    "27",
+    "-",
+    "-",
+    "-",
+    "-",
+    "27",
+    "27"
+   ],
+   [
+    "Derivative instruments - assets:",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Foreign currency forward/option contracts",
+    "155",
+    "217",
+    "-",
+    "-",
+    "155",
+    "217",
+    "-",
+    "-"
+   ],
+   [
+    "Liabilities:",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Derivative instruments - liabilities:",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Foreign currency forward/option contracts",
+    "52",
+    "40",
+    "-",
+    "-",
+    "52",
+    "40",
+    "-",
+    "-"
+   ],
+   [
+    "Interest rate contracts",
+    "99",
+    "102",
+    "-",
+    "-",
+    "99",
+    "102",
+    "-",
+    "-"
+   ]
+  ]
+ },
+ {
+  "index": 41,
+  "page": 26,
+  "rows": 11,
+  "cols": 5,
+  "grid": [
+   [
+    "Marketable securities - certain U.S. municipal securities only",
+    "Three months ended June 30,",
+    "Three months ended June 30,",
+    "Six months ended June 30,",
+    "Six months ended June 30,"
+   ],
+   [
+    "(Millions)",
+    "2023",
+    "2022",
+    "2023",
+    "2022"
+   ],
+   [
+    "Beginning balance",
+    "$ 27",
+    "$ 30",
+    "$ 27",
+    "$ 30"
+   ],
+   [
+    "Total gains or losses:",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Included in earnings (losses)",
+    "-",
+    "-",
+    "-",
+    "-"
+   ],
+   [
+    "Included in other comprehensive income (loss)",
+    "-",
+    "-",
+    "-",
+    "-"
+   ],
+   [
+    "Purchases and issuances",
+    "-",
+    "-",
+    "-",
+    "-"
+   ],
+   [
+    "Sales and settlements",
+    "-",
+    "-",
+    "-",
+    "-"
+   ],
+   [
+    "Transfers in and/or out of level 3",
+    "-",
+    "-",
+    "-",
+    "-"
+   ],
+   [
+    "Ending balance",
+    "$ 27",
+    "$ 30",
+    "$ 27",
+    "$ 30"
+   ],
+   [
+    "Change in unrealized gains or losses for the period included in earnings for securities held at the end of the reporting period",
+    "-",
+    "-",
+    "-",
+    "-"
+   ]
+  ]
+ },
+ {
+  "index": 42,
+  "page": 27,
+  "rows": 3,
+  "cols": 5,
+  "grid": [
+   [
+    "",
+    "June 30, 2023",
+    "June 30, 2023",
+    "December 31, 2022",
+    "December 31, 2022"
+   ],
+   [
+    "(Millions)",
+    "Carrying Value",
+    "Fair Value",
+    "Carrying Value",
+    "Fair Value"
+   ],
+   [
+    "Long-term debt, excluding current portion",
+    "$ 12,954",
+    "$ 11,471",
+    "$ 14,001",
+    "$ 12,484"
+   ]
+  ]
+ },
+ {
+  "index": 43,
+  "page": 53,
+  "rows": 8,
+  "cols": 5,
+  "grid": [
+   [
+    "(Millions)",
+    "Three months ended June 30,",
+    "Three months ended June 30,",
+    "Six months ended June 30,",
+    "Six months ended June 30,"
+   ],
+   [
+    "Net Sales",
+    "2023",
+    "2022",
+    "2023",
+    "2022"
+   ],
+   [
+    "Safety and Industrial",
+    "$ 2,765",
+    "$ 2,924",
+    "$ 5,544",
+    "$ 5,975"
+   ],
+   [
+    "Transportation and Electronics",
+    "2,191",
+    "2,268",
+    "4,241",
+    "4,608"
+   ],
+   [
+    "Health Care",
+    "2,075",
+    "2,179",
+    "4,085",
+    "4,307"
+   ],
+   [
+    "Consumer",
+    "1,293",
+    "1,330",
+    "2,485",
+    "2,639"
+   ],
+   [
+    "Corporate and Unallocated",
+    "1",
+    "1",
+    "1",
+    "2"
+   ],
+   [
+    "Total Company",
+    "$ 8,325",
+    "$ 8,702",
+    "$ 16,356",
+    "$ 17,531"
+   ]
+  ]
+ },
+ {
+  "index": 44,
+  "page": 53,
+  "rows": 18,
+  "cols": 5,
+  "grid": [
+   [
+    "",
+    "Three months ended June 30,",
+    "Three months ended June 30,",
+    "Six months ended June 30,",
+    "Six months ended June 30,"
+   ],
+   [
+    "Operating Performance",
+    "2023",
+    "2022",
+    "2023",
+    "2022"
+   ],
+   [
+    "Safety and Industrial",
+    "$ 534",
+    "$ (707)",
+    "$ 1,135",
+    "$ (80)"
+   ],
+   [
+    "Transportation and Electronics",
+    "410",
+    "475",
+    "704",
+    "939"
+   ],
+   [
+    "Health Care",
+    "411",
+    "492",
+    "771",
+    "937"
+   ],
+   [
+    "Consumer",
+    "235",
+    "248",
+    "414",
+    "467"
+   ],
+   [
+    "Total business segment operating income (loss)",
+    "1,590",
+    "508",
+    "3,024",
+    "2,263"
+   ],
+   [
+    "Corporate and Unallocated",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Corporate special items:",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Net costs for significant litigation",
+    "(10,357)",
+    "(379)",
+    "(10,439)",
+    "(566)"
+   ],
+   [
+    "Divestiture costs",
+    "(125)",
+    "-",
+    "(227)",
+    "-"
+   ],
+   [
+    "Russia exit (charges) benefits",
+    "18",
+    "-",
+    "18",
+    "-"
+   ],
+   [
+    "Total corporate special items",
+    "(10,464)",
+    "(379)",
+    "(10,648)",
+    "(566)"
+   ],
+   [
+    "Other corporate expense - net",
+    "(84)",
+    "(19)",
+    "(93)",
+    "54"
+   ],
+   [
+    "Total Corporate and Unallocated",
+    "(10,548)",
+    "(398)",
+    "(10,741)",
+    "(512)"
+   ],
+   [
+    "Total Company operating income (loss)",
+    "(8,958)",
+    "110",
+    "(7,717)",
+    "1,751"
+   ],
+   [
+    "Other expense/(income), net",
+    "65",
+    "50",
+    "117",
+    "88"
+   ],
+   [
+    "Income (loss) before income taxes",
+    "$ (9,023)",
+    "$ 60",
+    "$ (7,834)",
+    "$ 1,663"
+   ]
+  ]
+ },
+ {
+  "index": 45,
+  "page": 55,
+  "rows": 22,
+  "cols": 3,
+  "grid": [
+   [
+    "Earnings (loss) per diluted share",
+    "Three months ended June 30, 2023",
+    "Six months ended June 30, 2023"
+   ],
+   [
+    "Same period last year",
+    "$ 0.14",
+    "$ 2.40"
+   ],
+   [
+    "Net costs for significant litigation",
+    "2.34",
+    "2.73"
+   ],
+   [
+    "Manufactured PFAS products",
+    "(0.03)",
+    "(0.05)"
+   ],
+   [
+    "Total special items",
+    "2.31",
+    "2.68"
+   ],
+   [
+    "Same period last year, excluding special items",
+    "$ 2.45",
+    "$ 5.08"
+   ],
+   [
+    "Increase/(decrease) due to:",
+    "",
+    ""
+   ],
+   [
+    "Total organic growth/productivity and other",
+    "0.06",
+    "(0.32)"
+   ],
+   [
+    "Restructuring",
+    "(0.31)",
+    "(0.36)"
+   ],
+   [
+    "Raw material impact",
+    "(0.04)",
+    "(0.18)"
+   ],
+   [
+    "Foreign exchange impacts",
+    "(0.02)",
+    "(0.12)"
+   ],
+   [
+    "Acquisitions/divestitures",
+    "(0.03)",
+    "(0.05)"
+   ],
+   [
+    "Other expense (income), net",
+    "(0.03)",
+    "(0.05)"
+   ],
+   [
+    "Income tax rate",
+    "0.02",
+    "-"
+   ],
+   [
+    "Shares of common stock outstanding",
+    "0.07",
+    "0.14"
+   ],
+   [
+    "Current period, excluding special items",
+    "2.17",
+    "4.14"
+   ],
+   [
+    "Net costs for significant litigation",
+    "(14.43)",
+    "(14.51)"
+   ],
+   [
+    "Divestiture costs",
+    "(0.19)",
+    "(0.34)"
+   ],
+   [
+    "Russia exit (charges) benefits",
+    "0.04",
+    "0.04"
+   ],
+   [
+    "Manufactured PFAS products",
+    "0.06",
+    "0.07"
+   ],
+   [
+    "Total special items",
+    "(14.52)",
+    "(14.74)"
+   ],
+   [
+    "Current period",
+    "$ (12.35)",
+    "$ (10.60)"
+   ]
+  ]
+ },
+ {
+  "index": 46,
+  "page": 57,
+  "rows": 2,
+  "cols": 2,
+  "grid": [
+   [
+    "GAAP amounts for which a measure adjusted for special items is also provided:",
+    "Reasons 3M believes the measure is useful"
+   ],
+   [
+    "• Net sales (and sales change) • Operating income (loss), segment operating income (loss) and operating income (loss) margin • Income (loss) before taxes • Provision for income taxes and effective tax rate • Net income (loss) • Earnings (loss) per share",
+    "Considered, in addition to segment operating performance, in evaluating and managing operations; useful in understanding underlying business performance, provides additional transparency to special items"
+   ]
+  ]
+ },
+ {
+  "index": 47,
+  "page": 58,
+  "rows": 21,
+  "cols": 11,
+  "grid": [
+   [
+    "",
+    "Three months ended June 30, 2022",
+    "Three months ended June 30, 2022",
+    "Three months ended June 30, 2022",
+    "Three months ended June 30, 2022",
+    "Three months ended June 30, 2022",
+    "Three months ended June 30, 2022",
+    "Three months ended June 30, 2022",
+    "Three months ended June 30, 2022",
+    "Three months ended June 30, 2022",
+    "Three months ended June 30, 2022"
+   ],
+   [
+    "(Dollars in millions, except per share amounts)",
+    "Net sales",
+    "",
+    "Operating income (loss)",
+    "Operating income (loss) margin",
+    "Income (loss) before taxes",
+    "Provision (benefit) for income taxes",
+    "Effective tax rate",
+    "Net income (loss) attributable to 3M",
+    "",
+    "Earnings per diluted share"
+   ],
+   [
+    "Safety and Industrial",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "GAAP amounts",
+    "",
+    "",
+    "$ (707)",
+    "(24.2)%",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Adjustments for special items:",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Net costs for significant litigation",
+    "",
+    "",
+    "1,337",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Total special items",
+    "",
+    "",
+    "1,337",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Adjusted amounts (non-GAAP measures)",
+    "",
+    "",
+    "$ 630",
+    "21.5 %",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Transportation and Electronics",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "GAAP amounts",
+    "$",
+    "2,268",
+    "$ 475",
+    "21.0 %",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Adjustments for special items:",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Manufactured PFAS products",
+    "",
+    "(318)",
+    "(20)",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Total special items",
+    "",
+    "(318)",
+    "(20)",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Adjusted amounts (non-GAAP measures)",
+    "$",
+    "1,950",
+    "$ 455",
+    "23.4 %",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Total Company",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "GAAP amounts",
+    "$",
+    "8,702",
+    "$ 110",
+    "1.3 %",
+    "$ 60",
+    "$ (23)",
+    "(38.3)%",
+    "$ 78",
+    "$",
+    "0.14"
+   ],
+   [
+    "Adjustments for special items:",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Net costs for significant litigation",
+    "",
+    "-",
+    "1,716",
+    "",
+    "1,716",
+    "374",
+    "",
+    "1,342",
+    "",
+    "2.34"
+   ],
+   [
+    "Manufactured PFAS products",
+    "",
+    "(318)",
+    "(20)",
+    "",
+    "(20)",
+    "(6)",
+    "",
+    "(14)",
+    "",
+    "(0.03)"
+   ],
+   [
+    "Total special items",
+    "",
+    "(318)",
+    "1,696",
+    "",
+    "1,696",
+    "368",
+    "",
+    "1,328",
+    "",
+    "2.31"
+   ],
+   [
+    "Adjusted amounts (non-GAAP measures)",
+    "$",
+    "8,384",
+    "$ 1,806",
+    "21.6 %",
+    "$ 1,756",
+    "$ 345",
+    "19.8 %",
+    "$ 1,406",
+    "$",
+    "2.45"
+   ]
+  ]
+ },
+ {
+  "index": 48,
+  "page": 58,
+  "rows": 22,
+  "cols": 11,
+  "grid": [
+   [
+    "(Dollars in millions, except per share amounts)",
+    "Net sales",
+    "Sales change",
+    "Operating income (loss)",
+    "Operating income (loss) margin",
+    "Income (loss) before taxes",
+    "Provision (benefit) for income taxes",
+    "Effective tax rate",
+    "Net income (loss) attributable to 3M",
+    "Earnings (loss) per diluted share",
+    "Earnings (loss) per diluted share percent change"
+   ],
+   [
+    "Safety and Industrial",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "GAAP amounts",
+    "",
+    "",
+    "$ 534",
+    "19.3 %",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Adjustments for special items:",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Net costs for significant litigation",
+    "",
+    "",
+    "80",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Total special items",
+    "",
+    "",
+    "80",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Adjusted amounts (non-GAAP measures)",
+    "",
+    "",
+    "$ 614",
+    "22.2 %",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Transportation and Electronics",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "GAAP amounts",
+    "$ 2,191",
+    "(3.4)%",
+    "$ 410",
+    "18.7 %",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Adjustments for special items:",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Manufactured PFAS products",
+    "(332)",
+    "",
+    "(41)",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Total special items",
+    "(332)",
+    "",
+    "(41)",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Adjusted amounts (non-GAAP measures)",
+    "$ 1,859",
+    "(4.7)%",
+    "$ 369",
+    "19.8 %",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Total Company",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "GAAP amounts",
+    "$ 8,325",
+    "(4.3)%",
+    "$ (8,958)",
+    "(107.6)%",
+    "$ (9,023)",
+    "$ (2,184)",
+    "24.2 %",
+    "$ (6,841)",
+    "$ (12.35)",
+    "N/M"
+   ],
+   [
+    "Adjustments for special items:",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Net costs for significant litigation 1",
+    "-",
+    "",
+    "10,437",
+    "",
+    "10,449",
+    "2,457",
+    "",
+    "7,992",
+    "14.43",
+    ""
+   ],
+   [
+    "Manufactured PFAS products",
+    "(332)",
+    "",
+    "(41)",
+    "",
+    "(41)",
+    "(10)",
+    "",
+    "(31)",
+    "(0.06)",
+    ""
+   ],
+   [
+    "Russia exit charges (benefits)",
+    "-",
+    "",
+    "(18)",
+    "",
+    "(18)",
+    "3",
+    "",
+    "(21)",
+    "(0.04)",
+    ""
+   ],
+   [
+    "Divestiture costs",
+    "-",
+    "",
+    "125",
+    "",
+    "125",
+    "20",
+    "",
+    "105",
+    "0.19",
+    ""
+   ],
+   [
+    "Total special items",
+    "(332)",
+    "",
+    "10,503",
+    "",
+    "10,515",
+    "2,470",
+    "",
+    "8,045",
+    "14.52",
+    ""
+   ],
+   [
+    "Adjusted amounts (non-GAAP measures)",
+    "$ 7,993",
+    "(4.7)%",
+    "$ 1,545",
+    "19.3 %",
+    "$ 1,492",
+    "$ 286",
+    "19.1 %",
+    "$ 1,204",
+    "$ 2.17",
+    "(12) %"
+   ]
+  ]
+ },
+ {
+  "index": 49,
+  "page": 58,
+  "rows": 8,
+  "cols": 6,
+  "grid": [
+   [
+    "",
+    "Three months ended June 30, 2023",
+    "Three months ended June 30, 2023",
+    "Three months ended June 30, 2023",
+    "Three months ended June 30, 2023",
+    "Three months ended June 30, 2023"
+   ],
+   [
+    "Sales Change",
+    "Organic sales",
+    "Acquisitions",
+    "Divestitures",
+    "Translation",
+    "Total sales change"
+   ],
+   [
+    "Total Company",
+    "(2.2)%",
+    "0.1 %",
+    "(1.3)%",
+    "(0.9)%",
+    "(4.3)%"
+   ],
+   [
+    "Remove manufactured PFAS products special item impact",
+    "(0.3)",
+    "-",
+    "(0.1)",
+    "-",
+    "(0.4)"
+   ],
+   [
+    "Adjusted total Company (non-GAAP measures)",
+    "(2.5)%",
+    "0.1 %",
+    "(1.4)%",
+    "(0.9)%",
+    "(4.7)%"
+   ],
+   [
+    "Transportation and Electronics",
+    "(1.3)%",
+    "0.5 %",
+    "(1.3)%",
+    "(1.3)%",
+    "(3.4)%"
+   ],
+   [
+    "Remove manufactured PFAS products special item impact",
+    "(1.1)",
+    "0.1",
+    "(0.2)",
+    "(0.1)",
+    "(1.3)"
+   ],
+   [
+    "Adjusted Transportation and Electronics (non-GAAP measures)",
+    "(2.4)%",
+    "0.6 %",
+    "(1.5)%",
+    "(1.4)%",
+    "(4.7)%"
+   ]
+  ]
+ },
+ {
+  "index": 50,
+  "page": 59,
+  "rows": 21,
+  "cols": 10,
+  "grid": [
+   [
+    "",
+    "Six months ended June 30, 2022",
+    "Six months ended June 30, 2022",
+    "Six months ended June 30, 2022",
+    "Six months ended June 30, 2022",
+    "Six months ended June 30, 2022",
+    "Six months ended June 30, 2022",
+    "Six months ended June 30, 2022",
+    "Six months ended June 30, 2022",
+    "Six months ended June 30, 2022"
+   ],
+   [
+    "(Dollars in millions, except per share amounts)",
+    "Net sales",
+    "",
+    "Operating income (loss)",
+    "Operating income (loss) margin",
+    "Income (loss) before taxes",
+    "Provision (benefit) for income taxes",
+    "Effective tax rate",
+    "Net income (loss) attributable to 3M",
+    "Earnings per diluted share"
+   ],
+   [
+    "Safety and Industrial",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "GAAP amounts",
+    "",
+    "$",
+    "(80)",
+    "(1.3)%",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Adjustments for special items:",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Net costs for significant litigation",
+    "",
+    "",
+    "1,400",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Total special items",
+    "",
+    "",
+    "1,400",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Adjusted amounts (non-GAAP measures)",
+    "",
+    "",
+    "$ 1,320",
+    "22.1 %",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Transportation and Electronics",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "GAAP amounts",
+    "$",
+    "4,608 $",
+    "939",
+    "20.4 %",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Adjustments for special items:",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Manufactured PFAS products",
+    "",
+    "(638)",
+    "(36)",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Total special items",
+    "",
+    "(638)",
+    "(36)",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Adjusted amounts (non-GAAP measures)",
+    "$",
+    "3,970",
+    "$ 903",
+    "22.8 %",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Total Company",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "GAAP amounts",
+    "$",
+    "17,531",
+    "$ 1,751",
+    "10.0 %",
+    "$ 1,663",
+    "$ 279",
+    "16.8 %",
+    "$ 1,377",
+    "$ 2.40"
+   ],
+   [
+    "Adjustments for special items:",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Net costs for significant litigation",
+    "",
+    "-",
+    "1,966",
+    "",
+    "1,966",
+    "399",
+    "",
+    "1,567",
+    "2.73"
+   ],
+   [
+    "Manufactured PFAS products",
+    "",
+    "(638)",
+    "(36)",
+    "",
+    "(36)",
+    "(10)",
+    "",
+    "(26)",
+    "(0.05)"
+   ],
+   [
+    "Total special items",
+    "",
+    "(638)",
+    "1,930",
+    "",
+    "1,930",
+    "389",
+    "",
+    "1,541",
+    "2.68"
+   ],
+   [
+    "Adjusted amounts (non-GAAP measures)",
+    "$",
+    "16,893",
+    "$ 3,681",
+    "21.8 %",
+    "$ 3,593",
+    "$ 668",
+    "18.6 %",
+    "$ 2,918",
+    "$ 5.08"
+   ]
+  ]
+ },
+ {
+  "index": 51,
+  "page": 59,
+  "rows": 22,
+  "cols": 11,
+  "grid": [
+   [
+    "(Dollars in millions, except per share amounts)",
+    "Net sales",
+    "Sales change",
+    "Operating income (loss)",
+    "Operating income (loss) margin",
+    "Income (loss) before taxes",
+    "Provision (benefit) for income taxes",
+    "Effective tax rate",
+    "Net income (loss) attributable to 3M",
+    "Earnings (loss) per diluted share",
+    "Earnings (loss) per diluted share percent change"
+   ],
+   [
+    "Safety and Industrial",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "GAAP amounts",
+    "",
+    "",
+    "$ 1,135",
+    "20.5 %",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Adjustments for special items:",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Net costs for significant litigation",
+    "",
+    "",
+    "41",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Total special items",
+    "",
+    "",
+    "41",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Adjusted amounts (non-GAAP measures)",
+    "",
+    "",
+    "$ 1,176",
+    "21.2 %",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Transportation and Electronics",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "GAAP amounts",
+    "$ 4,241",
+    "(8.0)%",
+    "$ 704",
+    "16.6 %",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Adjustments for special items:",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Manufactured PFAS products",
+    "(677)",
+    "",
+    "(51)",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Total special items",
+    "(677)",
+    "",
+    "(51)",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Adjusted amounts (non-GAAP measures)",
+    "$ 3,564",
+    "(10.2)%",
+    "$ 653",
+    "18.3 %",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Total Company",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "GAAP amounts",
+    "$ 16,356",
+    "(6.7)%",
+    "$ (7,717)",
+    "(47.2)%",
+    "$ (7,834)",
+    "$ (1,974)",
+    "25.2 %",
+    "$ (5,865)",
+    "$ (10.60)",
+    "N/M"
+   ],
+   [
+    "Adjustments for special items:",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Net costs for significant litigation 1",
+    "-",
+    "",
+    "10,480",
+    "",
+    "10,492",
+    "2,464",
+    "",
+    "8,028",
+    "14.51",
+    ""
+   ],
+   [
+    "Manufactured PFAS products",
+    "(677)",
+    "",
+    "(51)",
+    "",
+    "(51)",
+    "(13)",
+    "",
+    "(38)",
+    "(0.07)",
+    ""
+   ],
+   [
+    "Russia exit charges (benefits)",
+    "-",
+    "",
+    "(18)",
+    "",
+    "$ (18)",
+    "3",
+    "",
+    "(21)",
+    "(0.04)",
+    ""
+   ],
+   [
+    "Divestiture costs",
+    "-",
+    "",
+    "227",
+    "",
+    "227",
+    "40",
+    "",
+    "187",
+    "0.34",
+    ""
+   ],
+   [
+    "Total special items",
+    "(677)",
+    "",
+    "10,638",
+    "",
+    "10,650",
+    "2,494",
+    "",
+    "8,156",
+    "14.74",
+    ""
+   ],
+   [
+    "Adjusted amounts (non-GAAP measures)",
+    "$ 15,679",
+    "(7.2)%",
+    "$ 2,921",
+    "18.6 %",
+    "$ 2,816",
+    "$ 520",
+    "18.5 %",
+    "$ 2,291",
+    "$ 4.14",
+    "(19) %"
+   ]
+  ]
+ },
+ {
+  "index": 52,
+  "page": 59,
+  "rows": 8,
+  "cols": 6,
+  "grid": [
+   [
+    "",
+    "Six months ended June 30, 2023",
+    "Six months ended June 30, 2023",
+    "Six months ended June 30, 2023",
+    "Six months ended June 30, 2023",
+    "Six months ended June 30, 2023"
+   ],
+   [
+    "Sales Change",
+    "Organic sales",
+    "Acquisitions",
+    "Divestitures",
+    "Translation",
+    "Total sales change"
+   ],
+   [
+    "Total Company",
+    "(3.6)%",
+    "0.1 %",
+    "(1.3)%",
+    "(1.9)%",
+    "(6.7)%"
+   ],
+   [
+    "Remove manufactured PFAS products special item impact",
+    "(0.5)",
+    "-",
+    "(0.1)",
+    "0.1",
+    "(0.5)"
+   ],
+   [
+    "Adjusted total Company (non-GAAP measures)",
+    "(4.1)%",
+    "0.1 %",
+    "(1.4)%",
+    "(1.8)%",
+    "(7.2)%"
+   ],
+   [
+    "Transportation and Electronics",
+    "(4.7)%",
+    "0.2 %",
+    "(1.1)%",
+    "(2.4)%",
+    "(8.0)%"
+   ],
+   [
+    "Remove manufactured PFAS products special item impact",
+    "(2.3)",
+    "0.1",
+    "(0.2)",
+    "0.2",
+    "(2.2)"
+   ],
+   [
+    "Adjusted Transportation and Electronics (non-GAAP measures)",
+    "(7.0)%",
+    "0.3 %",
+    "(1.3)%",
+    "(2.2)%",
+    "(10.2)%"
+   ]
+  ]
+ },
+ {
+  "index": 53,
+  "page": 60,
+  "rows": 10,
+  "cols": 7,
+  "grid": [
+   [
+    "",
+    "Three months ended June 30,",
+    "Three months ended June 30,",
+    "Three months ended June 30,",
+    "Three months ended June 30,",
+    "",
+    ""
+   ],
+   [
+    "",
+    "2023",
+    "2023",
+    "2022",
+    "2022",
+    "% change",
+    "% change"
+   ],
+   [
+    "(Dollars in millions)",
+    "Net Sales",
+    "Operating Income (Loss)",
+    "Net Sales",
+    "Operating Income (Loss)",
+    "Net Sales",
+    "Operating Income (Loss)"
+   ],
+   [
+    "Business Segments",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Safety and Industrial",
+    "$ 2,765",
+    "$ 534",
+    "$ 2,924",
+    "$ (707)",
+    "(5.5) %",
+    "(175.6) %"
+   ],
+   [
+    "Transportation and Electronics",
+    "2,191",
+    "410",
+    "2,268",
+    "475",
+    "(3.4)",
+    "(13.8)"
+   ],
+   [
+    "Health Care",
+    "2,075",
+    "411",
+    "2,179",
+    "492",
+    "(4.8)",
+    "(16.4)"
+   ],
+   [
+    "Consumer",
+    "1,293",
+    "235",
+    "1,330",
+    "248",
+    "(2.7)",
+    "(5.1)"
+   ],
+   [
+    "Corporate and Unallocated",
+    "1",
+    "(10,548)",
+    "1",
+    "(398)",
+    "",
+    ""
+   ],
+   [
+    "Total Company",
+    "$ 8,325",
+    "$ (8,958)",
+    "$ 8,702",
+    "$ 110",
+    "(4.3) %",
+    "N/M"
+   ]
+  ]
+ },
+ {
+  "index": 54,
+  "page": 60,
+  "rows": 10,
+  "cols": 7,
+  "grid": [
+   [
+    "",
+    "Six months ended June 30,",
+    "Six months ended June 30,",
+    "Six months ended June 30,",
+    "Six months ended June 30,",
+    "",
+    ""
+   ],
+   [
+    "",
+    "2023",
+    "2023",
+    "2022",
+    "2022",
+    "% change",
+    "% change"
+   ],
+   [
+    "(Dollars in millions)",
+    "Net Sales",
+    "Operating Income (Loss)",
+    "Net Sales",
+    "Operating Income (Loss)",
+    "Net Sales",
+    "Operating Income (Loss)"
+   ],
+   [
+    "Business Segments",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Safety and Industrial",
+    "$ 5,544",
+    "$ 1,135",
+    "$ 5,975",
+    "$ (80)",
+    "(7.2) %",
+    "N/M"
+   ],
+   [
+    "Transportation and Electronics",
+    "4,241",
+    "704",
+    "4,608",
+    "939",
+    "(8.0)",
+    "(25.1)"
+   ],
+   [
+    "Health Care",
+    "4,085",
+    "771",
+    "4,307",
+    "937",
+    "(5.2)",
+    "(17.7)"
+   ],
+   [
+    "Consumer",
+    "2,485",
+    "414",
+    "2,639",
+    "467",
+    "(5.8)",
+    "(11.4)"
+   ],
+   [
+    "Corporate and Unallocated",
+    "1",
+    "(10,741)",
+    "2",
+    "(512)",
+    "",
+    ""
+   ],
+   [
+    "Total Company",
+    "$ 16,356",
+    "$ (7,717)",
+    "$ 17,531",
+    "$ 1,751",
+    "(6.7) %",
+    "N/M"
+   ]
+  ]
+ },
+ {
+  "index": 55,
+  "page": 60,
+  "rows": 7,
+  "cols": 6,
+  "grid": [
+   [
+    "",
+    "Three months ended June 30, 2023",
+    "Three months ended June 30, 2023",
+    "Three months ended June 30, 2023",
+    "Three months ended June 30, 2023",
+    "Three months ended June 30, 2023"
+   ],
+   [
+    "Worldwide Sales Change By Business Segment",
+    "Organic sales",
+    "Acquisitions",
+    "Divestitures",
+    "Translation",
+    "Total sales change"
+   ],
+   [
+    "Safety and Industrial",
+    "(4.6) %",
+    "- %",
+    "- %",
+    "(0.9) %",
+    "(5.5) %"
+   ],
+   [
+    "Transportation and Electronics",
+    "(1.3)",
+    "0.5",
+    "(1.3)",
+    "(1.3)",
+    "(3.4)"
+   ],
+   [
+    "Health Care",
+    "0.1",
+    "-",
+    "(4.1)",
+    "(0.8)",
+    "(4.8)"
+   ],
+   [
+    "Consumer",
+    "(2.2)",
+    "-",
+    "-",
+    "(0.5)",
+    "(2.7)"
+   ],
+   [
+    "Total Company",
+    "(2.2)",
+    "0.1",
+    "(1.3)",
+    "(0.9)",
+    "(4.3)"
+   ]
+  ]
+ },
+ {
+  "index": 56,
+  "page": 60,
+  "rows": 6,
+  "cols": 6,
+  "grid": [
+   [
+    "Worldwide Sales Change By Business Segment",
+    "Organic sales",
+    "Acquisitions",
+    "Divestitures",
+    "Translation",
+    "Total sales change"
+   ],
+   [
+    "Safety and Industrial",
+    "(5.3) %",
+    "- %",
+    "- %",
+    "(1.9) %",
+    "(7.2) %"
+   ],
+   [
+    "Transportation and Electronics",
+    "(4.7)",
+    "0.2",
+    "(1.1)",
+    "(2.4)",
+    "(8.0)"
+   ],
+   [
+    "Health Care",
+    "0.8",
+    "-",
+    "(4.2)",
+    "(1.8)",
+    "(5.2)"
+   ],
+   [
+    "Consumer",
+    "(4.5)",
+    "-",
+    "(0.1)",
+    "(1.2)",
+    "(5.8)"
+   ],
+   [
+    "Total Company",
+    "(3.6)",
+    "0.1",
+    "(1.3)",
+    "(1.9)",
+    "(6.7)"
+   ]
+  ]
+ },
+ {
+  "index": 57,
+  "page": 61,
+  "rows": 10,
+  "cols": 6,
+  "grid": [
+   [
+    "",
+    "Three months ended June 30, 2023",
+    "Three months ended June 30, 2023",
+    "Three months ended June 30, 2023",
+    "Three months ended June 30, 2023",
+    "Three months ended June 30, 2023"
+   ],
+   [
+    "",
+    "Americas",
+    "Asia Pacific",
+    "Europe, Middle East & Africa",
+    "Other Unallocated",
+    "Worldwide"
+   ],
+   [
+    "Net sales (millions)",
+    "$ 4,678",
+    "$ 2,134",
+    "$ 1,513",
+    "$ -",
+    "$ 8,325"
+   ],
+   [
+    "% of worldwide sales",
+    "56.2 %",
+    "25.6 %",
+    "18.2 %",
+    "",
+    "100.0 %"
+   ],
+   [
+    "Components of net sales change:",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Organic sales",
+    "0.1",
+    "(8.1)",
+    "0.3",
+    "",
+    "(2.2)"
+   ],
+   [
+    "Acquisitions",
+    "0.2",
+    "-",
+    "-",
+    "",
+    "0.1"
+   ],
+   [
+    "Divestitures",
+    "(1.6)",
+    "(1.0)",
+    "(0.8)",
+    "",
+    "(1.3)"
+   ],
+   [
+    "Translation",
+    "(0.2)",
+    "(3.7)",
+    "1.1",
+    "",
+    "(0.9)"
+   ],
+   [
+    "Total sales change",
+    "(1.5) %",
+    "(12.8) %",
+    "0.6 %",
+    "",
+    "(4.3) %"
+   ]
+  ]
+ },
+ {
+  "index": 58,
+  "page": 61,
+  "rows": 10,
+  "cols": 6,
+  "grid": [
+   [
+    "",
+    "Six months ended June 30, 2023",
+    "Six months ended June 30, 2023",
+    "Six months ended June 30, 2023",
+    "Six months ended June 30, 2023",
+    "Six months ended June 30, 2023"
+   ],
+   [
+    "",
+    "Americas",
+    "Asia Pacific",
+    "Europe, Middle East & Africa",
+    "Other Unallocated",
+    "Worldwide"
+   ],
+   [
+    "Net sales (millions)",
+    "$ 9,077",
+    "$ 4,314",
+    "$ 2,965",
+    "$ -",
+    "$ 16,356"
+   ],
+   [
+    "% of worldwide sales",
+    "55.5 %",
+    "26.4 %",
+    "18.1 %",
+    "",
+    "100.0 %"
+   ],
+   [
+    "Components of net sales change:",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Organic sales",
+    "0.6",
+    "(11.7)",
+    "(2.2)",
+    "",
+    "(3.6)"
+   ],
+   [
+    "Acquisitions",
+    "0.1",
+    "-",
+    "-",
+    "",
+    "0.1"
+   ],
+   [
+    "Divestitures",
+    "(1.6)",
+    "(1.0)",
+    "(0.9)",
+    "",
+    "(1.3)"
+   ],
+   [
+    "Translation",
+    "(0.3)",
+    "(4.6)",
+    "(2.0)",
+    "",
+    "(1.9)"
+   ],
+   [
+    "Total sales change",
+    "(1.2) %",
+    "(17.3) %",
+    "(5.1) %",
+    "",
+    "(6.7) %"
+   ]
+  ]
+ },
+ {
+  "index": 59,
+  "page": 62,
+  "rows": 6,
+  "cols": 7,
+  "grid": [
+   [
+    "",
+    "Three months ended June 30,",
+    "Three months ended June 30,",
+    "Three months ended June 30,",
+    "Six months ended June 30,",
+    "Six months ended June 30,",
+    "Six months ended June 30,"
+   ],
+   [
+    "(Percent of net sales)",
+    "2023",
+    "2022",
+    "Change",
+    "2023",
+    "2022",
+    "Change"
+   ],
+   [
+    "Cost of sales",
+    "55.3 %",
+    "58.5 %",
+    "(3.2)%",
+    "56.4 %",
+    "56.6 %",
+    "(0.2)%"
+   ],
+   [
+    "Selling, general and administrative expenses (SG&A)",
+    "146.6",
+    "34.7",
+    "111.9",
+    "85.0",
+    "27.9",
+    "57.1"
+   ],
+   [
+    "Research, development and related expenses (R&D)",
+    "5.7",
+    "5.5",
+    "0.2",
+    "5.8",
+    "5.5",
+    "0.3"
+   ],
+   [
+    "Operating income (loss) margin",
+    "(107.6)%",
+    "1.3 %",
+    "(108.9)%",
+    "(47.2)%",
+    "10.0 %",
+    "(57.2)%"
+   ]
+  ]
+ },
+ {
+  "index": 60,
+  "page": 63,
+  "rows": 3,
+  "cols": 5,
+  "grid": [
+   [
+    "",
+    "Three months ended June 30,",
+    "Three months ended June 30,",
+    "Six months ended June 30,",
+    "Six months ended June 30,"
+   ],
+   [
+    "(Percent of pre-tax income/loss)",
+    "2023",
+    "2022",
+    "2023",
+    "2022"
+   ],
+   [
+    "Effective tax rate",
+    "24.2 %",
+    "(38.3)%",
+    "25.2 %",
+    "16.8 %"
+   ]
+  ]
+ },
+ {
+  "index": 61,
+  "page": 63,
+  "rows": 3,
+  "cols": 5,
+  "grid": [
+   [
+    "",
+    "Three months ended June 30,",
+    "Three months ended June 30,",
+    "Six months ended June 30,",
+    "Six months ended June 30,"
+   ],
+   [
+    "(Millions)",
+    "2023",
+    "2022",
+    "2023",
+    "2022"
+   ],
+   [
+    "Income (loss) from unconsolidated subsidiaries, net of taxes",
+    "$ 3",
+    "$ (1) $",
+    "5",
+    "$ 1"
+   ]
+  ]
+ },
+ {
+  "index": 62,
+  "page": 63,
+  "rows": 3,
+  "cols": 5,
+  "grid": [
+   [
+    "",
+    "Three months ended June 30,",
+    "Three months ended June 30,",
+    "Six months ended June 30,",
+    "Six months ended June 30,"
+   ],
+   [
+    "(Millions)",
+    "2023",
+    "2022",
+    "2023",
+    "2022"
+   ],
+   [
+    "Net income (loss) attributable to noncontrolling interest",
+    "$ 5",
+    "$ 4",
+    "$ 10",
+    "$ 8"
+   ]
+  ]
+ },
+ {
+  "index": 63,
+  "page": 65,
+  "rows": 13,
+  "cols": 5,
+  "grid": [
+   [
+    "",
+    "Three months ended June 30,",
+    "Three months ended June 30,",
+    "Six months ended June 30,",
+    "Six months ended June 30,"
+   ],
+   [
+    "",
+    "2023",
+    "2022",
+    "2023",
+    "2022"
+   ],
+   [
+    "Sales (millions)",
+    "$ 2,765",
+    "$ 2,924",
+    "$ 5,544",
+    "$ 5,975"
+   ],
+   [
+    "Sales change analysis:",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Organic sales",
+    "(4.6) %",
+    "",
+    "(5.3) %",
+    ""
+   ],
+   [
+    "Translation",
+    "(0.9)",
+    "",
+    "(1.9)",
+    ""
+   ],
+   [
+    "Total sales change",
+    "(5.5) %",
+    "",
+    "(7.2) %",
+    ""
+   ],
+   [
+    "Business segment operating income (loss) (millions)",
+    "$ 534",
+    "$ (707)",
+    "$ 1,135",
+    "$ (80)"
+   ],
+   [
+    "Percent change",
+    "(175.6) %",
+    "",
+    "N/M",
+    ""
+   ],
+   [
+    "Percent of sales",
+    "19.3 %",
+    "(24.2) %",
+    "20.5 %",
+    "(1.3) %"
+   ],
+   [
+    "Adjusted business segment operating income (millions) (non-GAAP measure)",
+    "$ 614",
+    "$ 630",
+    "$ 1,176",
+    "$ 1,320"
+   ],
+   [
+    "Percent change",
+    "(2.4) %",
+    "",
+    "(10.9) %",
+    ""
+   ],
+   [
+    "Percent of sales",
+    "22.2 %",
+    "21.5 %",
+    "21.2 %",
+    "22.1 %"
+   ]
+  ]
+ },
+ {
+  "index": 64,
+  "page": 66,
+  "rows": 22,
+  "cols": 5,
+  "grid": [
+   [
+    "",
+    "Three months ended June 30,",
+    "Three months ended June 30,",
+    "Six months ended June 30,",
+    "Six months ended June 30,"
+   ],
+   [
+    "",
+    "2023",
+    "2022",
+    "2023",
+    "2022"
+   ],
+   [
+    "Sales (millions)",
+    "$ 2,191",
+    "$ 2,268",
+    "$ 4,241",
+    "$ 4,608"
+   ],
+   [
+    "Sales change analysis:",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Organic sales",
+    "(1.3) %",
+    "",
+    "(4.7)",
+    "%"
+   ],
+   [
+    "Acquisitions",
+    "0.5 %",
+    "",
+    "0.2",
+    ""
+   ],
+   [
+    "Divestitures",
+    "(1.3)",
+    "",
+    "(1.1)",
+    ""
+   ],
+   [
+    "Translation",
+    "(1.3)",
+    "",
+    "(2.4)",
+    ""
+   ],
+   [
+    "Total sales change",
+    "(3.4) %",
+    "",
+    "(8.0) %",
+    ""
+   ],
+   [
+    "Business segment operating income (millions)",
+    "$ 410",
+    "$ 475",
+    "$ 704",
+    "$ 939"
+   ],
+   [
+    "Percent change",
+    "(13.8) %",
+    "",
+    "(25.1)",
+    "%"
+   ],
+   [
+    "Percent of sales",
+    "18.7 %",
+    "21.0 %",
+    "16.6 %",
+    "20.4 %"
+   ],
+   [
+    "Adjusted sales (millions) (non-GAAP measure)",
+    "$ 1,859",
+    "$ 1,950",
+    "$ 3,564",
+    "$ 3,970"
+   ],
+   [
+    "Sales change analysis:",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Organic sales",
+    "(2.4) %",
+    "",
+    "(7.0) %",
+    ""
+   ],
+   [
+    "Acquisitions",
+    "0.6",
+    "",
+    "0.3",
+    ""
+   ],
+   [
+    "Divestitures",
+    "(1.5)",
+    "",
+    "(1.3)",
+    ""
+   ],
+   [
+    "Translation",
+    "(1.4)",
+    "",
+    "(2.2)",
+    ""
+   ],
+   [
+    "Total sales change",
+    "(4.7) %",
+    "",
+    "(10.2) %",
+    ""
+   ],
+   [
+    "Adjusted business segment operating income (millions) (non-GAAP measure)",
+    "$ 369",
+    "$ 455",
+    "$ 653",
+    "$ 903"
+   ],
+   [
+    "Percent change",
+    "(19.3) %",
+    "",
+    "(27.8)",
+    "%"
+   ],
+   [
+    "Percent of sales",
+    "19.8 %",
+    "23.4 %",
+    "18.3 %",
+    "22.8 %"
+   ]
+  ]
+ },
+ {
+  "index": 65,
+  "page": 68,
+  "rows": 11,
+  "cols": 5,
+  "grid": [
+   [
+    "",
+    "Three months ended June 30,",
+    "Three months ended June 30,",
+    "Six months ended June 30,",
+    "Six months ended June 30,"
+   ],
+   [
+    "",
+    "2023",
+    "2022",
+    "2023",
+    "2022"
+   ],
+   [
+    "Sales (millions)",
+    "$ 2,075",
+    "$ 2,179",
+    "$ 4,085",
+    "$ 4,307"
+   ],
+   [
+    "Sales change analysis:",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Organic sales",
+    "0.1 %",
+    "",
+    "0.8 %",
+    ""
+   ],
+   [
+    "Divestitures",
+    "(4.1)",
+    "",
+    "(4.2)",
+    ""
+   ],
+   [
+    "Translation",
+    "(0.8)",
+    "",
+    "(1.8)",
+    ""
+   ],
+   [
+    "Total sales change",
+    "(4.8) %",
+    "",
+    "(5.2) %",
+    ""
+   ],
+   [
+    "Business segment operating income (millions)",
+    "$ 411",
+    "$ 492",
+    "$ 771",
+    "$ 937"
+   ],
+   [
+    "Percent change",
+    "(16.4) %",
+    "",
+    "(17.7) %",
+    ""
+   ],
+   [
+    "Percent of sales",
+    "19.8 %",
+    "22.6 %",
+    "18.9 %",
+    "21.8 %"
+   ]
+  ]
+ },
+ {
+  "index": 66,
+  "page": 69,
+  "rows": 11,
+  "cols": 5,
+  "grid": [
+   [
+    "",
+    "Three months ended June 30,",
+    "Three months ended June 30,",
+    "Six months ended June 30,",
+    "Six months ended June 30,"
+   ],
+   [
+    "",
+    "2023",
+    "2022",
+    "2023",
+    "2022"
+   ],
+   [
+    "Sales (millions)",
+    "$ 1,293",
+    "$ 1,330",
+    "$ 2,485",
+    "$ 2,639"
+   ],
+   [
+    "Sales change analysis:",
+    "",
+    "",
+    "",
+    ""
+   ],
+   [
+    "Organic sales",
+    "(2.2) %",
+    "",
+    "(4.5) %",
+    ""
+   ],
+   [
+    "Divestitures",
+    "-",
+    "",
+    "(0.1)",
+    ""
+   ],
+   [
+    "Translation",
+    "(0.5)",
+    "",
+    "(1.2)",
+    ""
+   ],
+   [
+    "Total sales change",
+    "(2.7) %",
+    "",
+    "(5.8) %",
+    ""
+   ],
+   [
+    "Business segment operating income (millions)",
+    "$ 235",
+    "$ 248",
+    "$ 414",
+    "$ 467"
+   ],
+   [
+    "Percent change",
+    "(5.1) %",
+    "",
+    "(11.4) %",
+    ""
+   ],
+   [
+    "Percent of sales",
+    "18.2 %",
+    "18.6 %",
+    "16.7 %",
+    "17.7 %"
+   ]
+  ]
+ },
+ {
+  "index": 67,
+  "page": 71,
+  "rows": 4,
+  "cols": 4,
+  "grid": [
+   [
+    "(Millions)",
+    "June 30, 2023",
+    "December 31, 2022",
+    "Change"
+   ],
+   [
+    "Total debt",
+    "$ 15,987 $",
+    "15,939 $",
+    "48"
+   ],
+   [
+    "Less: Cash, cash equivalents and marketable securities",
+    "4,337",
+    "3,916",
+    "421"
+   ],
+   [
+    "Net debt (non-GAAP measure)",
+    "$ 11,650 $",
+    "12,023 $",
+    "(373)"
+   ]
+  ]
+ },
+ {
+  "index": 68,
+  "page": 71,
+  "rows": 4,
+  "cols": 4,
+  "grid": [
+   [
+    "(Millions)",
+    "June 30, 2023",
+    "December 31, 2022",
+    "Change"
+   ],
+   [
+    "Current assets",
+    "$ 15,754 $",
+    "14,688",
+    "$ 1,066"
+   ],
+   [
+    "Less: Current liabilities",
+    "10,936",
+    "9,523",
+    "1,413"
+   ],
+   [
+    "Working capital (non-GAAP measure)",
+    "$ 4,818 $",
+    "5,165 $",
+    "(347)"
+   ]
+  ]
+ },
+ {
+  "index": 69,
+  "page": 72,
+  "rows": 13,
+  "cols": 3,
+  "grid": [
+   [
+    "",
+    "Six months ended June 30,",
+    "Six months ended June 30,"
+   ],
+   [
+    "(Millions)",
+    "2023",
+    "2022"
+   ],
+   [
+    "Net income (loss) including noncontrolling interest",
+    "$ (5,855)",
+    "$ 1,385"
+   ],
+   [
+    "Depreciation and amortization",
+    "915",
+    "921"
+   ],
+   [
+    "Company pension and postretirement contributions",
+    "(57)",
+    "(80)"
+   ],
+   [
+    "Company pension and postretirement expense",
+    "75",
+    "83"
+   ],
+   [
+    "Stock-based compensation expense",
+    "176",
+    "182"
+   ],
+   [
+    "Income taxes (deferred and accrued income taxes)",
+    "(2,956)",
+    "(460)"
+   ],
+   [
+    "Accounts receivable",
+    "(393)",
+    "(457)"
+   ],
+   [
+    "Inventories",
+    "101",
+    "(837)"
+   ],
+   [
+    "Accounts payable",
+    "135",
+    "401"
+   ],
+   [
+    "Other - net",
+    "10,643",
+    "1,000"
+   ],
+   [
+    "Net cash provided by (used in) operating activities",
+    "$ 2,784",
+    "$ 2,138"
+   ]
+  ]
+ },
+ {
+  "index": 70,
+  "page": 72,
+  "rows": 9,
+  "cols": 3,
+  "grid": [
+   [
+    "",
+    "Six months ended June 30,",
+    "Six months ended June 30,"
+   ],
+   [
+    "(Millions)",
+    "2023",
+    "2022"
+   ],
+   [
+    "Purchases of property, plant and equipment (PP&E)",
+    "$ (852)",
+    "$ (808)"
+   ],
+   [
+    "Proceeds from sale of PP&E and other assets",
+    "23",
+    "56"
+   ],
+   [
+    "Acquisitions, net of cash acquired",
+    "-",
+    "-"
+   ],
+   [
+    "Purchases and proceeds from maturities and sale of marketable securities and investments, net",
+    "170",
+    "(62)"
+   ],
+   [
+    "Proceeds from sale of businesses, net of cash sold",
+    "3",
+    "13"
+   ],
+   [
+    "Other - net",
+    "37",
+    "(13)"
+   ],
+   [
+    "Net cash provided by (used in) investing activities",
+    "$ (619)",
+    "$ (814)"
+   ]
+  ]
+ },
+ {
+  "index": 71,
+  "page": 73,
+  "rows": 11,
+  "cols": 3,
+  "grid": [
+   [
+    "",
+    "Six months ended June 30,",
+    "Six months ended June 30,"
+   ],
+   [
+    "(Millions)",
+    "2023",
+    "2022"
+   ],
+   [
+    "Change in short-term debt - net",
+    "$ 651",
+    "$ 344"
+   ],
+   [
+    "Repayment of debt (maturities greater than 90 days)",
+    "(1,802)",
+    "(1,179)"
+   ],
+   [
+    "Proceeds from debt (maturities greater than 90 days)",
+    "1,107",
+    "1"
+   ],
+   [
+    "Total cash change in debt",
+    "(44)",
+    "(834)"
+   ],
+   [
+    "Purchases of treasury stock",
+    "(29)",
+    "(773)"
+   ],
+   [
+    "Proceeds from issuances of treasury stock pursuant to stock option and benefit plans",
+    "218",
+    "227"
+   ],
+   [
+    "Dividends paid to shareholders",
+    "(1,655)",
+    "(1,700)"
+   ],
+   [
+    "Other - net",
+    "(9)",
+    "(22)"
+   ],
+   [
+    "Net cash provided by (used in) financing activities",
+    "$ (1,519)",
+    "$ (3,102)"
+   ]
+  ]
+ },
+ {
+  "index": 72,
+  "page": 74,
+  "rows": 12,
+  "cols": 3,
+  "grid": [
+   [
+    "",
+    "Six months ended June 30,",
+    "Six months ended June 30,"
+   ],
+   [
+    "(Millions)",
+    "2023",
+    "2022"
+   ],
+   [
+    "Major GAAP Cash Flow Categories",
+    "",
+    ""
+   ],
+   [
+    "Net cash provided by (used in) operating activities",
+    "$ 2,784",
+    "$ 2,138"
+   ],
+   [
+    "Net cash provided by (used in) investing activities",
+    "(619)",
+    "(814)"
+   ],
+   [
+    "Net cash provided by (used in) financing activities",
+    "(1,519)",
+    "(3,102)"
+   ],
+   [
+    "Free Cash Flow (non-GAAP measure)",
+    "",
+    ""
+   ],
+   [
+    "Net cash provided by (used in) operating activities",
+    "$ 2,784",
+    "$ 2,138"
+   ],
+   [
+    "Purchases of property, plant and equipment",
+    "(852)",
+    "(808)"
+   ],
+   [
+    "Free cash flow",
+    "1,932",
+    "1,330"
+   ],
+   [
+    "Net income (loss) attributable to 3M",
+    "$ (5,865)",
+    "$ 1,377"
+   ],
+   [
+    "Free cash flow conversion",
+    "(33)%",
+    "97 %"
+   ]
+  ]
+ },
+ {
+  "index": 73,
+  "page": 85,
+  "rows": 10,
+  "cols": 5,
+  "grid": [
+   [
+    "Period",
+    "Total Number of Shares Purchased (1)",
+    "Average Price Paid per Share",
+    "Total Number of Shares Purchased as Part of Publicly Announced Plans or Programs (2)",
+    "Maximum Approximate Dollar Value of Shares that May Yet Be Purchased under the Plans or Programs (Millions)"
+   ],
+   [
+    "January 1 - 31, 2023",
+    "1,445",
+    "$ 113.34",
+    "-",
+    "$ 4,157"
+   ],
+   [
+    "February 1 - 28, 2023",
+    "1,240",
+    "117.49",
+    "-",
+    "4,157"
+   ],
+   [
+    "March 1 - 31, 2023",
+    "-",
+    "-",
+    "-",
+    "4,157"
+   ],
+   [
+    "January 1 - March 31, 2023",
+    "2,685",
+    "115.25",
+    "-",
+    ""
+   ],
+   [
+    "April 1 - 30, 2023",
+    "-",
+    "-",
+    "-",
+    "4,157"
+   ],
+   [
+    "May 1 - 31, 2023",
+    "-",
+    "-",
+    "-",
+    "4,157"
+   ],
+   [
+    "June 1 - 30, 2023",
+    "-",
+    "-",
+    "-",
+    "4,157"
+   ],
+   [
+    "April 1 - June 30, 2023",
+    "-",
+    "-",
+    "-",
+    ""
+   ],
+   [
+    "January 1 - June 30, 2023",
+    "2,685",
+    "$ 115.25",
+    "-",
+    ""
+   ]
+  ]
+ },
+ {
+  "index": 74,
+  "page": 86,
+  "rows": 14,
+  "cols": 2,
+  "grid": [
+   [
+    "10.1",
+    "Settlement Agreement, dated as of June 22, 2023, of 3M Company is incorporated by reference from our Form 8-K dated June 22, 2023."
+   ],
+   [
+    "10.2",
+    "Amendment No. 1, dated July 7, 2023, to the Five-Year Credit Agreement is incorporated by reference from our Form 8-K dated July 10, 2023."
+   ],
+   [
+    "(31.1)",
+    "Certification of the Chief Executive Officer pursuant to Section 302 of the Sarbanes-Oxley Act of 2002, 18 U.S.C. Section 1350."
+   ],
+   [
+    "(31.2)",
+    "Certification of the Chief Financial Officer pursuant to Section 302 of the Sarbanes-Oxley Act of 2002, 18 U.S.C. Section 1350."
+   ],
+   [
+    "(32.1)",
+    "Certification of the Chief Executive Officer pursuant to Section 906 of the Sarbanes-Oxley Act of 2002, 18 U.S.C. Section 1350."
+   ],
+   [
+    "(32.2)",
+    "Certification of the Chief Financial Officer pursuant to Section 906 of the Sarbanes-Oxley Act of 2002, 18 U.S.C. Section 1350."
+   ],
+   [
+    "(95)",
+    "Mine Safety Disclosures."
+   ],
+   [
+    "(101.INS)",
+    "Inline XBRL Instance Document (the instance document does not appear in the Interactive Data File because its XBRL tags are embedded within the Inline XBRL document)"
+   ],
+   [
+    "(101.SCH)",
+    "Inline XBRL Taxonomy Extension Schema Document"
+   ],
+   [
+    "(101.CAL)",
+    "Inline XBRL Taxonomy Extension Calculation Linkbase Document"
+   ],
+   [
+    "(101.DEF)",
+    "Inline XBRL Taxonomy Extension Definition Linkbase Document"
+   ],
+   [
+    "(101.LAB)",
+    "Inline XBRL Taxonomy Extension Label Linkbase Document"
+   ],
+   [
+    "(101.PRE)",
+    "Inline XBRL Taxonomy Extension Presentation Linkbase Document"
+   ],
+   [
+    "(104)",
+    "Cover Page Interactive Data File (formatted as inline XBRL and contained in Exhibit 101)"
+   ]
+  ]
+ },
+ {
+  "index": 75,
+  "page": 92,
+  "rows": 7,
+  "cols": 13,
+  "grid": [
+   [
+    "Mine or Operating Name/MSHA Identification Number",
+    "Section 104 S&S Citations Orders (#)",
+    "Section 104(b) Orders (#)",
+    "Section 104(d) Citations and Orders (#)",
+    "Section 110(b)(2) Violations (#)",
+    "Section 107(a) Orders (#)",
+    "Total Dollar Value of MSHA Assessments Proposed ($)",
+    "Total Number of Mining Related Fatalities (#)",
+    "Received Notice of Pattern of Violations Under Section 104(e) (yes/no)",
+    "Received Notice of Potential of Violations Under Section 104(e) (yes/no)",
+    "Legal Actions Pending as of Last Day of Period (#)",
+    "Aggregate Legal Actions Initiated During Period (#)",
+    "Aggregate Legal Action Resolved During Period (#)"
+   ],
+   [
+    "3M Pittsboro ID: 3102153",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "$ 252",
+    "-",
+    "No",
+    "No",
+    "-",
+    "-",
+    "-"
+   ],
+   [
+    "3M Little Rock ID: 0300426",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "36,678",
+    "-",
+    "No",
+    "No",
+    "-",
+    "1",
+    "1"
+   ],
+   [
+    "3M Corona Plant ID: 0400191",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "788",
+    "-",
+    "No",
+    "No",
+    "-",
+    "-",
+    "-"
+   ],
+   [
+    "Greystone Plant ID: 4700119",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "1,082",
+    "-",
+    "No",
+    "No",
+    "-",
+    "-",
+    "-"
+   ],
+   [
+    "Wausau Plant ID: 4702918",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "No",
+    "No",
+    "-",
+    "-",
+    "-"
+   ],
+   [
+    "Total",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "$ 38,800",
+    "-",
+    "",
+    "",
+    "-",
+    "1",
+    "1"
+   ]
+  ]
+ }
+]

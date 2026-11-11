@@ -1,0 +1,110 @@
+{
+ "name": "financebench_docling_part",
+ "policies": {
+  "ULTABEAUTY_2023Q4_EARNINGS": "eval/policies/financebench/ULTABEAUTY_2023Q4_EARNINGS.docling.md",
+  "3M_2023Q2_10Q": "eval/policies/financebench/3M_2023Q2_10Q.docling.md"
+ },
+ "pages": {
+  "ULTABEAUTY_2023Q4_EARNINGS": "eval/policies/financebench/ULTABEAUTY_2023Q4_EARNINGS.docling.pages.json",
+  "3M_2023Q2_10Q": "eval/policies/financebench/3M_2023Q2_10Q.docling.pages.json"
+ },
+ "source": "PatronusAI/financebench open subset (CC BY-NC 4.0); PDFs from github.com/patronus-ai/financebench; text via Docling 2.143 (PDF text layer; OCR only for images)",
+ "gold_from": "FinanceBench annotations",
+ "notes": [
+  "2 of the 8 financebench_subset filings, converted with Docling so their tables are pipe tables.",
+  "Docling pages are 1-based; pages.json index 0 = page 1 = FinanceBench page 0."
+ ],
+ "items": [
+  {
+   "id": "financebench_id_00807",
+   "doc_id": "3M_2023Q2_10Q",
+   "type": "domain-relevant",
+   "reasoning": "Logical reasoning (based on numerical reasoning) OR Logical reasoning",
+   "question": "Does 3M have a reasonably healthy liquidity profile based on its quick ratio for Q2 of FY2023? If the quick ratio is not relevant to measure liquidity, please state that and explain why.",
+   "category": "any",
+   "evidence_pages": [
+    4
+   ],
+   "gold_answer": "No. The quick ratio for 3M was 0.96 by Jun'23 close, which needs a bit of an improvement to touch the 1x mark",
+   "justification": "Quick Ratio= (Total current assets-Total inventories)/Total current liabilities\n(15,754-5,280)/10,936"
+  },
+  {
+   "id": "financebench_id_00941",
+   "doc_id": "3M_2023Q2_10Q",
+   "type": "domain-relevant",
+   "reasoning": "Information extraction",
+   "question": "Which debt securities are registered to trade on a national securities exchange under 3M's name as of Q2 of 2023?",
+   "category": "any",
+   "evidence_pages": [
+    0
+   ],
+   "gold_answer": "Following debt securities registered under 3M's name are listed to trade on the New York Stock Exchange:\n-1.500% Notes due 2026 (Trading Symbol: MMM26)\n-1.750% Notes due 2030 (Trading Symbol: MMM30)\n-1.500% Notes due 2031 (Trading Symbol: MMM31)",
+   "justification": null
+  },
+  {
+   "id": "financebench_id_01858",
+   "doc_id": "3M_2023Q2_10Q",
+   "type": "novel-generated",
+   "reasoning": null,
+   "question": "Does 3M maintain a stable trend of dividend distribution?",
+   "category": "any",
+   "evidence_pages": [
+    61
+   ],
+   "gold_answer": "Yes, not only they distribute the dividends on a routine basis, 3M has also been increasing the per share dividend for consecutive 65 years",
+   "justification": null
+  },
+  {
+   "id": "financebench_id_00601",
+   "doc_id": "ULTABEAUTY_2023Q4_EARNINGS",
+   "type": "novel-generated",
+   "reasoning": null,
+   "question": "What drove the reduction in SG&A expense as a percent of net sales in FY2023?",
+   "category": "any",
+   "evidence_pages": [
+    1
+   ],
+   "gold_answer": "Lower marketing expenses and leverage of incentive compensation due to higher sales. The answer here assumes FY2023 refers to the 12 months ended on January 28, 2023 (although the company refers to this period as its fiscal 2022.",
+   "justification": "Fiscal 2022 = FY2023. Fiscal 2021 = FY2022."
+  },
+  {
+   "id": "financebench_id_00603",
+   "doc_id": "ULTABEAUTY_2023Q4_EARNINGS",
+   "type": "novel-generated",
+   "reasoning": null,
+   "question": "What drove the increase in Ulta Beauty's merchandise inventories balance at end of FY2023?",
+   "category": "any",
+   "evidence_pages": [
+    2
+   ],
+   "gold_answer": "Increase in Merchandise inventories balance was driven by the opening of 47 new stores. The answer here assumes FY2023 refers to the 12 months ended on January 28, 2023 (although the company refers to this period as its fiscal 2022.",
+   "justification": "Fiscal 2022 = FY2023. Fiscal 2021 = FY2022."
+  },
+  {
+   "id": "financebench_id_00605",
+   "doc_id": "ULTABEAUTY_2023Q4_EARNINGS",
+   "type": "novel-generated",
+   "reasoning": null,
+   "question": "What percent of Ulta Beauty's total spend on stock repurchases for FY 2023 occurred in Q4 of FY2023?",
+   "category": "any",
+   "evidence_pages": [
+    2
+   ],
+   "gold_answer": "36%. The answer here assumes FY2023 refers to the 12 months ended on January 28, 2023 (although the company refers to this period as its fiscal 2022.",
+   "justification": "Fiscal 2022 = FY2023. Fiscal 2021 = FY2022. Percent spent in Q4 of FY2023 = Amount spent in Q4 of FY2023/Total amount spent in FY2023*100 =$328.1 million /$900 million * 100 = 36%"
+  },
+  {
+   "id": "financebench_id_00606",
+   "doc_id": "ULTABEAUTY_2023Q4_EARNINGS",
+   "type": "novel-generated",
+   "reasoning": null,
+   "question": "Did Ulta Beauty's wages expense as a percent of net sales increase or decrease in FY2023?",
+   "category": "any",
+   "evidence_pages": [
+    1
+   ],
+   "gold_answer": "Wages expense as a percent of net sales increased in FY2023. The answer here assumes FY2023 refers to the 12 months ended on January 28, 2023 (although the company refers to this period as its fiscal 2022.",
+   "justification": "Fiscal 2022 = FY2023. Fiscal 2021 = FY2022. Store payroll and benefits = wages. Store payroll and benefits offsets reduction in SG&A percent of net sales in FY2023."
+  }
+ ]
+}

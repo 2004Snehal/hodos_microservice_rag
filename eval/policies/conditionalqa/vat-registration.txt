@@ -1,0 +1,347 @@
+# Overview
+
+You must register your business for VAT with HM Revenue and Customs (HMRC) if its VAT taxable turnover is more than £85,000.
+
+When you register, you’ll be sent a VAT registration certificate. This confirms:
+
+- your VAT number
+- when to submit your first VAT Return and payment
+- your ‘effective date of registration’ - this depends on the date you went over the threshold, or is the date you asked to register if it was voluntary
+
+You can register voluntarily if your turnover is less than £85,000, unless everything you sell is exempt. You’ll have certain responsibilities if you register for VAT.
+
+You can reclaim the VAT you’ve paid on certain purchases made before you registered.
+
+## Your VAT responsibilities
+
+From your effective date of registration you must:
+
+- charge the right amount of VAT
+- pay any VAT due to HMRC
+- submit VAT Returns
+- keep VAT records and a VAT account
+
+Most VAT registered businesses that earn over £85,000 must also follow the rules for ‘Making Tax Digital for VAT’.
+
+## While you wait
+
+You cannot charge or show VAT on your invoices until you get your VAT number. However, you’ll still have to pay the VAT to HMRC for this period.
+
+You should increase your prices to allow for this and tell your customers why. Once you’ve got your VAT number you can then reissue the invoices showing the VAT.
+
+# How to register
+
+## Register for VAT
+
+Most businesses can register online - including partnerships and a group of companies registering under one VAT number.
+
+By doing this you’ll register for VAT and create a VAT online account (sometimes known as a ‘Government Gateway account’). You need this to submit your VAT Returns to HM Revenue and Customs (HMRC).
+
+### Using an agent
+
+You can appoint an accountant (or agent) to submit your VAT Returns and deal with HMRC on your behalf.
+
+When you receive your VAT number from HMRC, you can sign up for a VAT online account (select option ‘VAT submit returns’).
+
+## When you cannot register online
+
+You must register by post using VAT1 if:
+
+- you want to apply for a ‘registration exception’
+- you’re joining the Agricultural Flat Rate Scheme
+- you’re registering the divisions or business units of a body corporate under separate VAT numbers
+
+Register by post using form:
+
+- VAT1A if you’re an EU business ‘distance selling’ to Northern Ireland
+- VAT1B if you import (‘acquire’) goods into Northern Ireland worth more than £85,000 from an EU country
+- VAT1C if you’re disposing of assets on which 8th or 13th Directive refunds have been claimed
+
+When you receive your VAT number from HMRC, you can sign up for a VAT online account (select option ‘VAT submit returns’).
+
+## Getting your certificate
+
+You should get a VAT registration certificate within 30 working days, though it can take longer.
+
+It’s sent either:
+
+- to your VAT online account
+- by post - if an agent registers you or you cannot register online
+
+## What you need to know
+
+You need to provide details like your turnover, business activity and bank details.
+
+Your registration date is known as your ‘effective date of registration’. You’ll have to pay HMRC any VAT due from this date.
+
+You do not need to authorise an agent to register you for VAT.
+
+# When to register
+
+You must register for VAT if your VAT taxable turnover goes over £85,000 (the ‘threshold’), or you know that it will. Your VAT taxable turnover is the total of everything sold that is not VAT exempt.
+
+You can also register voluntarily.
+
+## Compulsory registration
+
+You must register for VAT if:
+
+- you expect your VAT taxable turnover to be more than £85,000 in the next 30-day period
+- your business had a VAT taxable turnover of more than £85,000 over the last 12 months
+
+You might also need to register in some other cases, depending on the kinds of goods or services you sell and where you sell them.
+
+### If you’ll exceed the VAT threshold in the next 30-day period
+
+You must register if you realise that your total VAT taxable turnover is going to be more than £85,000 in the next 30-day period.
+
+You have to register by the end of that 30-day period. Your effective date of registration is the date you realised, not the date your turnover went over the threshold.
+
+### If you exceeded the VAT threshold in the past 12 months
+
+You must register if, by the end of any month, your total VAT taxable turnover for the last 12 months was over £85,000.
+
+You have to register within 30 days of the end of the month when you went over the threshold. Your effective date of registration is the first day of the second month after you go over the threshold.
+
+### If you sell goods or services that are VAT exempt and are based in Northern Ireland
+
+You’ll need to register if you only sell goods or services that are exempt from VAT or ‘out of scope’ but you buy goods for more than £85,000 from EU VAT-registered suppliers to use in your business.
+
+### If you take over a VAT-registered business
+
+You may have to register for VAT.
+
+### Businesses outside the UK
+
+There’s no threshold if neither you nor your business is based in the UK. You must register as soon as you supply any goods and services to the UK (or if you expect to in the next 30 days).
+
+### Late registration
+
+If you register late, you must pay what you owe from when you should have registered.
+
+You may get a penalty depending on how much you owe and how late your registration is.
+
+## Voluntary registration
+
+You can register voluntarily if your business turnover is below £85,000. You must pay HMRC any VAT you owe from the date they register you.
+
+## Get an exception
+
+You can apply for a registration ‘exception’ if your taxable turnover goes over the threshold temporarily.
+
+Write to HMRC with evidence showing why you believe your VAT taxable turnover will not go over the deregistration threshold of £83,000 in the next 12 months.
+
+HMRC will consider your exception and write confirming if you get one. If not, they’ll register you for VAT.
+
+# Selling or moving goods in Northern Ireland
+
+If you’re a VAT-registered business, you need to tell HMRC if any of the following apply:
+
+- your goods are located in Northern Ireland at the time of sale
+- you receive goods in Northern Ireland from VAT-registered EU businesses for business purposes
+- you sell or move goods from Northern Ireland to an EU country
+
+This means that:
+
+- you’ll be eligible to use VAT simplifications when you trade with the EU
+- your suppliers are able to zero rate goods that they dispatch to you from the EU
+- your trade with the EU will remain acquisitions and dispatches when accounting for VAT
+
+## Tell HMRC
+
+You’ll need:
+
+- the Government Gateway user ID and password you used when you registered for VAT
+- your VAT registration number
+- the name of your business
+
+Start now
+
+## After you’ve registered
+
+When you are trading with the EU and sell goods in Northern Ireland, you’ll need to:
+
+- put an ‘XI’ prefix in front of your VAT number when communicating with an EU customer or supplier (your invoices will show XI in front of your VAT number - for example, XI 123456789 - instead of GB)
+- complete an EC Sales List if you’re selling goods from Northern Ireland to VAT-registered customers in the EU
+
+## If you’ve stopped selling or moving goods in Northern Ireland
+
+If you’ve stopped selling goods in Northern Ireland or moving goods between Northern Ireland and the EU, you need to tell HMRC.
+
+# Registering for VAT in EU countries
+
+You may need to register for VAT in the EU country you’re selling to. Find out how to register for VAT in EU countries on the European Commission website.
+
+## Supplying digital services
+
+If your business supplies digital services to consumers in EU countries, you need to register for either:
+
+- VAT MOSS in any EU country
+- VAT in each country where you’re supplying digital services
+
+### Register for VAT MOSS in an EU country
+
+You’ll need to register for the VAT MOSS scheme in an EU country by the 10th day of the month after your first sale to an EU customer.
+
+Use the European Commission website to:
+
+- check if you should register for either the union or non-union VAT MOSS scheme
+- find contact details to register for VAT MOSS in an EU country
+
+### Register for VAT in an EU country
+
+If you do not want to use the VAT MOSS scheme, you must register for VAT in each EU country where you supply digital services.
+
+Find out how to register for VAT in EU member states on the European Commission website.
+
+# Calculate VAT taxable turnover
+
+VAT taxable turnover is the total value of everything you sell that is not exempt from VAT.
+
+You must register for VAT with HM Revenue and Customs (HMRC) if it goes over the current registration threshold in a rolling 12-month period. This is not a fixed period like the tax year or the calendar year - it could be any period, for example the start of June to the end of May.
+
+The current threshold is £85,000. It usually goes up on 1 April each year. If your business is based in Northern Ireland, there are different thresholds for buying and selling from EU countries.
+
+## What to include
+
+To check if you’ve gone over the threshold in any 12-month period, add together the total value of your UK sales that are not VAT exempt, including:
+
+- goods you hired or loaned to customers
+- business goods used for personal reasons
+- goods you bartered, part-exchanged or gave as gifts
+- services you received from businesses in other countries that you had to ‘reverse charge’
+- building work over £100,000 your business did for itself
+
+Include any zero-rated items - only exclude VAT-exempt sales, and goods or services you supply outside of the UK.
+
+## If you’re over the threshold
+
+You must register for VAT - though HMRC may allow you ‘exception from registration’ if your turnover goes above the threshold temporarily.
+
+You must register straight away if you expect the value of everything you sell in the next 30 days to be over £85,000. You do not need to include anything that is VAT exempt.
+
+You should check your rolling turnover regularly if you’re close to going over the threshold.
+
+## Thresholds for previous tax years
+
+Check historical information about VAT thresholds if you think you should have been registered in previous tax years.
+
+# Purchases made before registration
+
+There’s a time limit for backdating claims for VAT paid before registration. From your date of registration the time limit is:
+
+- 4 years for goods you still have, or that were used to make other goods you still have
+- 6 months for services
+
+You can only reclaim VAT on purchases for the business now registered for VAT. They must relate to your ‘business purpose’. This means they must relate to VAT taxable goods or services that you supply.
+
+You should reclaim them on your first VAT Return (add them to your Box 4 figure) and keep records including:
+
+- invoices and receipts
+- a description and purchase dates
+- information about how they relate to your business now
+
+# Changes to your details
+
+You must keep your VAT registration details up to date. You can change your details:
+
+- online - through your VAT online account
+- by post - using form VAT484
+- by webchat or phone
+
+You must send form VAT2 to the VAT Registration Service to report any changes to a partnership.
+
+Some changes can affect your VAT registration or mean you have to cancel it.
+
+## When to tell HMRC
+
+You need to tell HM Revenue and Customs (HMRC) about any changes to the following within 30 days or you could face a financial penalty:
+
+- the name, trading name or main address of your business
+- the accountant or agent who deals with your VAT
+- the members of a partnership, or the name or home address of any of the partners
+
+### Changing bank details
+
+You must tell HMRC at least 14 days in advance if you’re changing your bank details.
+
+You’ll also have to tell your bank to change your Direct Debit details if you pay your VAT by Direct Debit, but you should not do this within 5 banking days before or after your VAT return is due.
+
+You must write to the Annual Accounting Registration Unit to change your Direct Debit details if you use the Annual Accounting Scheme. Include your registration number.
+
+### Death and illness
+
+You must tell HMRC within 21 days if you take on the VAT responsibilities of someone who has died or is ill.
+
+You can only do this by sending form VAT484 in the post, including details of the date of death or the date the illness started.
+
+# Cancel registration
+
+You must cancel your registration if you’re no longer eligible to be VAT registered. For example:
+
+- you stop trading or making VAT taxable supplies
+- you join a VAT group
+
+You must cancel within 30 days if you stop being eligible or you may be charged a penalty.
+
+You can ask HM Revenue and Customs (HMRC) to cancel your registration if your VAT taxable turnover falls below the deregistration threshold of £83,000.
+
+## How to cancel
+
+You can cancel your VAT registration online.
+
+Cancel your registration
+
+You can also fill in and send form VAT7 to cancel your VAT registration by post.
+
+## What happens next
+
+It usually takes 3 weeks for HMRC to confirm your cancellation and the official cancellation date. This is either the date when the reason for your cancellation took effect (for example, when you stopped trading), or the date you asked to cancel if it’s voluntary.
+
+HMRC will send confirmation to your VAT online account (or through the post if you do not apply online). From the date of cancellation you must stop charging VAT and keep your VAT records for 6 years.
+
+HMRC will automatically re-register you if they realise you should not have cancelled. You’ll have to account for any VAT you should have paid in the meantime.
+
+## VAT after you cancel
+
+You’ll have to submit a final VAT Return for the period up to and including the cancellation date. You must account for any stock and other assets you have on this date if:
+
+- you could reclaim VAT when you bought them
+- the total VAT due on these assets is over £1,000
+
+Do not wait until you’ve received all your invoices before submitting your final return. You’ll still be able to reclaim VAT on anything you bought for your business while still registered once you get the invoices.
+
+# Transfer registration
+
+You can transfer a VAT registration from one business to another, or if the status of your business changes.
+
+For example, if:
+
+- you take over a company and want to keep using its VAT number
+- your business changes from a partnership to a sole trader
+
+If you’re taking over a company, the previous owner must cancel their VAT registration before you can apply to transfer the VAT number.
+
+If the status of your business changes, you must cancel your existing VAT registration and re-register.
+
+You can apply to cancel or transfer a VAT registration:
+
+- online - through your VAT online account
+- by post - using form VAT68
+
+## What happens next
+
+It usually takes 3 weeks for HMRC to confirm the transfer.
+
+If you’re selling your business:
+
+- cancel your accountant’s access to your VAT online account - for example if you authorised them to deal with your VAT
+- cancel any direct debits on your VAT online account
+
+You must also give your records to the buyer if you’re passing on your VAT number.
+
+If you’re buying a business:
+
+- contact HMRC within 21 days of the transfer application if you want to keep the seller’s accountant
+- replace any self-billing arrangements with new ones
+- set up new direct debits on your VAT online account

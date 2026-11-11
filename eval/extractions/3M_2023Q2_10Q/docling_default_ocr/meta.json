@@ -1,0 +1,8 @@
+{
+ "system": "docling_default_ocr",
+ "docling_version": "2.143.0",
+ "seconds": 60.45,
+ "ocr_engine": "OcrAutoOptions",
+ "table_mode": "TableFormerMode.ACCURATE",
+ "pdf": "eval/policies/financebench/3M_2023Q2_10Q.pdf"
+}

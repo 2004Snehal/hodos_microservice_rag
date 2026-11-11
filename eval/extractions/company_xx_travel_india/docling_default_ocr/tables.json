@@ -1,0 +1,54 @@
+[
+ {
+  "index": 0,
+  "page": 4,
+  "rows": 2,
+  "cols": 3,
+  "grid": [
+   [
+    "All Levels",
+    "INR 1,250",
+    "INR 2,500"
+   ],
+   [
+    "Band / Level",
+    "Meal Allowance/ Rate (erstwhile per diem allowance)",
+    "Own Accommodation Allowance (erstwhile per diem allowance and Inclusive of Meal Allowance)"
+   ]
+  ]
+ },
+ {
+  "index": 1,
+  "page": 4,
+  "rows": 0,
+  "cols": 0,
+  "grid": []
+ },
+ {
+  "index": 2,
+  "page": 5,
+  "rows": 0,
+  "cols": 0,
+  "grid": []
+ },
+ {
+  "index": 3,
+  "page": 5,
+  "rows": 3,
+  "cols": 2,
+  "grid": [
+   [
+    "Type of City / Cities",
+    "Limit for Cities (excluding taxes)"
+   ],
+   [
+    "Metros +Top cities + Holiday destinations: (Mumbai,Pune,Kolkata,Bangalore, Hyderabad, Chennai, Delhi, Gurugram, Noida, Ahmedabad, Goa)",
+    "INR 7,000/-"
+   ],
+   [
+    "Rest of the cities",
+    "INR 5,000/-"
+   ]
+  ]
+ }
+]

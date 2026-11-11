@@ -1,0 +1,12 @@
+.venv/
+.git/
+**/__pycache__/
+**/*.pyc
+.DS_Store
+.claude/
+# runtime data lives in a volume, not the image
+app/data/policies/*
+app/data/vector_store/*
+app/data/probabilistic/
+metrics/
+docs/
